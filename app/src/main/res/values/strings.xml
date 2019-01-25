@@ -8,5 +8,2576 @@
     <string name="action_settings">Settings</string>
 
 
+    <string name="sectionA"> SECTION A: IDENTIFICATION </string>
+
+    <string name="jsia01"> کلسٹر نمبر </string>
+
+
+    <string name="jsia02"> کلسٹر کی قسم </string>
+
+
+    <string name="jsia03"> فارم سیریل نمبر </string>
+
+
+    <string name="jsia04"> صوبے کا نام </string>
+
+
+    <string name="jsia05"> ضلعہ کا نام </string>
+    <string name="jsia0501"> گھوٹکی </string>
+    <string name="jsia0502"> شکارپور </string>
+    <string name="jsia0503"> جیکب آباد </string>
+    <string name="jsia0504"> کشمور </string>
+
+
+    <string name="jsia06"> تحصیل /تعلقہ کا نام </string>
+
+
+    <string name="jsia07"> یونین کائونسل کا نام </string>
+
+
+    <string name="jsia08"> یونین کائونسل کا نام </string>
+    <string name="jsia0801"> شہری </string>
+    <string name="jsia0802"> دیہی </string>
+
+
+    <string name="jsia09"> گھر کا نمبر </string>
+
+
+    <string name="jsia10"> گلی کا نام </string>
+
+
+    <string name="jsia11"> محلہ / بلاک کا نام </string>
+
+
+    <string name="jsia12"> علاقے/ گاؤں کا نام </string>
+
+
+    <string name="jsia13"> شہر کا نام </string>
+
+
+    <string name="jsia14"> گھر کی ساخت کی نوعیت </string>
+
+
+    <string name="jsia15"> جوابد ہندہ کا نام </string>
+
+
+    <string name="sectionB"> Section B: Global Positioning </string>
+
+    <string name="jsib01"> Latitude </string>
+
+
+    <string name="jsib02"> Latitude </string>
+
+
+    <string name="sectionC"> Section C: introduction and consent </string>
+
+    <string name="jsic01"> کیا آپ سروے کے متعلق اس وقت کوئی سوال کرنا چاہتی ہیں؟ </string>
+    <string name="jsic01a"> ہاں </string>
+    <string name="jsic01b"> نہیں </string>
+
+
+    <string name="jsic02"> کیاآپ راضی ہیں؟ کیا میں انٹرویو شروع کرسکتا /کرسکتی ہوں؟ </string>
+    <string name="jsic02a"> ہاں </string>
+    <string name="jsic02b"> نہیں </string>
+
+
+    <string name="sectionD"> SECTION D: HOUSEHOLD MEMBERS’ INFORMATION </string>
+
+
+    <string name="jsid01"> سیریل نمبر </string>
+
+
+    <string name="jsid02"> گھرکے افراد کے نام </string>
+
+
+    <string name="jsid03"> گھر کے سربراہ سے رشتہ </string>
+    <string name="jsid03a"> Head of HH </string>
+    <string name="jsid03b"> Wife/Husband </string>
+    <string name="jsid03c"> Son/Daughter </string>
+    <string name="jsid03d"> Son in law/Daughter in law </string>
+    <string name="jsid03e"> Grand child </string>
+    <string name="jsid03f"> Parents </string>
+    <string name="jsid03g"> Parents in law </string>
+    <string name="jsid03h"> Brother/Sister </string>
+    <string name="jsid03i"> Brother in law/Sister in law </string>
+    <string name="jsid03j"> Niece/Nephew </string>
+    <string name="jsid03k"> Grand Parents </string>
+    <string name="jsid03l"> Aunts/Uncle </string>
+    <string name="jsid03m"> Adopted/Step child </string>
+    <string name="jsid03n"> Domestic Servant </string>
+
+    <string name="jsid04"> جنس </string>
+    <string name="jsid04a"> Male </string>
+    <string name="jsid04b"> Female </string>
+
+
+    <string name="jsid05"> والد کا سیریل نمبر </string>
+
+
+    <string name="jsid06"> والدہ کا سیریل نمبر </string>
+
+
+    <string name="jsid07"> تاریخ پیدائش </string>
+
+
+    <string name="jsid08"> عمر </string>
+
+
+    <string name="jsid09"> کیا(نام) کبھی اسکول میں زیرِ تعلیم رہا ہے؟ </string>
+
+
+    <string name="jsid10"> تعلیم </string>
+    <string name="jsid10a"> Housewife </string>
+    <string name="jsid10b"> Professional /Managerial </string>
+    <string name="jsid10c"> Clerical/technical </string>
+    <string name="jsid10d"> Sales and Services </string>
+    <string name="jsid10e"> Skilled manual </string>
+    <string name="jsid10f"> Unskilled manual </string>
+    <string name="jsid10g"> Agriculture </string>
+    <string name="jsid10h"> Business </string>
+    <string name="jsid10i"> Student </string>
+    <string name="jsid10j"> Unemployed </string>
+    <string name="jsid10k"> Not Applicable </string>
+    <string name="jsid10l">  </string>
+    <string name="jsid10m">  </string>
+    #REF!
+    <string name="jsid10o"> Married </string>
+    <string name="jsid10p"> Unmarried </string>
+    <string name="jsid10q"> Widowed </string>
+    <string name="jsid10r"> Divorced/Separated </string>
+    <string name="jsid10s"> ازدواجی حیثیت </string>
+    <string name="jsid10t">  </string>
+    <string name="jsid10u">  </string>
+    <string name="jsid10v"> گھر کے ٹوٹوٹل افراد </string>
+    <string name="jsid10w">  </string>
+
+
+    <string name="jsid11"> پیشہ </string>
+    <string name="jsid11a"> Housewife </string>
+    <string name="jsid11b"> Professional /Managerial </string>
+    <string name="jsid11c"> Clerical/technical </string>
+    <string name="jsid11d"> Sales and Services </string>
+    <string name="jsid11e"> Skilled manual </string>
+    <string name="jsid11f"> Unskilled manual </string>
+    <string name="jsid11g"> Agriculture </string>
+    <string name="jsid11h"> Business </string>
+    <string name="jsid11i"> Student </string>
+    <string name="jsid11j"> Unemployed </string>
+    <string name="jsid11k"> Not Applicable </string>
+
+
+    <string name="jsid12"> ازدواجی حیثیت </string>
+    <string name="jsid12a"> Married </string>
+    <string name="jsid12b"> Unmarried </string>
+    <string name="jsid12c"> Widowed </string>
+    <string name="jsid12d"> Divorced/Separated </string>
+
+
+    <string name="jsid13"> گھر کے ٹوٹوٹل افراد </string>
+
+
+    <string name="jsid14"> کل گھر کی اہل خواتین </string>
+
+
+    <string name="jsid15"> کل گھر کے 5سال سے کم عمر کے بچے </string>
+
+
+    <string name="sectionE"> Section E: Reproductive health </string>
+
+    <string name="jsie01"> کیا{Name of First WRA in the Family} شادی کے بعد حاملہ ہوئی ہیں؟ </string>
+    <string name="jsie01a"> ہاں </string>
+    <string name="jsie01b"> نہیں </string>
+
+
+    <string name="jsie02"> شادی کے بعد (نام) کا حمل کتنی بار ٹھہرا ہے؟ </string>
+
+
+    <string name="jsie04"> اپنے حمل کو یاد کرکے بتائیے کہ آپ کے حمل میں ایک بچہ تھا یا جڑوا؟ (ہرحمل کے لیے یہی سوالات نمودار ہوں گے۔ باقی حمل کو بچوں کے نام سے مخاطب کریں مثلاً ـ (سب سے بڑے بچے کا نام {کے بعد والے حمل کو یاد کرکے بتائیں۔۔۔‘‘( </string>
+    <string name="jsie04a"> ایک بچہ </string>
+    <string name="jsie04b"> ایک سے زیادہ بچے/جڑوا بچے </string>
+
+
+    <string name="jsie05"> بچہ زندہ پیدا ہوا، مردہ پیدا ہوا یا حمل ضائع ہوا؟ </string>
+    <string name="jsie05a"> زندہ پیدائش </string>
+    <string name="jsie05b"> مردہ پیدائش (E13پر جائیں) </string>
+    <string name="jsie05c"> حمل کا اسقاط ہوگیا(E13پر جائیں) </string>
+
+
+    <string name="jsie06"> بچے کو کیا نام دیا گیا؟}بچہ نمبر1، بچہ نمبر 2درج کریں اگر بچے کو کوئی نام نہیں دیا گیا </string>
+
+
+    <string name="jsie07"> کیا( نام)لڑکا تھایا لڑکی تھی؟ </string>
+
+
+    <string name="jsie08"> کس مہینےاور سال میں (نام) کی پیدائش ہوئی؟مزید تفتیش:بچے کی پیدائش کی تاریخ کیا ہے؟ </string>
+
+
+    <string name="jsie09"> کیا(نام)ابھی زندہ ہے؟ </string>
+
+
+    <string name="jsie10"> کتنی عمر کا تھا/ تھی جب اس کی موت واقع ہوئی؟ </string>
+
+
+    <string name="jsie11"> موت کس وجہ سے واقع ہوئی؟ </string>
+    <string name="jsie11a"> وقت سے قبل پیدائش 37ہفتے سے پہلے) </string>
+    <string name="jsie11b"> سانس کی تکلیف(Birth Asphyxia) </string>
+    <string name="jsie11c"> انفیکشن (Sepsis) </string>
+    <string name="jsie11d"> نمونیہ </string>
+    <string name="jsie11e"> پیدائشی چھٹکے لگنا(تشنج) </string>
+    <string name="jsie11f"> دست </string>
+    <string name="jsie11g"> بخار </string>
+    <string name="jsie11h"> دیگر(وضاحت کریں) </string>
+
+
+    <string name="jsie12"> Name} کی موت کہاں واقع ہوئی؟ </string>
+    <string name="jsie12a"> گھر پر </string>
+    <string name="jsie12b"> سرکاری مرکز صحت </string>
+    <string name="jsie12c"> پرائیویٹ مرکز صحت </string>
+    <string name="jsie12d"> این جی او مرکز صحت </string>
+    <string name="jsie12e"> مرکز صحت جاتے ہوئے راستے میں </string>
+
+
+    <string name="jsie13"> مردہ پیدائش یا اسقاطِ حمل کی صورت میں کس مہینے اور سال میں حمل ختم ہوا؟ </string>
+
+
+    <string name="jsie14"> کتنے مہینوں تک حمل جاری رہا؟ </string>
+
+
+    <string name="jsie15"> کیا آپ نے یا کسی دوسرے نے کوئی ایسا کام کیا جس سے حمل ختم ہوجائے؟ </string>
+    <string name="jsie15a"> ہاں </string>
+    <string name="jsie15b"> نہیں </string>
+
+
+    <string name="jsie16"> خدا نا خواستہ، کیا آپ کے گھر میں پچھلے پانچ سال میں کسی خاتون کو حمل کے دوران پیش آنے والے مسائل، ڈلیوری یا ڈلیوری کے42دن کے اندر موت واقع ہوئی ؟ </string>
+    <string name="jsie16a"> ہاں </string>
+    <string name="jsie16b"> نہیں </string>
+
+
+    <string name="jsie17"> کتنی خواتین کی موت واقع ہوئی ؟ </string>
+
+
+    <string name="jsie18"> خاتون کا نام </string>
+
+
+    <string name="jsie19"> وفات کی تاریخ </string>
+
+
+    <string name="jsie20"> موت کے وقت عمر </string>
+
+
+    <string name="jsie21"> موت کی وجہ </string>
+    <string name="jsie21a"> شدید خون کا بہیجانابچے کی پیدائش کے بعد خون کا نہ رکنا </string>
+    <string name="jsie21b"> بچے کی پیدائش کے بعد عموماً انفیکشن/ بخار </string>
+    <string name="jsie21c"> حامل کے دوران ہائی بلڈ پریشر (pre eclampsia and eclampsia) </string>
+    <string name="jsie21d"> ڈیلیوری کے دوران پیچیدگیاں </string>
+    <string name="jsie21e"> غیر محفوظ طریقے سے حمل کا ضایع کرنا </string>
+    <string name="jsie21f"> جھٹکے </string>
+    <string name="jsie21g"> بخار </string>
+    <string name="jsie21h"> دیگر (وضاحت) </string>
+
+
+    <string name="jsie22"> موت کہاں واقع ہوئی </string>
+    <string name="jsie22a"> گھر پر </string>
+    <string name="jsie22b"> سرکاری مرکز صحت </string>
+    <string name="jsie22c"> پرائیویٹ مرکز صحت </string>
+    <string name="jsie22d"> این جی او مرکز صحت </string>
+    <string name="jsie22e"> مرکز صحت جاتے ہوئے راستے می </string>
+
+
+    <string name="sectionF"> SECTION F: ANTENATAL CARE </string>
+
+    <string name="jsif01"> کیا (نام) کی دفع حمل کے دوران آپ نے قبل از پیدائش معائنہ(ANC) کروایا تھا؟ </string>
+    <string name="jsif01a"> ہاں </string>
+    <string name="jsif01b"> نہیں </string>
+
+
+    <string name="jsif02"> آپ نے (نام) کے حمل کے دوران قبل از پیشدائش معائنہ(ANC) کیوں نہیں کروایا؟ </string>
+    <string name="jsif02a"> بہت مہنگا </string>
+    <string name="jsif02b"> مرکز صحت کارآمد صورت میں نہیں </string>
+    <string name="jsif02c"> مرکز صحت بہت دور </string>
+    <string name="jsif02d"> مرکز صحت پر بھروسہ نہیں </string>
+    <string name="jsif02e"> کوئی خاتون سہولت کار مرکز صحت میں موجودنہیں </string>
+    <string name="jsif02f"> شوہر، خاندان نے اجازت نہیں دی </string>
+    <string name="jsif02g"> ضرورت نہیں تھی </string>
+    <string name="jsif02h"> رواج ںہیں </string>
+    <string name="jsif02i"> ذرائع آمد ورفت نہیں </string>
+    <string name="jsif02j"> غیر معیاری خدمات </string>
+    <string name="jsif02k"> رازداری کی کمی </string>
+    <string name="jsif02l"> اسٹاف کا غیر مناسب رویہ </string>
+    <string name="jsif02m"> کسی مرد کا ساتھ جانے کے لیئے موجود نہ ہونا </string>
+
+
+    <string name="jsif03"> (نام) کی دفع حمل کے دوران آپ نے کتنی دفع قبل از پیدائش معائنہ (ANC) کروایا؟ </string>
+
+
+    <string name="jsif04"> کیا (نام) کی دفع دوران حمل قبل از پیدائش معائنہ (ANC) کرواتے وقت آپکے شوہر آپ کے ہمراہ گئے ؟ </string>
+    <string name="jsif04a"> ہاں </string>
+    <string name="jsif04b"> نہیں </string>
+
+
+    <string name="jsif05"> کیا (نام) کی دفع حمل کے دوران قبل از پیدائش معائنہ (ANC)کرواتے وقت کوئی آپ کے ہمراہ گیا؟ </string>
+    <string name="jsif05a"> ہاں </string>
+    <string name="jsif05b"> نہیں </string>
+
+
+    <string name="jsif06"> کیا (نام) کی دفع حمل کے دوران قبل از پیدائش معائنہ (ANC)کے لیے شوہر کے علاوہ کون آپ کے ہمراہ جاتے تھے ؟ </string>
+    <string name="jsif06a"> خاندان کا کوئی مرد فرد </string>
+    <string name="jsif06b"> خاندان کی کوئی خاتون </string>
+    <string name="jsif06c"> دیگر (وضاحت) </string>
+
+
+    <string name="jsif07"> (نام) کی دفع حمل میں آپ نے کہاں سے قبل از پیدائش معائنہ (ANC) کروایا؟ (ایک سے زیادہ جوابات درج کیے جاسکتے ہیں) </string>
+    <string name="jsif07a"> گھر پر </string>
+    <string name="jsif07b"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsif07c"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsif07d"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsif08"> (نام) کی دفع حمل میں کس نے آپ کا قبل از پیدائش معائنے(ANC) کیا؟ (ایک سے زائد جوابات درج کیے جاسکتے ہیں) </string>
+    <string name="jsif08a"> ڈاکٹر </string>
+    <string name="jsif08b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsif08c"> نرس </string>
+    <string name="jsif08d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsif08e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsif08f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsif08g"> دائی </string>
+    <string name="jsif08h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsif08i"> NGOاسٹاف </string>
+    <string name="jsif08j"> دیگر وضاحت </string>
+
+
+    <string name="jsif09"> آپ کے گھر سے وہ مرکز صحت کتنی دور ہے جہاں آپ نے (نام) کی دفع حمل میں اکثر قبل از پیدائش معائنے(ANC) کروائے تھے؟ </string>
+    <string name="jsif09a"> کلومیٹر </string>
+    <string name="jsif09b"> معلوم نہیں </string>
+
+
+    <string name="jsif10"> ٓپ کو اپنے گھر سے اس مرکز صحت میں پہنچنے میں کتنا وقت لگتا ہے جہاں (نام) کی دفع حمل میں آپ نے اکثر قبل از پیدائش معائنے(ANC) کروائے؟ </string>
+    <string name="jsif10a"> منٹ </string>
+    <string name="jsif10b"> معلوم نہیں </string>
+
+
+    <string name="jsif11"> آپ اکثر اس مرکز صحت تک کیسے جاتی ہیں جس میں آپ نے (نام) کے حمل میں اکثر قبل از پیدائش معائنے(ANC) کروائے تھے؟ </string>
+    <string name="jsif11a"> پیدل </string>
+    <string name="jsif11b"> کار </string>
+    <string name="jsif11c"> موٹرسائیکل </string>
+    <string name="jsif11d"> گدھا/بیل گاڑی </string>
+    <string name="jsif11e"> بس/رکشہ/ پبلک ٹرانسپورٹ </string>
+    <string name="jsif11f"> دیگر (وضاحت) </string>
+
+
+    <string name="jsif12"> جب آپ (نام) کی دفع حمل سے تھیں تو آپ نے حمل کے کس مہینے میں اپنا پہلا قبل از پیدائش معائنہ(ANC) کروایا؟ </string>
+    <string name="jsif12a"> مہینے </string>
+    <string name="jsif12b"> معلوم نہیں </string>
+
+
+    <string name="jsif13"> کیا (نام) کی دفع حمل کے دوران آپ نے مندرجہ ذیل میں سے کوئی ایک معائنہ کم از کم ایک مرتبہ کرایا؟ (ایک سے زائد جوابات درج کیے جاسکتے ہیں) </string>
+    <string name="jsif13a"> وزن </string>
+    <string name="jsif13b"> بلڈ پریشر </string>
+    <string name="jsif13c"> الٹرا ساؤنڈ </string>
+    <string name="jsif13d"> پیشاپ سیمپل </string>
+    <string name="jsif13e"> خون سیمپل </string>
+
+
+    <string name="jsif14"> کیا (نام) کی دفع آپ کو حمل کے دوران پیش آنے والے خطرناک علامات یا مسائل کی معلومات ہیں؟ </string>
+    <string name="jsif14a"> ہاں </string>
+    <string name="jsif14b"> نہیں </string>
+    <string name="jsif14c"> معلوم نہیں </string>
+
+
+    <string name="jsif15"> جن خطرناک علامات /مسائل کی معلومات ہیں کیا آپ وہ بتا سکتی ہیں؟ </string>
+    <string name="jsif15a"> سانس لینے میں دشواری </string>
+    <string name="jsif15b"> تھکاوٹ </string>
+    <string name="jsif15c"> شرمگاہ سے خون آنا </string>
+    <string name="jsif15d"> بچے کی حرکت نہ ہونا </string>
+    <string name="jsif15e"> بے ہوشی </string>
+    <string name="jsif15f"> جھٹکے </string>
+    <string name="jsif15g"> سردرد </string>
+    <string name="jsif15h"> قبل از وقت زائیدگی کا درد ہونا </string>
+    <string name="jsif15i"> شرمگاہ سے بدبودار مواد نکلنا </string>
+    <string name="jsif15j"> ملیریا کی علامات(سردی لگنا، بخار ، الٹی) </string>
+    <string name="jsif15k"> ہائی بلڈ پریشر </string>
+    <string name="jsif15l"> چہرے اور ہاتھوں کی سوجن </string>
+    <string name="jsif15m"> کمزوری (پیلا پن) </string>
+    <string name="jsif15n"> وقت سے پہلے پانی چھوٹ جانا(37ہفتہ سے پہلے) </string>
+    <string name="jsif15o"> پورےجسم میں سوجن </string>
+    <string name="jsif15p"> نظر کا دھندلانا </string>
+
+
+    <string name="jsif16"> کیا (نام) کی دفع آپ کو حمل کے دوران پیش آنے والے خطرناک علامات یا مسائل کی معلومات دی گئی تھی؟ </string>
+    <string name="jsif16a"> ہاں </string>
+    <string name="jsif16b"> نہیں </string>
+    <string name="jsif16c"> معلوم نہیں </string>
+
+
+    <string name="jsif17"> {Name} کی دفع حمل کے دوران کس نے آپ کو خطرناک علامات یا مسائل کی معلومات دیں؟ </string>
+    <string name="jsif17a"> ڈاکٹر </string>
+    <string name="jsif17b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsif17c"> نرس </string>
+    <string name="jsif17d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsif17e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsif17f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsif17g"> دائی </string>
+    <string name="jsif17h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsif17i"> NGOاسٹاف </string>
+    <string name="jsif17j"> ٹی وی/ریڈیو/اخبار </string>
+    <string name="jsif17k"> دوست/رشتہ دار </string>
+
+
+    <string name="jsif18"> کیا{Name}کی دفع حمل کے دوران آپ کو بتایا گیا کہ خطرناک علامات/حمل میں مسائل کی صورت میں آپ نے کہاں جانا ہے؟ </string>
+    <string name="jsif18a"> ہاں </string>
+    <string name="jsif18b"> نہیں </string>
+
+
+    <string name="jsif19"> {Name}کی دفع صحت کارکن نے دوران حمل خطرناک /مسائل کی صورت میں کہاں جانے کا بتایا </string>
+    <string name="jsif19a"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsif19b"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsif19c"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsif20"> کیا{Name}کی دفع حمل میں آپ کو کوئی خطرناک علامات/ مسائل پیش آئیں؟ </string>
+    <string name="jsif20a"> ہاں </string>
+    <string name="jsif20b"> نہیں </string>
+    <string name="jsif20c"> معلوم نہیں </string>
+
+
+    <string name="jsif21"> Name} کی دفع حمل میں آپ کو کونسے خطرناک علامات/ مسائل پیش آئیں؟ (ایک سے زائد جوابات آسکتے ہیں) </string>
+    <string name="jsif21a"> سانس لینے میں دشواری </string>
+    <string name="jsif21b"> تھکاوٹ </string>
+    <string name="jsif21c"> شرمگاہ سے خون آنا </string>
+    <string name="jsif21d"> بچے کی حرکت نہ ہونا </string>
+    <string name="jsif21f"> بے ہوشی </string>
+    <string name="jsif21g"> جھٹکے </string>
+    <string name="jsif21h"> سردرد </string>
+    <string name="jsif21i"> قبل از وقت زائیدگی کا درد ہونا </string>
+    <string name="jsif21j"> شرمگاہ سے بدبودار مواد نکلنا </string>
+    <string name="jsif21k"> ملیریا کی علامات(سردی لگنا، بخار ، الٹی) </string>
+    <string name="jsif21l"> ہائی بلڈ پریشر </string>
+    <string name="jsif21m"> چہرے اور ہاتھوں کی سوجن </string>
+    <string name="jsif21n"> کمزوری (پیلا پن) </string>
+    <string name="jsif21o"> وقت سے پہلے پانی چھوٹ جانا(37ہفتہ سے پہلے) </string>
+    <string name="jsif21p"> پورےجسم میں سوجن </string>
+    <string name="jsif21q"> نظر کا دھندلانا </string>
+    <string name="jsif21r"> تیز بخار </string>
+
+
+    <string name="jsif22"> کیا آپ نے ابھی بتائے گئے خطرناک علامات/ مسائل کے حل کے لیئے رجوع کیا ؟ </string>
+    <string name="jsif22a"> ہاں </string>
+    <string name="jsif22b"> نہیں </string>
+    <string name="jsif22c"> معلوم نہیں </string>
+
+
+    <string name="jsif23"> آپ نے {Name} کی دفع حمل کے دوران خطرناک علامات/مسائل کے حل کے لیئے رجوع کیون نہیں کیا ؟ایک سے زائد جوابات آسکتےہیں) </string>
+    <string name="jsif23a"> بہت مہنگا </string>
+    <string name="jsif23b"> مرکز صحت کارآمد صورت میں نہیں </string>
+    <string name="jsif23c"> بہت دور </string>
+    <string name="jsif23d"> مرکز صحت پر بھروسہ نہیں </string>
+    <string name="jsif23e"> کوئی خاتون سہولت کار مرکز صحت میں موجود نہیں </string>
+    <string name="jsif23f"> شوہر، خاندان نے اجازت نہیں دی </string>
+    <string name="jsif23g"> ضرورت نہیں تھی </string>
+    <string name="jsif23h"> رواج ںہیں </string>
+    <string name="jsif23i"> ذرائع آمد ورفت نہیں </string>
+    <string name="jsif23j"> غیر معیاری خدمات </string>
+    <string name="jsif23k"> رازداری کی کمی </string>
+    <string name="jsif23l"> اسٹاف کا غیر مناسب رویہ </string>
+    <string name="jsif23m"> کسی مرد کا ساتھ جانے کے لیئے موجود نہ ہونا </string>
+
+
+    <string name="jsif24"> {Name}کی دفع حمل کے دوران خطرناک علامات/مسائل کیلئے آپ کہاں گئی تھیں؟ </string>
+    <string name="jsif24a"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsif24b"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsif24c"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsif25"> {Name} کی دفع حمل کے دوران بتائے گئے خطرناک علامات/ مسائل کیلئے آپ کس صحت کارکن کے پاس گئیں تھیں؟ </string>
+    <string name="jsif25a"> ڈاکٹر </string>
+    <string name="jsif25b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsif25c"> نرس </string>
+    <string name="jsif25d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsif25e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsif25f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsif25g"> دائی </string>
+    <string name="jsif25h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsif25i"> NGOاسٹاف </string>
+
+
+    <string name="jsif26"> کیا{Name}کی دفع حمل کے دوران آپ کو خطرناک علامات/ مسائل کے علاوہ صحت کے متعلق دیگر معلومات فراہم کی گئی؟ </string>
+    <string name="jsif26a"> ہاں </string>
+    <string name="jsif26b"> نہیں </string>
+    <string name="jsif26c"> معلوم نہیں </string>
+
+
+    <string name="jsif27"> {Name} کی دفع حمل کے دوران آپ کو صحت کی دیگر معلومات کس نے فراہم کئیں؟ (ایک سے زائد جوابات آسکتے ہیں) </string>
+    <string name="jsif27a"> ڈاکٹر </string>
+    <string name="jsif27b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsif27c"> نرس </string>
+    <string name="jsif27d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsif27e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsif27f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsif27g"> دائی </string>
+    <string name="jsif27h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsif27i"> NGOاسٹاف </string>
+    <string name="jsif27j"> ٹی وی/ریڈیو/اخبار </string>
+
+
+    <string name="jsif28"> کیا{Name} کی دفع حمل کے دوران تشنج(TT) سے بچاؤ کا ٹیکہ آپ کے بازو میں لگایا گیا؟ </string>
+    <string name="jsif28a"> ہاں </string>
+    <string name="jsif28b"> نہیں </string>
+    <string name="jsif28c"> معلوم نہیں </string>
+
+
+    <string name="jsif29"> {Name}کی دفع حمل کے دوران آپ کو کتنی بار تشنج (TT)سے حفاظت کا ٹیکہ لگایا گیا؟ </string>
+    <string name="jsif29a"> تعداد </string>
+    <string name="jsif29b"> معلوم نہیں </string>
+
+
+    <string name="jsif30"> {Name} کی دفع حمل کے دوران کیا آپ نے کوئی طاقت کی گولیاں یا خوراک لی؟ </string>
+    <string name="jsif30a"> ہاں </string>
+    <string name="jsif30b"> نہیں </string>
+    <string name="jsif30c"> معلوم نہیں </string>
+
+
+    <string name="jsif31"> {Name} کی دفع حمل کے دوران آپ نے کون سی طاقت کی گولیاں یا خوراک لی؟ </string>
+    <string name="jsif31a"> آئرن /فولیٹ </string>
+    <string name="jsif31b"> فولک ایسڈ </string>
+    <string name="jsif31c"> مائیکرو تیوٹرینٹ </string>
+    <string name="jsif31d"> کیلشم </string>
+    <string name="jsif31e"> معلوم نہیں </string>
+
+
+    <string name="jsif32"> {Name} کی دفع حمل کےمکمل دورانیےکے دوران آپ نے کل کتنے عرصے تک طاقت کی گولیاں یا خوراک لی؟ (پروگرام خود سے ڈیٹابیس میں دنوں کا حساب لگالے گا) </string>
+    <string name="jsif32d"> دن </string>
+    <string name="jsif32m"> مہینہ </string>
+    <string name="jsif32y"> سال </string>
+    <string name="jsif32a"> معلوم نہیں </string>
+
+
+    <string name="jsif33"> {Name} کی دفع حمل کے مکمل دورانیے میں آپ کو طاقت کی گولیاں یا خوراک کہاں سے ملی؟ </string>
+    <string name="jsif33a"> ڈاکٹر </string>
+    <string name="jsif33b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsif33c"> نرس </string>
+    <string name="jsif33d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsif33e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsif33f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsif33g"> دائی </string>
+    <string name="jsif33h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsif33i"> NGOاسٹاف </string>
+    <string name="jsif33j"> فارمیسی (میڈیکل اسٹور) </string>
+    <string name="jsif33k"> دوست/رشتہ دار </string>
+
+
+    <string name="jsif34"> کیا آپ نے طاقت کی گولیوں یا خوراک کیلئے پیسے ادا کیے؟ </string>
+    <string name="jsif34a"> ہاں </string>
+    <string name="jsif34b"> نہیں </string>
+    <string name="jsif34c"> معلوم نہیں </string>
+
+
+    <string name="jsif35"> آپ نے تقریباً کتنے پیسے طاقت کی گولیاں یا خوراک پر ایک مہینے میں خرچ کیے </string>
+    <string name="jsif35a"> ماہانہ روپے </string>
+
+
+    <string name="jsif36"> کیا{Name} کی دفع حمل کے دوران آپ کے کھانے پینے کی عادت/خوراک میں کوئی تبدیلی آئی؟ </string>
+    <string name="jsif36a"> ہاں </string>
+    <string name="jsif36b"> نہیں </string>
+    <string name="jsif36c"> معلوم نہیں </string>
+
+
+    <string name="jsif37"> {Name} کی دفع حمل کے دوران آپ کے کھانے پینے کی عادات/ خوراک میں تبدیلی کو آپ کس طرح بیان کریں گی؟ </string>
+    <string name="jsif37a"> عام حالات سے زیادہ </string>
+    <string name="jsif37b"> عام حالات سے کم </string>
+
+
+    <string name="jsif38"> {Name}کی دفع حمل کے دوران آپ کے گھر کے کام کاج میں کوئی تبدیلی آئی؟ </string>
+    <string name="jsif38a"> ہاں </string>
+    <string name="jsif38b"> نہیں </string>
+    <string name="jsif38c"> معلوم نہیں </string>
+
+
+    <string name="jsif39"> {Name}کی دفع حمل کے دوران آپ کے کام کاج کس نوعیت کے تھے؟ </string>
+    <string name="jsif39a"> عام حالات سے زیادہ </string>
+    <string name="jsif39b"> عام حالات سے کم </string>
+
+
+    <string name="jsif40"> کیا{Name} کی پیدائش کی تیاری کیلئے آپ نے کوئی اقدامات کیے؟ </string>
+    <string name="jsif40a"> ہاں </string>
+    <string name="jsif40b"> نہیں </string>
+
+
+    <string name="jsif41"> {Name}کی پیدائش کی تیاری میں آپ نے کیا اقدامات کیے؟ (اقدامات پڑھیں۔ ایک سے زیادہ جوابات درج ہوسکتے ہیں) </string>
+    <string name="jsif41a"> دائی کا انتخاب </string>
+    <string name="jsif41b"> کسی پیچیدگی کی صورت میں جانے کیلئے مرکز صحت کا انتخاب </string>
+    <string name="jsif41c"> کسی ایمرجنسی کی صورت کیلئے پیسوں کا بندوبست </string>
+    <string name="jsif41d"> پہلے سے گاڑی کا انتخاب </string>
+    <string name="jsif41e"> کلین ڈیلیوری کا بندوبست </string>
+    <string name="jsif41f"> خون کا عطیہ دینے والا </string>
+
+
+    <string name="jsif42"> آخری بار حاملہ ہونے سے پہلے کیا آپ حاملہ ہونا چاہتی تھیں؟ </string>
+    <string name="jsif42a"> ہاں </string>
+    <string name="jsif42b"> نہیں </string>
+
+
+    <string name="jsif43"> آپ حمل سے بچاؤ کیوں نہ کرسکیں؟ </string>
+    <string name="jsif43a"> مجھے طریقہ نہیں معلوم </string>
+    <string name="jsif43b"> طریقے معلوم ہیں مگر مانع حمل کی دوا اور طریقوں تک میری رسائی نہیں تھی </string>
+    <string name="jsif43c"> مانع حمل کے طریقوں کیلئے پیسے نہیں تھے </string>
+    <string name="jsif43d"> شوہر کو اور بیٹے کی خواہش تھی </string>
+    <string name="jsif43e"> شوہر کو اوربیٹی کی خواہش تھی </string>
+
+
+    <string name="jsif44"> کیا حمل کے دوران لیڈی ہیلتھ ورکر LHWآپ کے گھر آئیں؟ </string>
+    <string name="jsif44a"> ہاں </string>
+    <string name="jsif44b"> نہیں </string>
+    <string name="jsif44c"> معلوم نہیں </string>
+
+
+    <string name="jsif45"> {Name} کی دفع آپ کے پچلے حمل کے دوران LHWکتنی بار آپ کے گھر آئیں؟ </string>
+    <string name="jsif45a"> روزانہ </string>
+    <string name="jsif45b"> ہر ہفتے </string>
+    <string name="jsif45c"> مہینے میں دو بار </string>
+    <string name="jsif45d"> مہینے میں ایک بار </string>
+    <string name="jsif45e"> کوئی معمول نہیں </string>
+
+
+    <string name="jsif46"> {Name} کی دفع حمل کے دوران LHWنے آپ کو کیا دیکھ بھال فراہم کی؟(ایک سے زائد جوابات آسکتے ہیں) </string>
+    <string name="jsif46a"> دوا اور طاقت کی خوراک </string>
+    <string name="jsif46b"> صحت اور صفائی بشمول صحت فراہمی کے متعلق تعلیم/مشورہ </string>
+    <string name="jsif46c"> مانع حمل کے متعلق تعلیم/مشورہ </string>
+    <string name="jsif46d"> پولیو کی خوراک پر تعلیم /مشورہ </string>
+    <string name="jsif46e"> حفاظتی ٹیکوں پر تعلیم/ مشورہ </string>
+    <string name="jsif46f"> حمل(تولیدی اور نوزائیدہ کی دیکھ بھال)(ANC &amp; PNC) </string>
+    <string name="jsif46g"> ماں کے دودھ پر تعلیم / مشورہ </string>
+
+
+    <string name="sectionG"> SECTION G: Delivery PREPAREDNESS AND EXPERIENCE </string>
+    <string name="jsig01"> کیا آپ کو {Name}کی متوقع تاریخ پیدائش کا اندازا تھا؟ </string>
+    <string name="jsig01a"> ہاں </string>
+    <string name="jsig01b"> نہیں </string>
+
+
+    <string name="jsig02"> {Name} کی پیدائش کہاں واقع ہوئی؟ </string>
+    <string name="jsig02a"> گھر پر </string>
+    <string name="jsig02b"> گورنمنٹ مرکز صحت </string>
+    <string name="jsig02c"> پرائیوٹ مرکز صحت </string>
+    <string name="jsig02d"> NGOمرکز صحت </string>
+    <string name="jsig02e"> مرکز صحت جاتے ہوئے راستے میں </string>
+
+
+    <string name="jsig03"> آپ نے {Name}کی ذائدگی (ڈلیوری)کسی بھی مرکز صحت سے کیوں نہیں کروائی ؟ </string>
+    <string name="jsig03a"> بہت مہنگا </string>
+    <string name="jsig03b"> مرکز صحت کارآمد صورت میں نہیں </string>
+    <string name="jsig03c"> بہت دور </string>
+    <string name="jsig03d"> مرکز صحت پر بھروسہ نہیں </string>
+    <string name="jsig03e"> کوئی خاتون سہولت کار مرکز صحت میں موجود نہیں </string>
+    <string name="jsig03f"> شوہر، خاندان نے اجازت نہیں دی </string>
+    <string name="jsig03g"> ضرورت نہیں تھی </string>
+    <string name="jsig03h"> رواج ںہیں </string>
+    <string name="jsig03i"> ذرائع آمد ورفت نہیں </string>
+    <string name="jsig03j"> غیر معیاری خدمات </string>
+    <string name="jsig03k"> رازداری کی کمی </string>
+    <string name="jsig03l"> اسٹاف کا غیر مناسب رویہ </string>
+    <string name="jsig03m"> مرد کا ساتھ جانے کے لیئے موجود نہ ہونا </string>
+
+
+    <string name="jsig04"> {Name} کی ولادت کس نے کی؟ </string>
+    <string name="jsig04a"> ڈاکٹر </string>
+    <string name="jsig04b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsig04c"> نرس </string>
+    <string name="jsig04d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsig04e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsig04f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsig04g"> دائی </string>
+    <string name="jsig04h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsig04i"> دوست/رشتہ دار </string>
+
+
+    <string name="jsig05"> کیاپیدائش کے وقت LHWموجود تھیں؟ </string>
+    <string name="jsig05a"> ہاں </string>
+    <string name="jsig05b"> نہیں </string>
+    <string name="jsig05c"> معلوم نہیں </string>
+
+
+    <string name="jsig06"> کیاآپ کے شوہر ذائدگی (ڈلیوری) کے وقت موجود تھے ؟ </string>
+    <string name="jsig06a"> ہاں </string>
+    <string name="jsig06b"> نہیں </string>
+
+
+    <string name="jsig07"> {Name}کی ولادت کس طرح ہوئی؟ </string>
+    <string name="jsig07a"> عام ولادت (Normal Vaginal Delivery </string>
+    <string name="jsig07b"> آپریشنCaesarian Section </string>
+    <string name="jsig07c"> ویکیوم </string>
+    <string name="jsig07d"> فورسپ </string>
+
+
+    <string name="jsig08"> کیا{Name} کی ولادت کرنے والی نے صاف ڈیلیوری کٹ استعمال کیا؟ </string>
+    <string name="jsig08a"> ہاں </string>
+    <string name="jsig08b"> نہیں </string>
+    <string name="jsig08c"> معلوم نہیں </string>
+
+
+    <string name="jsig09"> کیا آپ نے صاف ڈیلیوری کٹ کے پیسے ادا کیے؟ </string>
+    <string name="jsig09a"> ہاں </string>
+    <string name="jsig09b"> نہیں </string>
+    <string name="jsig09c"> معلوم نہیں </string>
+
+
+    <string name="jsig10"> آپ نے صاف ڈیلیوری کٹ کے کتنے پیسے ادا کیے؟ </string>
+    <string name="jsig10a"> ماہانہ روپے </string>
+    <string name="jsig10b"> معلوم نہیں </string>
+
+
+    <string name="jsig11"> {Name} کے ولادت کی جگہ آپ کے گھر سے کتنی دور ہے؟ </string>
+    <string name="jsig11km"> کلومیٹر </string>
+    <string name="jsidnk"> معلوم نہیں </string>
+
+
+    <string name="jsig12"> {Name} کی ولادت کی جگہ پہنچنے میں آپ کو کتنا وقت لگا؟ </string>
+    <string name="jsig12a"> منٹ </string>
+    <string name="jsig12b"> معلوم نہیں </string>
+
+
+    <string name="jsig13"> {Name} کی ولادت کی جگہ پہنچنے کیلئے آپ نے ٹرانسپورٹ کا کونسا ذریعہ استعمال کیا؟ </string>
+    <string name="jsig13a"> پیدل </string>
+    <string name="jsig13b"> کار </string>
+    <string name="jsig13c"> موٹر سائیکل </string>
+    <string name="jsig13d"> گدھا/ بیل گاڑی </string>
+    <string name="jsig13e"> پبلک ٹرانسپورٹ/ بس/ رکشہ </string>
+
+
+    <string name="jsig14"> {Name} کی دفع حمل کے دوران کیا آپ کو میسروپروسٹول (misoprostol) نام کی دوا دی گئی جس سے ولادت کے بعد خون روکا یا کم کیا جاسکتاہے؟ </string>
+    <string name="jsig14a"> ہاں </string>
+    <string name="jsig14b"> نہیں </string>
+    <string name="jsig14c"> معلوم نہیں </string>
+
+
+    <string name="jsig15"> آپ کو میسروپروسٹول کہاں سے ملی؟ </string>
+    <string name="jsig15a"> ڈاکٹر </string>
+    <string name="jsig15b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsig15c"> نرس </string>
+    <string name="jsig15d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsig15e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsig15f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsig15g"> دائی </string>
+    <string name="jsig15h"> ہومیوپیتھک/حکیم </string>
+    <string name="jsig15i"> NGOاسٹاف </string>
+    <string name="jsig15j"> فارمیسی /کیمسٹ </string>
+
+
+    <string name="jsig16"> کیا آپ نے میسروپروسٹول کی گولیاں کھائیں؟ </string>
+    <string name="jsig16a"> ہاں </string>
+    <string name="jsig16b"> نہیں </string>
+    <string name="jsig16c"> معلوم نہیں </string>
+
+
+    <string name="jsig17"> {Name} کی ولادت کے وقت آپ نے کس وقت میسروپروسٹول کی گولیاں کھائیں؟َ(جوبات پڑھیں اور منتخب کیجیئے) </string>
+    <string name="jsig17a"> بچے کی ولادت سے پہلے </string>
+    <string name="jsig17b"> بچے کی ولادت کے فوراً بعد </string>
+    <string name="jsig17c"> بچے کی ولادت کے بعد آنول(Placenta) نکلنے سے پہلے </string>
+    <string name="jsig17d"> آنول(Placenta) نکلنے کے بعد </string>
+    <string name="jsig17e"> یاد نہیں </string>
+
+
+    <string name="jsig18"> کیا آپ کو دوران زائدگی(LABOR) اور پیدائش (DELIVERY) کے وقت پیش آنے والے خطرناک علامات/مسائل کی آگاہی ہے ؟ </string>
+    <string name="jsig18a"> ہاں </string>
+    <string name="jsig18b"> نہیں </string>
+    <string name="jsig18c"> معلوم نہیں </string>
+
+
+    <string name="jsig19"> کیا آپ کو دوران زائدگی(LABOR) اور پیدائش (DELIVERY) کے وقت پیش آنے والے خطرناک علامات/مسائل بتاسکتی ہیں ؟ </string>
+    <string name="jsig19a"> شرمگاہ سے خون آنا </string>
+    <string name="jsig19b"> جھٹکے </string>
+    <string name="jsig19c"> شدید سردرد </string>
+    <string name="jsig19d"> نظر کا دھندلانا </string>
+    <string name="jsig19e"> خار اور شدید کمزوری کہ بستر سے نہ اٹھ سکا5………………………. </string>
+    <string name="jsig19f"> پیٹ میں شدید درد </string>
+    <string name="jsig19g"> تیز یا سانس لینے میں دشواری </string>
+    <string name="jsig19h"> زائدگی میں دیرری (12) گنھٹے سے زائد </string>
+    <string name="jsig19i"> پلیسنٹا(placenta) کا رھ جانا </string>
+    <string name="jsig19j"> شرمگاہ سے بدبودار , ہرہ اور کھٹئی پانی بہنا </string>
+    <string name="jsig19k"> ہائی بلڈ پریشر </string>
+    <string name="jsig19l"> پورےجسم میں سوجن </string>
+    <string name="jsig19m"> شدید الٹی یا متلی ہونا </string>
+
+
+    <string name="jsig20"> {Name} کی دفع درد اُٹھنے سے لے کر پیدائش تک کتنا وقت لگا؟ </string>
+    <string name="jsig20m"> منٹ </string>
+    <string name="jsig20h"> گھنٹے </string>
+    <string name="jsig20d"> دن </string>
+
+
+    <string name="jsig21"> {Name} کی دفع درد اُٹھنے سے لے کر پیدائش تک آپ نے کل کتنی رقم بچے کی ولادت میں خرچ کی؟ </string>
+    <string name="jsig21a"> روپے </string>
+
+
+    <string name="jsig22"> دوران زائدگی (ڈلیوری) فراہم کی گئی سہولیات سے آپ کس قدر مطمئن ہیں ؟ </string>
+    <string name="jsig22a"> مطمئن </string>
+    <string name="jsig22b"> تھوڑا مطمئن </string>
+    <string name="jsig22c"> غیر مطمئن </string>
+
+
+    <string name="jsig23"> وہ کیا بنیادی وجوہات ہیں جن کی وجہ سے آپ(NAME)کی ولادت کی سہولیات سے مطمئن ہیں ؟ </string>
+    <string name="jsig23a"> خوش اخلاق عملہ </string>
+    <string name="jsig23b"> معیاری دیکھ بحال </string>
+    <string name="jsig23c"> کم انتظار </string>
+    <string name="jsig23d"> مرکز کا صاف ستھرا ہونا </string>
+    <string name="jsig23e"> ادویات کی دستیابی </string>
+    <string name="jsig23f"> سامان /مواد کی دستیابی </string>
+    <string name="jsig23g"> مناسب فیس </string>
+    <string name="jsig23h"> دیگر (وضاحت) </string>
+
+
+    <string name="jsig24"> وہ کیا بنیادی وجوہات ہیں جس کی وجہ سے آپ(NAME) ولادت کی سہولیات سے درمیانہ یا غیر مطمئن ہیں ؟ </string>
+    <string name="jsig24a"> بد اخلاق عملہ </string>
+    <string name="jsig24b"> غیر معیاری دیکھر بحال </string>
+    <string name="jsig24c"> انتظار کی لمبی قطار </string>
+    <string name="jsig24d"> مرکز کا صاف ستھرا نہ ہونا </string>
+    <string name="jsig24e"> ادویات کی عدم تستیابی </string>
+    <string name="jsig24f"> سامان /مواد کی عدم تستیابی </string>
+    <string name="jsig24g"> فیس کا زیادہ ہونا </string>
+    <string name="jsig24h"> رازداری کی کمی </string>
+    <string name="jsig24i"> دیگر (وضاحت) </string>
+
+
+    <string name="sectionH"> SECTION H: NEWBORN HEALTH </string>
+
+    <string name="jsih01"> پیدائش کے وقت {Name} کی مددت حمل عمر کیا تھی ؟ </string>
+    <string name="jsih01a"> مہینہ </string>
+
+
+    <string name="jsih02"> کیا{Name} پیدائش کے فوراً بعد رویا؟ </string>
+    <string name="jsih02a"> ہاں </string>
+    <string name="jsih02b"> نہیں </string>
+    <string name="jsih02c"> معلوم نہیں </string>
+
+
+    <string name="jsih03"> کیا{Name} کی ولادت میں آپ کی مدد کرنے والی نے آپ کے بچے کے سانس کو بحال کرنے کیلئے کوئی اقدامات کیے؟ </string>
+    <string name="jsih03a"> ہاں </string>
+    <string name="jsih03b"> نہیں </string>
+    <string name="jsih03c"> معلوم نہیں </string>
+
+
+    <string name="jsih04"> {Name}کی ولادت میں آپ کی مدد کرنے والی نے آپ کے بچے کا سانس بحال کرنے کے لیے کیا اقدامات کیے؟ </string>
+    <string name="jsih04a"> کمر تھپتھپانا </string>
+    <string name="jsih04b"> منہ سے سانس دینا </string>
+    <string name="jsih04c"> ایمبوبیگ کا استعمال </string>
+    <string name="jsih04d"> دیگر </string>
+
+
+    <string name="jsih05"> کیا{Name} کو ولادت کے بعد صاف کپڑے سے سُکھایا گیا؟ </string>
+    <string name="jsih05a"> ہاں </string>
+    <string name="jsih05b"> نہیں </string>
+    <string name="jsih05c"> معلوم نہیں </string>
+
+
+    <string name="jsih06"> ولادت کے کتنی دیر بعد{Name}کو صاف کپڑے سے سُکھایا گیا؟ </string>
+    <string name="jsih06a"> منٹ </string>
+    <string name="jsih06b"> معلوم نہیں </string>
+
+
+    <string name="jsih07"> کس طرح کا کپڑا {Name} کو سُکھانے کے لیے استعمال کیا گیا؟ </string>
+    <string name="jsih07a"> نیا کپڑا </string>
+    <string name="jsih07b"> گندا کپڑا </string>
+    <string name="jsih07c"> تولیہ </string>
+    <string name="jsih07d"> کمبل </string>
+    <string name="jsih07e"> دیگر </string>
+
+
+    <string name="jsih08"> {Name} کی ناف کاٹنے کیلئے کیا استعمال کیا گیا؟ </string>
+    <string name="jsih08a"> نئی ریزر بلیڈ </string>
+    <string name="jsih08b"> پرانی ریزر بلیڈ </string>
+    <string name="jsih08c"> کینچی </string>
+    <string name="jsih08d"> چھُری/چاکو </string>
+
+
+    <string name="jsih09"> کیا{Name} کی ناف پر پیدائش کے بعد کچھ لگایا گیا؟ </string>
+    <string name="jsih09a"> ہاں </string>
+    <string name="jsih09b"> نہیں </string>
+    <string name="jsih09c"> معلوم نہیں </string>
+
+
+    <string name="jsih10"> {Name} کی ناف پر کیا لگایا گیا؟ </string>
+    <string name="jsih10a"> جانور کا گوبر </string>
+    <string name="jsih10b"> کوئی بھی تیل </string>
+    <string name="jsih10c"> ڈیٹول </string>
+    <string name="jsih10d"> پاپوڈین </string>
+    <string name="jsih10e"> کوئی اینٹی سیپٹک دوا </string>
+    <string name="jsih10f"> کلورہیکسڈین </string>
+    <string name="jsih10g"> راکھ </string>
+    <string name="jsih10h"> ماں کا دودھ </string>
+
+
+    <string name="jsih11"> کیا{Name} کو والدہ کے ساتھ جلد سے جلد ملاکر رکھا گیا؟ </string>
+    <string name="jsih11a"> ہاں </string>
+    <string name="jsih11b"> نہیں </string>
+    <string name="jsih11c"> معلوم نہیں </string>
+
+
+    <string name="jsih12"> {Name} کو ولادت کے بعد کتنی جلدی والدہ کے ساتھ جلد سے جلد ملاکر رکھا گیا؟ </string>
+    <string name="jsih12a"> منٹ </string>
+    <string name="jsih12b"> معلوم نہیں </string>
+
+
+    <string name="jsih13"> {Name} کو ولادت کے کتنی دیر بعد ماں کا دودھ دیا گیا؟ </string>
+    <string name="jsih13a"> منٹ </string>
+    <string name="jsih13b"> معلوم نہیں </string>
+
+
+    <string name="jsih14"> کیا ولادت کے بعد ماں کے گاڑھے دودھ کو ضائع کیا؟ </string>
+    <string name="jsih14a"> ہاں </string>
+    <string name="jsih14b"> نہیں </string>
+
+
+    <string name="jsih15"> ولادت کے بعد نکلنے والا ماں کا گاڑھا دودھ کیوں ضائع کیا؟ </string>
+    <string name="jsih15a"> ماں بیمار تھی </string>
+    <string name="jsih15b"> نوزائیدہ بیمار تھا </string>
+    <string name="jsih15c"> نوزائیدہ چوس نہیں پارہا تھا </string>
+    <string name="jsih15d"> گاڑھا دودھ نوزائیدہ کی صحت کیلئے مضر ہے </string>
+    <string name="jsih15e"> وہ گندا ہے </string>
+    <string name="jsih15f"> اس سے دست ہوتاہے </string>
+    <string name="jsih15g"> وہ بہت بھاری ہوتاہے </string>
+    <string name="jsih15h"> تہذیبی/ مذہبی وجوہات </string>
+
+
+    <string name="jsih16"> {Name} کی ولادت کے بعد پہلے تین دن تک بچے کو ماں کے دودھ کے علاوہ کچھ اور پلایا گیا؟ </string>
+    <string name="jsih16a"> ہاں </string>
+    <string name="jsih16b"> نہیں </string>
+
+
+    <string name="jsih17"> {Name}کو ولادت کے تین دن میں پینے کو کیا دیا گیا؟ </string>
+    <string name="jsih17a"> دودھ (ماں کے دودھ کے علاوہ) </string>
+    <string name="jsih17b"> سادہ پانی </string>
+    <string name="jsih17c"> شہد یا شہد کا پانی </string>
+    <string name="jsih17d"> گھی، مکھن </string>
+    <string name="jsih17e"> پھل کا جوس </string>
+    <string name="jsih17f"> ڈبے والا دودھ (بچے فارمولا) </string>
+    <string name="jsih17g"> گھُٹی </string>
+
+
+    <string name="jsih18"> پچھلے 24گھنٹے میں {Name} کو پینے/کھانے کو کیا دیا گیا؟ </string>
+    <string name="jsih18a"> دودھ (ماں کے دودھ کے علاوہ) </string>
+    <string name="jsih18b"> سادہ پانی </string>
+    <string name="jsih18c"> شہد یا شہد کا پانی </string>
+    <string name="jsih18d"> گھی، مکھن </string>
+    <string name="jsih18e"> پھل کا جوس </string>
+    <string name="jsih18f"> ڈبے والا دودھ (بچے فارمولا) </string>
+    <string name="jsih18g"> کہوہ، سبز چائے </string>
+    <string name="jsih18h"> دیگر(وضاحت) </string>
+
+
+    <string name="jsih19"> کیا آپ ابھی بھی {Name} کو ماں کا دودھ پلاتی ہیں؟ </string>
+    <string name="jsih19a"> ہاں </string>
+    <string name="jsih19b"> نہیں </string>
+
+
+    <string name="jsih20"> صرف ماں کے دودھ کا مطلب ہے کہ بچے کو صرف اور صرف ماں کا دودھ ہی پلایا گیا ہے اور کچھ بھی نہیں دیا گیا۔ اس میں پانی اور پیٹ درد کی دوا وغیرہ شامل ہیں۔ کیا آپ نے {Name} کو صرف ماں کا دودھ ہی دیا تھا؟ </string>
+    <string name="jsih20a"> ہاں </string>
+    <string name="jsih20b"> نہیں </string>
+
+
+    <string name="jsih21"> آپ نے کتنے عرصے تک{Name} کو صرف ماں کا دودھ دیا؟ </string>
+    <string name="jsih21a"> منٹ </string>
+    <string name="jsih21b"> معلوم نہیں </string>
+
+
+    <string name="jsih22"> کیا آپ ابھی بھی صرف ماں کا دودھ پلارہی ہیں؟ </string>
+    <string name="jsih22a"> ہاں </string>
+    <string name="jsih22b"> نہیں </string>
+
+
+    <string name="jsih23"> آپ نے{Name} کو کتنے مہینے تک ماں کا دودھ پلایا؟ </string>
+    <string name="jsih23a"> مہینے </string>
+
+
+    <string name="jsih24"> {Name} کو ولادت کے کتنے دیر بعد پہلی بار نہلایا گیا؟ </string>
+    <string name="jsih24a"> فوراً / ایک کھنٹے سے کم میں </string>
+    <string name="jsih24b"> 1 سے 6 گھنٹے </string>
+    <string name="jsih24c"> 6 سے 12 گھنٹے </string>
+    <string name="jsih24d"> 12 سے 24 گھنٹے </string>
+    <string name="jsih24e"> 24 گھنٹے سے زائد </string>
+    <string name="jsih24f"> معلوم نہیں / یاد نہیں </string>
+
+
+    <string name="jsih25"> کیا{Name} کا ولادت کے وقت وزن کیا گیا؟ </string>
+    <string name="jsih25a"> ہاں </string>
+    <string name="jsih25b"> نہیں </string>
+    <string name="jsih25c"> معلوم نہیں </string>
+
+
+    <string name="jsih26"> ولادت کے وقت (NAME)کا وزن کتنا تھا؟ </string>
+    <string name="jsih26a"> کلو گرام </string>
+    <string name="jsih26b"> معلوم نہیں </string>
+
+
+    <string name="jsih27"> وزن کیسے ریکارڈ کیا؟ </string>
+    <string name="jsih27a"> کارڈ پر </string>
+    <string name="jsih27b"> یادداشت سے بتایا </string>
+
+
+    <string name="jsih28"> {Name} کی ولادت کے وقت کیا وہ بہت بڑا یا اوسط سے بڑایا اوسط سے چھوٹا یا بہت چھوٹا تھا ؟ </string>
+    <string name="jsih28a"> بہت بڑا </string>
+    <string name="jsih28b"> اوسط سے بڑا </string>
+    <string name="jsih28c"> اوسط </string>
+    <string name="jsih28d"> اوسط سے چھوٹا </string>
+    <string name="jsih28e"> بہت چھوٹا </string>
+    <string name="jsih28f"> معلوم نہیں </string>
+
+
+    <string name="jsih29"> اگر {Name}کی پیدائش مرکز صحت میں ہوئی تو پیدائش کے بعد آپ کتنا عرصہ مرکزِ صحت میں رہے؟ </string>
+    <string name="jsih29a"> گھنٹے </string>
+    <string name="jsih29b"> دن </string>
+    <string name="jsih29c"> ہفتے </string>
+
+
+    <string name="jsih30"> {Name} کی پیدائش کے بعد، کیا کسی نے آپ کی صحت کا معائنہ کیا؟ </string>
+    <string name="jsih30a"> ہاں </string>
+    <string name="jsih30b"> نہیں </string>
+
+
+    <string name="jsih31"> {Name} کی پیدائش کے کتنے عرصے کے بعد آپ کی صحت کا پہلا معائنہ ہوا؟ </string>
+    <string name="jsih31a"> گھنٹے </string>
+    <string name="jsih31b"> دن </string>
+    <string name="jsih31c"> ہفتے </string>
+
+
+    <string name="jsih32"> آپ نے {Name} کی پیدائش کے بعد پہلا طبی معائنہ کہاں سےکروایا؟ </string>
+    <string name="jsih32a"> گھر پر </string>
+    <string name="jsih32b"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsih32c"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsih32d"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsih33"> کس نے آپ کی صحت کا معائنہ کیا؟ </string>
+    <string name="jsih33a"> ڈاکٹر </string>
+    <string name="jsih33b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsih33c"> نرس </string>
+    <string name="jsih33d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsih33e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsih33f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsih33g"> دائی </string>
+    <string name="jsih33h"> حکیم / ہومیو پیتھک </string>
+
+
+    <string name="jsih34"> کیا صحت کارکن نے{Name} کو حفاظتی ٹیکے لگوانے کا مشورہ دیا؟ </string>
+    <string name="jsih34a"> ہاں </string>
+    <string name="jsih34b"> نہیں </string>
+
+
+    <string name="jsih35"> کیا آپ نے {Name} کو حفاظتی ٹیکے لگوائے؟ </string>
+    <string name="jsih35a"> ہاں </string>
+    <string name="jsih35b"> نہیں </string>
+
+
+    <string name="jsih36"> کیا آپ کو زایدگی کے بعد پیش آنے والے خطرناک علامات /مسائل کی آگاہی ہے ؟ </string>
+    <string name="jsih36a"> ہاں </string>
+    <string name="jsih36b"> نہیں </string>
+    <string name="jsih36c"> معلوم نہیں </string>
+
+
+    <string name="jsih37"> وہ کیا خطرناک علامات ہیں جن کا آپ کو ذایدگی کے بعد دیہان رکھنا چاہیئے ؟ </string>
+    <string name="jsih37a"> تیز بخار </string>
+    <string name="jsih37b"> پیٹ کے نچلے حصہ میں درد </string>
+    <string name="jsih37c"> بدبودارمواد کا نکلنا(انفیکشن) </string>
+    <string name="jsih37d"> شدید سردرد </string>
+    <string name="jsih37e"> نظر کا دھندلانا </string>
+    <string name="jsih37f"> ہائی بلڈ پریشر </string>
+    <string name="jsih37g"> جھٹکے (eclampsia) </string>
+    <string name="jsih37h"> شرمگاہ سے شدید خون کا بہنا (PPH) </string>
+    <string name="jsih37i"> پشاب یا پاخانہ کا کنٹرول نہ ہونا (obstetric fistula) </string>
+    <string name="jsih37j"> شدید تھکاوٹ </string>
+    <string name="jsih37k"> خون کی کمی </string>
+    <string name="jsih37l"> ذہنی دبائو کا شکار ہونا (puerperal psychosis) </string>
+    <string name="jsih37m"> چھاتی کے مسائل، (ورم، ٹھوسے ہوئے، پلٹےہوئے نپل) </string>
+
+
+    <string name="jsih38"> کیا آپ کو نوزائدہ بچے سے متلعق پیش آنے والے خطرناک غلامات / مسائل کا علم ہے ؟ </string>
+    <string name="jsih38a"> ہاں </string>
+    <string name="jsih38b"> نہیں </string>
+    <string name="jsih38c"> معلوم نہیں </string>
+
+
+    <string name="jsih39"> کیا آپ ہمیں نوزائیدہ بچے سے متعلق کچھ خطرناک علامات / مسائل بتاسکتی ہیں ؟ </string>
+    <string name="jsih39a"> جھٹکے/اکڑنا </string>
+    <string name="jsih39b"> ترغیب کے وقت حلنا یا کوئی حرکت نہ ہونا </string>
+    <string name="jsih39c"> اچھی خراک نہ ہونا </string>
+    <string name="jsih39d"> بخار </string>
+    <string name="jsih39e"> دشواری / تیزی سے سانس لینا </string>
+    <string name="jsih39f"> بیہوشی </string>
+    <string name="jsih39g"> جلد اور آنکھو کا پیلا پڑجانا </string>
+    <string name="jsih39h"> پیدائشی وزن کا کم ہونا </string>
+    <string name="jsih39i"> نہیں رونا </string>
+
+
+    <string name="jsih40"> Name}کی پیدائش کے بعد کسی نے {Name}کی صحت کا معائنہ کیا ؟ </string>
+    <string name="jsih40a"> ہاں </string>
+    <string name="jsih40b"> نہیں </string>
+    <string name="jsih40c"> معلوم نہیں </string>
+
+
+    <string name="jsih41"> {Name}کی پیداش کے کتنے عرصہ بعد {Name}کی صحت پہلا کا معائنہ کیا ؟ </string>
+    <string name="jsih41a"> پیدائش کے 24 گھنٹے کے اندر </string>
+    <string name="jsih41b"> پیدائش کے 24 سے 48 گھنٹے کے اندر </string>
+    <string name="jsih41c"> پیدائش کے 3 سے 7 دن کے اندر </string>
+    <string name="jsih41d"> پیدائش کے 7 دن کے بعد </string>
+    <string name="jsih41e"> معلوم نہیں </string>
+
+
+    <string name="jsih42"> {Name} کی پیدائش کے بعد صحت کا پہلا معائنہ کہاں سے کیا گیا ؟ </string>
+    <string name="jsih42a"> گھر میں </string>
+    <string name="jsih42b"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsih42c"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsih42d"> ان جی او مرکز صحت میں </string>
+
+
+    <string name="jsih43"> {Name} کی صحت کا پہلا معائنہ کس نے کیا؟ </string>
+    <string name="jsih43a"> ڈاکٹر </string>
+    <string name="jsih43b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsih43c"> نرس </string>
+    <string name="jsih43d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsih43e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsih43f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsih43g"> دائی </string>
+    <string name="jsih43h"> حکیم / ہومیو پیتھک </string>
+
+
+    <string name="jsih44"> کیا{Name} کی پہلے معائنہ کے وقت درج ذیل معائنہ کئے گئے؟ </string>
+    <string name="jsih44a"> ناف کا معائنہ </string>
+    <string name="jsih44a01"> ہاں </string>
+    <string name="jsih44a02"> نہیں </string>
+    <string name="jsih44a03"> معلوم نہیں </string>
+    <string name="jsih44b"> خطرناک علامات </string>
+    <string name="jsih44b01"> ہاں </string>
+    <string name="jsih44b02"> نہیں </string>
+    <string name="jsih44b03"> معلوم نہیں </string>
+    <string name="jsih44c"> حرارت </string>
+    <string name="jsih44c01"> ہاں </string>
+    <string name="jsih44c02"> نہیں </string>
+    <string name="jsih44c03"> معلوم نہیں </string>
+    <string name="jsih44d"> ماں کا دودھ پلانے کا مشورہ </string>
+    <string name="jsih44d01"> ہاں </string>
+    <string name="jsih44d02"> نہیں </string>
+    <string name="jsih44d03"> معلوم نہیں </string>
+    <string name="jsih44e"> بچے کا وزن </string>
+    <string name="jsih44e01"> ہاں </string>
+    <string name="jsih44e02"> نہیں </string>
+    <string name="jsih44e03"> معلوم نہیں </string>
+
+
+    <string name="jsih45"> کیا گورنمنٹ کیLHW {Name} کی ولادت کے بعد آپ کے گھر آئیں؟ </string>
+    <string name="jsih45a"> ہاں </string>
+    <string name="jsih45b"> نہیں </string>
+
+
+    <string name="jsih46"> {Name} کی پیدائش کے کتنے دیر بعد LHW نے آپ کے گھر وزٹ کیا؟ </string>
+    <string name="jsih46a"> 24 گھنٹے کے اندر </string>
+    <string name="jsih46b"> ہفتے کے اندر </string>
+    <string name="jsih46c"> مہینے کے اندر </string>
+    <string name="jsih46d"> 6 مہینے کے اندر </string>
+
+
+    <string name="jsih47"> ڈلیوری کے بعد LHWآپ کے گھر کتنے تواتر سے آتی ہے؟ </string>
+    <string name="jsih47a"> روزانہ </string>
+    <string name="jsih47b"> ہر ہفتے </string>
+    <string name="jsih47c"> مہینے میں دو بار </string>
+    <string name="jsih47d"> ہر مہینے </string>
+    <string name="jsih47e"> سال میں دو بار </string>
+    <string name="jsih47f"> سال میں ایک بار </string>
+    <string name="jsih47g"> کوئی شیڈل نہیں ہے </string>
+
+
+    <string name="jsih48"> LHWآپ کے گھر کے وزٹ پر آپ کےساتھ کتنا وقت لگاتی ہے؟ </string>
+    <string name="jsih48a"> منٹ </string>
+    <string name="jsih48b"> معلوم نہیں </string>
+
+
+    <string name="jsih49"> کیا وہ آپ کو آپکے گھر والوں کی اورآپکی صحت کے متعلق معلومات فراہم کرتی ہیں؟ </string>
+    <string name="jsih49a"> ہاں </string>
+    <string name="jsih49b"> نہیں </string>
+
+
+    <string name="jsih50"> کیا آپ ان کی کارکردگی سے مطمئن ہیں؟ </string>
+    <string name="jsih50a"> ہاں </string>
+    <string name="jsih50b"> نہیں </string>
+
+
+    <string name="jsih51"> آپ ان کی کارکرگی سے کتنا مطمئن ہیں؟ </string>
+    <string name="jsih51a"> بہت مطمئن </string>
+    <string name="jsih51b"> مطمئن </string>
+
+
+    <string name="jsih52"> کیا آپ LHWکے بنائے گئے ومن گروپ سے واقف ہیں جوکہ ماؤں اور بچوں کے صحت کے حوالے سے آپ کے علاقے میں منعقد کیا جاتا ہے؟ </string>
+    <string name="jsih52a"> ہاں </string>
+    <string name="jsih52b"> نہیں </string>
+
+
+    <string name="jsih53"> کیا آپ نے کبھی کسی ومن گروپ میں حصہ لیا جو LHW نے منقعد کیا ؟ </string>
+    <string name="jsih53a"> ہاں </string>
+    <string name="jsih53b"> نہیں </string>
+
+
+    <string name="jsih54"> کیا آپ کی کمیونیٹی ان لوگوں کی صحت کے لیئے کچھ اقدامات کرتی ہے جو اس کی حیثیت نہیں رکھتے ؟ </string>
+    <string name="jsih54a"> ہاں </string>
+    <string name="jsih54b"> نہیں </string>
+
+
+    <string name="jsih55"> وہ کیا مالی امداد کے طریقے ہیں جوغریب اور مستحق افراد کی صحت سے متعلق مدد فراہم کرتے ہیں ؟ </string>
+    <string name="jsih55a"> NGO </string>
+    <string name="jsih55b"> گاؤں کی سطح پر فنڈز </string>
+    <string name="jsih55c"> علاقائی مخیر حضرات </string>
+    <string name="jsih55d"> بیرونی مخیر حضرات </string>
+    <string name="jsih55e"> دیگر </string>
+
+
+    <string name="jsih56"> کیا آپ نےاپنے علاقے کے LHW کے بنِائے گئے گاؤں ہیلتھ کمیٹی کے بارے میں سُنا ہے؟ </string>
+    <string name="jsih56a"> ہاں </string>
+    <string name="jsih56b"> نہیں </string>
+
+
+    <string name="jsih57"> کیا آپ کے گھر کےکسی مردنے ہیلتھ کمیٹی میں کبھی بھی حصہ لیتاہے؟ </string>
+    <string name="jsih57a"> ہاں </string>
+    <string name="jsih57b"> نہیں </string>
+
+
+    <string name="jsih58"> {Name} کی دفعہ دورانِ حمل آپ کے شوہر نے مندرجہ ذیل میں سے کوئی مدد فراہم کی؟ </string>
+    <string name="jsih58a"> دورانِ ANCساتھ چلنا </string>
+    <string name="jsih58a01"> ہاں </string>
+    <string name="jsih58a02"> نہیں </string>
+    <string name="jsih58a03"> معلوم نہیں </string>
+    <string name="jsih58b"> دورانِ PNCساتھ چلنا </string>
+    <string name="jsih58b01"> ہاں </string>
+    <string name="jsih58b02"> نہیں </string>
+    <string name="jsih58b03"> معلوم نہیں </string>
+    <string name="jsih58c"> پیدائش کے بارے میں بات چیت </string>
+    <string name="jsih58c01"> ہاں </string>
+    <string name="jsih58c02"> نہیں </string>
+    <string name="jsih58c03"> معلوم نہیں </string>
+    <string name="jsih58d"> گھریلو کام کاج میں مدد </string>
+    <string name="jsih58d01"> ہاں </string>
+    <string name="jsih58d02"> نہیں </string>
+    <string name="jsih58d03"> معلوم نہیں </string>
+    <string name="jsih58e"> بچے کی دیکھ بھال </string>
+    <string name="jsih58e01"> ہاں </string>
+    <string name="jsih58e02"> نہیں </string>
+    <string name="jsih58e03"> معلوم نہیں </string>
+    <string name="jsih58f"> اے این سی کیلئے حوصلہ افزائی </string>
+    <string name="jsih58f01"> ہاں </string>
+    <string name="jsih58f02"> نہیں </string>
+    <string name="jsih58f03"> معلوم نہیں </string>
+    <string name="jsih58g"> دورانِ زچگی مدد </string>
+    <string name="jsih58g01"> ہاں </string>
+    <string name="jsih58g02"> نہیں </string>
+    <string name="jsih58g03"> معلوم نہیں </string>
+
+
+    <string name="jsih59"> MNCH سے متعلقہ ضروریات کو پورا کرنے کیلئے آپ کے پاس مالی مدد کا ذریعہ کیا ہے؟ </string>
+    <string name="jsih59a"> فیملی (شوہر یا اپنے ذرائع) </string>
+    <string name="jsih59b"> بینک/کسی ادارے سے ادھار </string>
+    <string name="jsih59c"> کمیونٹی گردشی فنڈز/کمیٹی </string>
+    <string name="jsih59d"> دوست/رشتہ داروں سے ادھار </string>
+    <string name="jsih59e"> اثاثے کی فروخت </string>
+    <string name="jsih59f"> میڈیکل انشورنس </string>
+    <string name="jsih59g"> دیگر (وضاحت) </string>
+
+
+    <string name="jsih60"> کیا پچھلے حمل/ڈلیوری کے دوران آپ نے کوئی مالی مدد لی؟ </string>
+    <string name="jsih60a"> ہاں </string>
+    <string name="jsih60b"> نہیں </string>
+
+
+    <string name="jsih61"> مالی امداد آپ کو کہاں سے فراہم ہوئی؟ </string>
+    <string name="jsih61a"> فیملی (شوہر یا اپنے ذرائع) </string>
+    <string name="jsih61b"> بینک/کسی ادارے سے ادھار </string>
+    <string name="jsih61c"> کمیونٹی گردشی فنڈز </string>
+    <string name="jsih61d"> دوست/رشتہ داروں سے ادھار </string>
+    <string name="jsih61e"> اثاثے کی فروخت </string>
+    <string name="jsih61f"> میڈیکل انشورنس </string>
+    <string name="jsih61g"> دیگر (وضاحت) </string>
+
+
+    <string name="jsih62"> اس مالی مدد کا بیشتر حصہ کس مقصد کے تحت خرچ ہوا؟ </string>
+    <string name="jsih62a"> ذرائع آمد ورفت </string>
+    <string name="jsih62b"> قبل از پیدائش معائنہ(اے این سی) </string>
+    <string name="jsih62c"> ڈلیوری/سی سیکشن </string>
+    <string name="jsih62d"> ایمرجنسی </string>
+    <string name="jsih62e"> پیدائش کے بعد کا معائنہ </string>
+    <string name="jsih62f"> نوزائدہ یا پانچ سال کے بچے کی صحت </string>
+    <string name="jsih62g"> دیگر (وضاحت) </string>
+
+
+    <string name="jsih63"> فی الوقت آپ نے ادھار کا پورا یا کچھ حصہ واپس کیا؟ </string>
+    <string name="jsih63a"> پورا </string>
+    <string name="jsih63b"> کچھ حصہ </string>
+    <string name="jsih63c"> کچھ بھی واپس نہیں کیا </string>
+
+
+    <string name="jsih64"> یہ ادھار واپس کرنے کیلئے آپ نے کیا طریقے استعمال کئے؟ </string>
+    <string name="jsih64a"> گھر کی آمدن سے </string>
+    <string name="jsih64b"> اثاثے کی فروخت </string>
+    <string name="jsih64c"> کسی اور سے ادھار لے کر واپس </string>
+    <string name="jsih64d"> ڈونیشن/فنڈ ریزنگ </string>
+    <string name="jsih64e"> دیگر (وضاحت) </string>
+
+
+    <string name="jsih65"> بقایا قرض واپس کرنے کیلئے آپ نے کیا لائحہ عمل مرتب کیا؟ </string>
+    <string name="jsih65a"> گھر کی آمدنی سے </string>
+    <string name="jsih65b"> اثاثے کی فروخت </string>
+    <string name="jsih65c"> کسی اور سے ادھار لے کر واپس </string>
+    <string name="jsih65d"> ڈونیشن/فنڈ ریزنگ </string>
+    <string name="jsih65e"> دیگر (وضاحت) </string>
+
+
+    <string name="sectionI_A"> SECTION I-A. CHILD HEALTH </string>
+
+
+    <string name="jsiia01"> کیا آپ کے گھر میں پانچ سال سے کم کسی بچے کو پچھے دو ہفتوں میں دست کی شکایت ہوئی ہے؟ </string>
+    <string name="jsiia01a"> ہاں </string>
+    <string name="jsiia01b"> نہیں </string>
+    <string name="jsiia01c"> معلوم نہیں </string>
+
+
+    <string name="jsiia02"> پچھلے دو ہفتوں میں کتنے بچوں کو دست کی شکایت ہوئی ؟ </string>
+    <string name="jsiia02a"> تعداد </string>
+
+
+    <string name="jsiia03"> {Name} کو کتنے دن تک دست کی شکایت رہی؟ </string>
+    <string name="jsiia03a"> دن </string>
+
+
+    <string name="jsiia04"> کیا پاخانہ میں خون تھا؟ </string>
+    <string name="jsiia04a"> ہاں </string>
+    <string name="jsiia04b"> نہیں </string>
+    <string name="jsiia04c"> معلوم نہیں </string>
+
+
+    <string name="jsiia05"> {Name}کو دستوں کی شکایت ہونے پر کیا آپ نے علاج کروایا؟ </string>
+    <string name="jsiia05a"> ہاں </string>
+    <string name="jsiia05b"> نہیں </string>
+    <string name="jsiia05c"> معلوم نہیں </string>
+
+
+    <string name="jsiia06"> دست کی شکایت کی صورت میں آپ نے {Name} کا علاج کیوں نہیں کروایا؟ </string>
+    <string name="jsiia06a"> مسئلہ اتنا بڑا نہیں تھا کہ علاج کرواتے </string>
+    <string name="jsiia06b"> مرکز صحت کو دینے کے لیے پیسے نہیں تھے </string>
+    <string name="jsiia06c"> ٹرانسپورٹ کی عدم موجودگی </string>
+    <string name="jsiia06d"> کوئی مرد موجود نہیں تھا جو مرکزِ صحت لے کر جاسکے </string>
+    <string name="jsiia06e"> گھر کے سربراہ/ شوہر/ساس نے اجازت نہیں دی </string>
+    <string name="jsiia06f"> مرکز صحت کافی دور تھا </string>
+    <string name="jsiia06g"> مرکز بند تھا </string>
+    <string name="jsiia06h"> ناقص سہولت کی فراہمی </string>
+
+
+    <string name="jsiia07"> دست کی شکایت پر آپ نے{Name}کا علاج کہاں سے کروایا؟ </string>
+    <string name="jsiia07a"> گھر پر </string>
+    <string name="jsiia07b"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsiia07c"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsiia07d"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsiia08"> آپ کو کس نے{Name} کو مرکزِ صحت لے جانے کی تجویز دی؟ </string>
+    <string name="jsiia08a"> ڈاکٹر </string>
+    <string name="jsiia08b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsiia08c"> نرس </string>
+    <string name="jsiia08d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsiia08e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsiia08f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsiia08g"> دائی </string>
+    <string name="jsiia08h"> ہومیوپیتھک/ حکیم </string>
+    <string name="jsiia08i"> خود </string>
+
+
+    <string name="jsiia09"> مرکزِ صحت جہاں آپ نے{Name}کے دستوں کی شکایت ہونے پر علاج کروایا، آپ کے گھر سے کتنا دور ہے؟ </string>
+    <string name="jsiia09a"> کلومیٹر </string>
+    <string name="jsiia09b"> معلوم نہیں </string>
+
+
+    <string name="jsiia10"> جہاں آپ نے{Name} کے دستوں کی شکایت کا علاج کروایا۔ اُس مرکزِ صحت میں جانے کے لیے کتنا وقت لگتا ہے؟ </string>
+    <string name="jsiia10a"> منٹ </string>
+    <string name="jsiia10b"> معلوم نہیں </string>
+
+
+    <string name="jsiia11"> {Name}کا علاج کس نے کیا؟ </string>
+    <string name="jsiia11a"> ڈاکٹر </string>
+    <string name="jsiia11b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsiia11c"> نرس </string>
+    <string name="jsiia11d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsiia11e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsiia11f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsiia11g"> دائی </string>
+    <string name="jsiia11h"> ہومیوپیتھک/ حکیم </string>
+
+
+    <string name="jsiia12"> {Name}کو دستوں کی شکایت کے لیے کیا علاج دیا گیا؟ </string>
+    <string name="jsiia12a"> پانی میں حل شدہ او آر ایس یا پری پیکڈ liquid </string>
+    <string name="jsiia12b"> تجویز کردہ گھریلو فلوئیڈ </string>
+    <string name="jsiia12c"> زیادہ فلوئیڈز </string>
+    <string name="jsiia12d"> انٹی بائیوٹیک ڈرگ(Antibiotic Drug) </string>
+    <string name="jsiia12e"> اینٹی موٹیلٹی(Anti motility) </string>
+    <string name="jsiia12f"> زنک سپلیمنٹ(Zinc Supplement) </string>
+    <string name="jsiia12g"> فلیجل(Flagyl) </string>
+    <string name="jsiia12h"> انجیکشن/ ڈرپ </string>
+    <string name="jsiia12i"> گھریلو نسخے </string>
+
+
+    <string name="jsiia13"> کیا{Name}کو دستوں کے علاج کے لیے ہسپتال میں داخل کیا گیا تھا ؟ </string>
+    <string name="jsiia13a"> ہاں </string>
+    <string name="jsiia13b"> نہیں </string>
+
+
+    <string name="jsiia14"> {Name}کس ہسپتال میں داخل کیا گیا؟ </string>
+    <string name="jsiia14a"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsiia14b"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsiia14c"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsiia15"> {Name}کتنے دنوں کے لے ہسپتال میں داخل رہے؟َ </string>
+    <string name="jsiia15a"> گھنٹے </string>
+    <string name="jsiia15b"> دن </string>
+
+
+    <string name="jsiia16"> {Name}کو دستوں کی تکلیف کے لیے ہسپتال میں کس طرح کا علاج میسر کیا گیا؟ (ایک سے زائد جوابات آسکتے ہیں) </string>
+    <string name="jsiia16a"> اینٹی بائیوٹک گولی یا سیرپ </string>
+    <string name="jsiia16b"> اینٹی موٹلیٹی گولی یا سیرپ </string>
+    <string name="jsiia16c"> انجیکشن اینٹی بائیوٹک </string>
+    <string name="jsiia16d"> انٹراوینس (IV( </string>
+    <string name="jsiia16e"> چاول کا پانی/ rice starch </string>
+    <string name="jsiia16f"> پودینے کا پانی/ mint extract </string>
+    <string name="jsiia16g"> دیگر </string>
+
+
+    <string name="jsiia17"> کیا آپ نے ORS کا نام سنا ہے؟ </string>
+    <string name="jsiia17a"> ہاں </string>
+    <string name="jsiia17b"> نہیں </string>
+
+
+    <string name="jsiia18"> کیا آپ کو او آر ایس بنانے کا طریقہ معلوم ہے؟ </string>
+    <string name="jsiia18a"> ہاں </string>
+    <string name="jsiia18b"> نہیں </string>
+    <string name="jsiia18c"> معلوم نہیں </string>
+
+
+    <string name="jsiia19"> آپ نے او آر ایس بنانا کہاں سے سیکھا؟ </string>
+    <string name="jsiia19a"> ڈاکٹر </string>
+    <string name="jsiia19b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsiia19c"> نرس </string>
+    <string name="jsiia19d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsiia19e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsiia19f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsiia19g"> دائی </string>
+
+
+    <string name="jsiia20"> {Name} کا دستوں کا علاج کروانے پر آپ کے کتنے پیسے لگے؟ </string>
+    <string name="jsiia20a"> روپے </string>
+
+
+    <string name="jsiia21"> {Name} کے دستوں کے علاج کے حصول کے لیے آپ کا ٹرانسپورٹ پر کتنا خرچ ہوا؟ </string>
+    <string name="jsiia21a"> روپے </string>
+
+
+    <string name="sectionI_B"> SECTION I-B. ACUTE RESPIRATORY INFECTION (ARI) </string>
+
+
+    <string name="jsiib01"> کیا آپ کے گھر میں پانچ سال سے کم کسی بچے کو پچھلے دو ہفتوں میں بخار ہوا؟ </string>
+    <string name="jsiib01a"> ہاں </string>
+    <string name="jsiib01b"> نہیں </string>
+    <string name="jsiib01c"> معلوم نہیں </string>
+
+
+    <string name="jsiib02"> آپ کے گھر پچھلے دو ہفتوں میں کتنے بچوں کو بخار ہوا؟ </string>
+    <string name="jsiib02a"> تعداد </string>
+
+
+    <string name="jsiib03"> کیا کسی بچے کو بخار کے ساتھ کھانسی کا مسئلہ پیش آیا۔ جیسے کہ تیزی سے سانس لینا/ یا سانس لینے میں دشواری؟ </string>
+    <string name="jsiib03a"> ہاں </string>
+    <string name="jsiib03b"> نہیں </string>
+    <string name="jsiib03c"> معلوم نہیں </string>
+
+
+    <string name="jsiib04"> پچھلے دو ہفتوں میں کتنے بچوں کو بخار کے ساتھ کھانسی کا مسئلہ پیش آیا۔ جیسے کہ تیزی سے سانس لینا/ یا سانس لیتے میں دشواری؟ </string>
+    <string name="jsiib04x"> تعداد </string>
+
+
+    <string name="jsiib05"> سانس میں دشواری کی وجہ سینے کی خرابی یا ناک بہنا یا بند ہوناتھا ؟ </string>
+    <string name="jsiib05a"> سینے کی خرابی </string>
+    <string name="jsiib05b"> ناک کا بہنا یا بند ہونا </string>
+    <string name="jsiib05c"> دونوں </string>
+
+
+    <string name="jsiib06"> کیا بخار یا کھانسی کے وقت {Name} کی پسلیاں چل رہی تھیں؟ </string>
+    <string name="jsiib06a"> ہاں </string>
+    <string name="jsiib06b"> نہیں </string>
+    <string name="jsiib06c"> معلوم نہیں </string>
+
+
+    <string name="jsiib07"> {Name}کو کتنے دن تک بخار اور کھانسی کی علامات درپیش رہیں؟ </string>
+    <string name="jsiib07a"> دن </string>
+
+
+    <string name="jsiib08"> کیا آپ نے کھانسی، بخار اور سانس میں دشواری کے لیے {Name} کا علاج کروایا؟ </string>
+    <string name="jsiib08a"> ہاں </string>
+    <string name="jsiib08b"> نہیں </string>
+    <string name="jsiib08c"> معلوم نہیں </string>
+
+
+    <string name="jsiib09"> آپ نے {Name}کی بیماری کے لیے علاج کیوں نہیں کروایا؟ </string>
+    <string name="jsiib09a"> مسئلہ اتنا بڑا نہیں تھا کہ علاج کرواتے </string>
+    <string name="jsiib09b"> مرکز صحت کو دینے کے لیے پیسے نہیں تھے </string>
+    <string name="jsiib09c"> ٹرانسپورٹ کی عدم موجودگی </string>
+    <string name="jsiib09d"> کوئی مرد موجود نہیں تھا جو مرکزِ صحت لے کر جاسکے </string>
+    <string name="jsiib09e"> گھر کے سربراہ/ شوہر/ساس نے اجازت نہیں دی </string>
+    <string name="jsiib09f"> مرکز صحت کافی دور تھا </string>
+    <string name="jsiib09g"> مرکز بند تھا </string>
+    <string name="jsiib09h"> ناقص سہولت کی فراہمی </string>
+
+
+    <string name="jsiib10"> {Name}کے بخار، کھانسی اور سانس لینے میں تیزی کے علامات آنے پر، آپ نے کہاں سے علاج کروایا؟ </string>
+    <string name="jsiib10a"> گھر پر </string>
+    <string name="jsiib10b"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsiib10c"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsiib10d"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsiib11"> {Name}کو بخار، کھانسی اور سانس لینے میں تیزی کے لیے علاج کا مشورہ کس نے دیا؟ </string>
+    <string name="jsiib11a"> ڈاکٹر </string>
+    <string name="jsiib11b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsiib11c"> نرس </string>
+    <string name="jsiib11d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsiib11e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsiib11f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsiib11g"> دائی </string>
+    <string name="jsiib11h"> ہومیوپیتھک/ حکیم </string>
+    <string name="jsiib11i"> خود </string>
+
+
+    <string name="jsiib12"> وہ مرکزِ صحت جہاں{Name}کے کھانسی، بخار یا سانس لینے میں تیزی کے علامات کے لیے علاج کروایا، آپ کے گھر سے کتنے فاصلے پر ہے؟ </string>
+    <string name="jsiib12a"> کلومیٹر </string>
+    <string name="jsiib12b"> معلوم نہیں </string>
+
+
+    <string name="jsiib13"> مرکزِ صحت میں پہنچنے میں آپ کو کتنا وقت لگا، جہاں آپ نے {Name} کی کھانسی، بخار اور سانس لینے میں تیزی کے علامات کا علاج کروایا؟ </string>
+    <string name="jsiib13a"> منٹ </string>
+    <string name="jsiib13b"> معلوم نہیں </string>
+
+
+    <string name="jsiib14"> {Name} کے بخار، کھانسی اور سانس لینے میں تیزی کا علاج کس نے کیا؟ </string>
+    <string name="jsiib14a"> ڈاکٹر </string>
+    <string name="jsiib14b"> LHV(لیڈی ہیلتھ وزیٹر) </string>
+    <string name="jsiib14c"> نرس </string>
+    <string name="jsiib14d"> CMW(کمیونٹی مڈوائف) </string>
+    <string name="jsiib14e"> ڈسپنسر/کمپاؤنڈر </string>
+    <string name="jsiib14f"> LHW(لیڈی ہیلتھ ورکر) </string>
+    <string name="jsiib14g"> دائی </string>
+    <string name="jsiib14h"> ہومیوپیتھک/ حکیم </string>
+
+
+    <string name="jsiib15"> کیا {Name} کو کھانسی ، بخاری یا سانس لینے میں تیزی کے علامات درپیش ہونے پر ہسپتال میں داخل کیا گیا؟ </string>
+    <string name="jsiib15a"> ہاں </string>
+    <string name="jsiib15b"> نہیں </string>
+
+
+    <string name="jsiib16"> {Name} کو بخار، کھانسی اور سانس میں تیزی کے علامات پیش آنے پر کہاں داخل کیا گیا؟ </string>
+    <string name="jsiib16a"> گورنمنٹ مرکز صحت میں </string>
+    <string name="jsiib16b"> پرائیوٹ مرکز صحت میں </string>
+    <string name="jsiib16c"> NGO مرکز صحت میں </string>
+
+
+    <string name="jsiib17"> {Name}کو کھانسی، بخار اور سانس لینے میں تیزی کے علاج کے لیے کتنے دن تک ہسپتال میں رکھا گیا؟ </string>
+    <string name="jsiib17a"> دن </string>
+
+
+    <string name="jsiib18"> کیا{Name}کو کھانسی، بخار یا سانس لینے میں تیزی کے لیے کوئی ادویات دی گئی؟ </string>
+    <string name="jsiib18a"> ہاں </string>
+    <string name="jsiib18b"> نہیں </string>
+    <string name="jsiib18c"> معلوم نہیں </string>
+
+
+    <string name="jsiib19"> {Name}کو کیا علاج فراہم کیا گیا تھا؟ </string>
+    <string name="jsiib19a"> کلوروکوینChloroquine </string>
+    <string name="jsiib19b"> ایموڈایقوینAmodiaquine </string>
+    <string name="jsiib19c"> کیونینQuinine </string>
+    <string name="jsiib19d"> ارٹیمسنینArtemisinin </string>
+    <string name="jsiib19e"> کمبینیشنCombination </string>
+    <string name="jsiib19f"> کوئی اور ملیریا کی ادویات </string>
+    <string name="jsiib19g"> گولی / سیرپ </string>
+    <string name="jsiib19h"> اینجیکشن </string>
+    <string name="jsiib19i"> پونسٹینPonstan </string>
+    <string name="jsiib19j"> پیراسیٹامولParacetamol </string>
+    <string name="jsiib19k"> ابوپروفینIbuprofen </string>
+    <string name="jsiib19l"> کھانسی کا سیرپ </string>
+
+
+    <string name="jsiib20"> کیا(نام) کی چھاتی کا ایکسرے(X-ray)ہوا؟ </string>
+    <string name="jsiib20a"> ہاں </string>
+    <string name="jsiib20b"> نہیں </string>
+    <string name="jsiib20c"> معلوم نہیں </string>
+
+
+    <string name="jsiib21"> کیا بیماری کے دوران کسی بھی وقت {Name} کی انگلی یا ایڑی سے خون کا نمونہ لیا گیا؟ </string>
+    <string name="jsiib21a"> ہاں </string>
+    <string name="jsiib21b"> نہیں </string>
+    <string name="jsiib21c"> معلوم نہیں </string>
+
+
+    <string name="jsiib22"> {Name} کے کھانسی، بخار اور سانس لینے کی تیزی کا علاج کروانے پر کتنا خرچ آیا؟ </string>
+    <string name="jsiib22a"> روپے </string>
+
+
+    <string name="jsiib23"> کبھی کبھار بچے شدید بیمار ہوجاتے ہیں اور ان کو مرکزِ صحت لے جانا پڑتا ہے۔ وہ کیا علامات ہیں جن کی صورت میں آپ 5سال سے کم بچے کو فو راًمرکزِ صحت لے جائیں گے </string>
+    <string name="jsiib23a"> بچہ ماں کا دودھ یا کچھ بھی پی نہیں پا رہا </string>
+    <string name="jsiib23b"> بچہ کا چڑ چڑا پن </string>
+    <string name="jsiib23c"> بخار چڑھنا </string>
+    <string name="jsiib23d"> تیزی سے سانس لینا </string>
+    <string name="jsiib23e"> سانس لینے میں دشواری </string>
+    <string name="jsiib23f"> پاخانہ میں خون آنا </string>
+    <string name="jsiib23g"> الٹیاں ہونا </string>
+    <string name="jsiib23h"> جھٹکے پڑنا </string>
+    <string name="jsiib23i"> بچہ کا بے حال ہونا </string>
+    <string name="jsiib23j"> بے حوش ہو جانا </string>
+    <string name="jsiib23k"> بچہ کی جلد پیلا پڑ جانا </string>
+    <string name="jsiib23l"> دیگر </string>
+
+
+    <string name="jsij00"> کیا{Name} کو کبھی حفاظتی ٹیکے لگے ہیں، بیماریوں سے بچاؤ کے لیے، جیسے کہ حفاظتی ٹیکوں کی مہم کے دوران </string>
+    <string name="jsij00a"> ہاں </string>
+    <string name="jsij00b"> نہیں </string>
+    <string name="jsij00c"> معلوم نہیں </string>
+
+
+    <string name="jsij01"> کیا( بچے کا نام) حفاظتی ٹیکوں کا کارڈ موجود ہے؟ </string>
+    <string name="jsij01a"> ہاں ، دیکھا ہے </string>
+    <string name="jsij01b"> ہاں، نہیں دیکھا </string>
+    <string name="jsij01c"> نہیں </string>
+
+
+    <string name="jsij02"> پیدائش کے فورا ً بعد </string>
+    <string name="jsij02a"> BCG </string>
+    <string name="jsij02a01"> دن </string>
+    <string name="jsij02a02"> مہینہ </string>
+    <string name="jsij02a03"> سال </string>
+    <string name="jsij02b"> OPV-0 </string>
+    <string name="jsij02b01"> دن </string>
+    <string name="jsij02b02"> مہینہ </string>
+    <string name="jsij02b03"> سال </string>
+
+
+    <string name="jsij03"> 6 ہفتے کی عمر میں </string>
+    <string name="jsij03a"> OPV-I </string>
+    <string name="jsij03a01"> دن </string>
+    <string name="jsij03a02"> مہینہ </string>
+    <string name="jsij03a03"> سال </string>
+    <string name="jsij03b"> Pentavalent-I </string>
+    <string name="jsij03b01"> دن </string>
+    <string name="jsij03b02"> مہینہ </string>
+    <string name="jsij03b03"> سال </string>
+    <string name="jsij03c"> PCV10-I </string>
+    <string name="jsij03c01"> دن </string>
+    <string name="jsij03c02"> مہینہ </string>
+    <string name="jsij03c03"> سال </string>
+    <string name="jsij03d"> Rota-I </string>
+    <string name="jsij03d01"> دن </string>
+    <string name="jsij03d02"> مہینہ </string>
+    <string name="jsij03d03"> سال </string>
+
+
+    <string name="jsij04"> 6 ہفتے کی عمر میں </string>
+    <string name="jsij04a"> OPV-II </string>
+    <string name="jsij04a01"> دن </string>
+    <string name="jsij04a02"> مہینہ </string>
+    <string name="jsij04a03"> سال </string>
+    <string name="jsij04b"> Pentavalent-II </string>
+    <string name="jsij04b01"> دن </string>
+    <string name="jsij04b02"> مہینہ </string>
+    <string name="jsij04b03"> سال </string>
+    <string name="jsij04c"> PCV10-II </string>
+    <string name="jsij04c01"> دن </string>
+    <string name="jsij04c02"> مہینہ </string>
+    <string name="jsij04c03"> سال </string>
+    <string name="jsij04d"> Rota-II </string>
+    <string name="jsij04d01"> دن </string>
+    <string name="jsij04d02"> مہینہ </string>
+    <string name="jsij04d03"> سال </string>
+
+
+    <string name="jsij05"> 14 ہفتے کی عمر میں </string>
+    <string name="jsij05a"> Pentavalent-III </string>
+    <string name="jsij05a01"> دن </string>
+    <string name="jsij05a02"> مہینہ </string>
+    <string name="jsij05a03"> سال </string>
+    <string name="jsij05b"> PCV10-III </string>
+    <string name="jsij05b01"> دن </string>
+    <string name="jsij05b02"> مہینہ </string>
+    <string name="jsij05b03"> سال </string>
+    <string name="jsij05c"> IPV </string>
+    <string name="jsij05c01"> دن </string>
+    <string name="jsij05c02"> مہینہ </string>
+    <string name="jsij05c03"> سال </string>
+
+
+    <string name="jsij06"> 9 ماہ کے فورا بعد </string>
+    <string name="jsij06a"> Measles-I </string>
+    <string name="jsij06a01"> دن </string>
+    <string name="jsij06a02"> مہینہ </string>
+    <string name="jsij06a03"> سال </string>
+
+
+    <string name="jsij07"> 15 ماہ کے فورا بعد </string>
+
+    <string name="jsij07a01"> دن </string>
+    <string name="jsij07a02"> مہینہ </string>
+    <string name="jsij07a03"> سال </string>
+
+
+    <string name="jsij08"> کیا{Name}کو پیدائش کے فوراًبعد (BCG Vaccination) بی سی جی ویکسینیشن (TB)ٹیوبز کولوسس کے خلاف دی جاتی ہے، جو بازو یا کندھے پر لگائی جاتی ہے اور اس سے عموماً نشان رہ جاتا ہے؟ </string>
+    <string name="jsij08a"> ہاں </string>
+    <string name="jsij08b"> نہیں </string>
+    <string name="jsij08c"> معلوم نہیں </string>
+
+
+    <string name="jsij09"> کیا {Name} کو کبھی کوئی حفاظتے قطرے منہ میں پلائے گئے ہیں، جیسے کہ پولیو کے؟جو پولیو کی بیماری سے بچاتے ہیں ۔ </string>
+    <string name="jsij09a"> ہاں </string>
+    <string name="jsij09b"> نہیں </string>
+    <string name="jsij09c"> معلوم نہیں </string>
+
+
+    <string name="jsij10"> کتنی بار{Name}کو یہ POLIOقطرے پلائے گئے ہیں؟ </string>
+    <string name="jsij10a"> تعداد </string>
+    <string name="jsij10b"> معلوم نہیں </string>
+
+
+    <string name="jsij11"> کیا{Name}کو کبھی ’ڈی ٹی پی‘ ویکسینیشن دی گئی ہے، جو ایک اینجیکشن ہے جسے ران یا کولہے پر لگایا جاتا ہے جو تشنج، کالی کھانسی، خناق سے بچاؤ کے لیے۔( کبھی پولیو کے ساتھ دی جاتی ہے) </string>
+    <string name="jsij11a"> ہاں </string>
+    <string name="jsij11b"> نہیں </string>
+    <string name="jsij11c"> معلوم نہیں </string>
+
+
+    <string name="jsij12"> NAME کو PENTA VACCINEکتنی مرتبہ دی گئی؟ </string>
+    <string name="jsij12a"> تعداد </string>
+    <string name="jsij12b"> معلوم نہیں </string>
+
+
+    <string name="jsij13"> کیا {Name}کو Pneumococcal vaccination لگوایا گیا؟یہ انجیکشن ران پر لگایا جاتا ہے (PENTAاور پولیو کے ساتھ لگایا جاتا ہے) </string>
+    <string name="jsij13a"> ہاں </string>
+    <string name="jsij13b"> نہیں </string>
+    <string name="jsij13c"> معلوم نہیں </string>
+
+
+    <string name="jsij14"> NAME کو کتنی مرتبہ Pneumococcal vaccination لگوایا گیا؟ </string>
+    <string name="jsij14a"> تعداد </string>
+    <string name="jsij14b"> معلوم نہیں </string>
+
+
+    <string name="jsij15"> کیا {Name} کو injectable polio vaccine لگوایا گیا جس وقت دوسرے حفاظتی ٹیکے لگوائے گئے؟ </string>
+    <string name="jsij15a"> ہاں </string>
+    <string name="jsij15b"> نہیں </string>
+    <string name="jsij15c"> معلوم نہیں </string>
+
+
+    <string name="jsij16"> کیا {Name} کو خسرے کی ویکسینیشن/خسرے سے بچاؤ کا ٹیکہ یا کبھی لگا، جو بازو پر 9ماہ کی عمر یا اُس سے زیادہ میں خسرے سے بچاؤ کے لیے لگایا جاتاہے؟ </string>
+    <string name="jsij16a"> ہاں </string>
+    <string name="jsij16b"> نہیں </string>
+    <string name="jsij16c"> معلوم نہیں </string>
+
+
+    <string name="jsij17"> NAMEکع کتنی مرتبہ خسرہ کا ویکسین انجکشن یا MMR لگوایا گیا؟ </string>
+    <string name="jsij17a"> تعداد </string>
+    <string name="jsij17b"> معلوم نہیں </string>
+
+
+    <string name="jsij18"> کیا {Name} کودست کےلیے Rotavirus vaccineدیا گیا؟ </string>
+    <string name="jsij18a"> ہاں </string>
+    <string name="jsij18b"> نہیں </string>
+    <string name="jsij18c"> معلوم نہیں </string>
+
+
+    <string name="jsij19"> NAMEکو کتنی مرتبہ Rotavirus vaccine دیا گیا؟ </string>
+    <string name="jsij19a"> تعداد </string>
+    <string name="jsij19b"> معلوم نہیں </string>
+
+
+    <string name="sectionK"> SECTION K:FAMILY PLANNING </string>
+
+
+    <string name="jsik01"> کیا آپ نے کبھی حمل میں وقفہ کرنے کے طریقہ کار کے بارے میں سنا ہے؟ </string>
+    <string name="jsik01a"> ہاں </string>
+    <string name="jsik01b"> نہیں </string>
+
+
+    <string name="jsik02"> کیا آپ نے کسی طریقہ کا استعمال حمل میں وقفے یا حمل سے بچاؤ کے لیےکیا؟ </string>
+    <string name="jsik02a"> ہاں </string>
+    <string name="jsik02b"> نہیں </string>
+
+
+    <string name="jsik03"> کیا آپ فی الحال حمل میں وقفے/بچاؤ کے لیے کوئی طریقہ استعمال کررہی ہیں؟ </string>
+    <string name="jsik03a"> ہاں </string>
+    <string name="jsik03b"> نہیں </string>
+
+
+    <string name="jsik04"> آپ حمل میں وقفے/بچاؤ کے لیے کونسا طریقہ استعمال کررہی ہیں؟اگر ایک سے زیادہ طریقہ کار ہوتو سب آپشن پر دائرہ لگائیں (آمادہ نہ کریں) </string>
+    <string name="jsik04a"> خواتین کی نصبندی/ Female Sterilization </string>
+    <string name="jsik04b"> مردوں کی نصبندی /Male Sterilization </string>
+    <string name="jsik04c"> آئی یو ڈی /IUD (Intrauterine Device) </string>
+    <string name="jsik04d"> انجیکشن / Injection </string>
+    <string name="jsik04e"> امپلانٹ / Implants </string>
+    <string name="jsik04f"> گولیاں / Pills </string>
+    <string name="jsik04g"> کنڈم / Condom </string>
+    <string name="jsik04h"> ایس ڈی ایم SDM (Standard Days Method) </string>
+    <string name="jsik04i"> لیکٹیشن امن کا طریقہ کارLactation amen method </string>
+    <string name="jsik04j"> ردم کا طریقہ کار Rhythm method </string>
+    <string name="jsik04k"> وڈرول Withdrawal </string>
+    <string name="jsik04l"> کوئی جدید طریقہ Other modern method </string>
+    <string name="jsik04m"> کوئی روایتی طریقہOther traditional method </string>
+
+
+    <string name="jsik05"> آپ کو موجودہ حمل میں وقفے/بچاؤ کا طریقہ کہاں سے میسر ہوا؟ </string>
+    <string name="jsik05a"> سرکاری ہسپتال </string>
+    <string name="jsik05b"> خاندان کے فلاح وبہبود کا سینٹر </string>
+    <string name="jsik05c"> موبائل سروس کیمپ </string>
+    <string name="jsik05d"> لیڈی ہیلتھ ورکر </string>
+    <string name="jsik05e"> لیڈی ہیلتھ وزیٹر </string>
+    <string name="jsik05f"> پرائیوٹ ہسپتال </string>
+    <string name="jsik05g"> ہومیوپیتھک </string>
+    <string name="jsik05h"> فارمیسی / کیمسٹ </string>
+    <string name="jsik05i"> دوست/ رشتہ دار </string>
+    <string name="jsik05j"> حکیم </string>
+    <string name="jsik05k"> دائی </string>
+    <string name="jsik05l"> شوہر </string>
+
+
+    <string name="sectionL"> Section L: Experience of visiting health facility </string>
+
+
+    <string name="jsil01"> پچھلے تین مہینوں کے دوران آپ یا آپ کے گھر کے فرد نے مرکزصحت کا دورہ کیا؟ </string>
+    <string name="jsil01a"> ہاں </string>
+    <string name="jsil01b"> نہیں </string>
+
+
+    <string name="jsil02"> کیا وہ مرکز صحت سرکاری تھا یا پرائیویٹ؟ </string>
+    <string name="jsil02a"> سرکاری مرکزصحت </string>
+    <string name="jsil02b"> پرائیویٹ مرکز صحت </string>
+
+
+    <string name="jsil03"> مرکزِصحت جانے تک کتنا ٹائم لگتا ہے؟ </string>
+    <string name="jsil03a"> ایک گھنٹے سے کم </string>
+    <string name="jsil03b"> ایک گھنٹہ </string>
+    <string name="jsil03c"> دو گھنٹے </string>
+    <string name="jsil03d"> دو گھنٹے سے زیادہ </string>
+
+
+    <string name="jsil04"> جب آپ نے شرکت کی ہے اس سے قبل انتظار کیا گیا تھا؟ </string>
+    <string name="jsil04a"> بہت خراب </string>
+    <string name="jsil04b"> خراب </string>
+    <string name="jsil04c"> نہ خراب نہ اچھا </string>
+    <string name="jsil04d"> اچھا </string>
+
+
+    <string name="jsil05"> مرکز صحت تک پہنچنے میں کتنا وقت لگتا ہے؟ </string>
+    <string name="jsil05a"> بہت خراب </string>
+    <string name="jsil05b"> خراب </string>
+    <string name="jsil05c"> نہ خراب نہ اچھا </string>
+    <string name="jsil05d"> اچھا </string>
+
+
+    <string name="jsil06"> آپ کے تجربے کے مطابق مرکز صحت پر آپ سے کس طرح بات کی گئی؟ </string>
+    <string name="jsil06a"> بہت خراب </string>
+    <string name="jsil06b"> خراب </string>
+    <string name="jsil06c"> نہ خراب نہ اچھا </string>
+    <string name="jsil06d"> اچھا </string>
+
+
+    <string name="jsil07"> کیا مرکزصحت پر ڈاکٹر، نرس یا دیگر صحت کے کارکن کا آپ سے بات کرنے کا طریقہ کیسا تھا؟ </string>
+    <string name="jsil07a"> بہت خراب </string>
+    <string name="jsil07b"> خراب </string>
+    <string name="jsil07c"> نہ خراب نہ اچھا </string>
+    <string name="jsil07d"> اچھا </string>
+
+
+    <string name="jsil08"> کیا صحت کے کارکن نے آپ کو صحیح طریقے سے بات سمجھائی جو آپ کو سمجھ میں آئی ہو؟ </string>
+    <string name="jsil08a"> بہت خراب </string>
+    <string name="jsil08b"> خراب </string>
+    <string name="jsil08c"> نہ خراب نہ اچھا </string>
+    <string name="jsil08d"> اچھا </string>
+
+
+    <string name="jsil09"> آپ کی صحت اور علاج کے بارے میں آپ سے کتنی دیر تک سوالات کیےگیے؟ </string>
+    <string name="jsil09a"> بہت خراب </string>
+    <string name="jsil09b"> خراب </string>
+    <string name="jsil09c"> نہ خراب نہ اچھا </string>
+    <string name="jsil09d"> اچھا </string>
+
+
+    <string name="jsil10"> کیا آ پ کی ذاتی معلومات کو راز میں رکھی جاتی ہے؟ </string>
+    <string name="jsil10a"> بہت خراب </string>
+    <string name="jsil10b"> خراب </string>
+    <string name="jsil10c"> نہ خراب نہ اچھا </string>
+    <string name="jsil10d"> اچھا </string>
+
+
+    <string name="jsil11"> جسمانی چیک اپ اور علاج کے دوران آپ کی رازداری کا احترام کیا گیا تھا؟ </string>
+    <string name="jsil11a"> بہت خراب </string>
+    <string name="jsil11b"> خراب </string>
+    <string name="jsil11c"> نہ خراب نہ اچھا </string>
+    <string name="jsil11d"> اچھا </string>
+
+
+    <string name="jsil12"> کیا آپ صحت کے کارکن سے رازداری میں بات کر سکتیں ہیں؟ </string>
+    <string name="jsil12a"> بہت خراب </string>
+    <string name="jsil12b"> خراب </string>
+    <string name="jsil12c"> نہ خراب نہ اچھا </string>
+    <string name="jsil12d"> اچھا </string>
+
+
+    <string name="jsil13"> آپ کی صحت کی دیکھ بھال یا علاج کے بارے میں فیصلے کرنے میں ملوث ہونے کا آپ کا تجربہ؟ </string>
+    <string name="jsil13a"> بہت خراب </string>
+    <string name="jsil13b"> خراب </string>
+    <string name="jsil13c"> نہ خراب نہ اچھا </string>
+    <string name="jsil13d"> اچھا </string>
+
+
+    <string name="jsil14"> دیگر اقسام کے علاج یا ٹیسٹ اور انتخاب بنانے کے بارے میں معلومات حاصل کرنے کا تجربہ؟ </string>
+    <string name="jsil14a"> بہت خراب </string>
+    <string name="jsil14b"> خراب </string>
+    <string name="jsil14c"> نہ خراب نہ اچھا </string>
+    <string name="jsil14d"> اچھا </string>
+
+
+    <string name="jsil15"> آپ کی [صحت کی دیکھ بھال فراہم کنندہ] کو منتخب کرنے کی آزادی؟ </string>
+    <string name="jsil15a"> بہت خراب </string>
+    <string name="jsil15b"> خراب </string>
+    <string name="jsil15c"> نہ خراب نہ اچھا </string>
+    <string name="jsil15d"> اچھا </string>
+
+
+    <string name="jsil16"> مرکز صحت پر خاندان اور دوست با آسانی آپ سے مل سکتے ہیں؟ </string>
+    <string name="jsil16a"> بہت خراب </string>
+    <string name="jsil16b"> خراب </string>
+    <string name="jsil16c"> نہ خراب نہ اچھا </string>
+    <string name="jsil16d"> اچھا </string>
+
+
+    <string name="jsil17"> مرکز صحت کے اندر کمروں کی صفائی بشمول ٹوائلٹ ؟ </string>
+    <string name="jsil17a"> بہت خراب </string>
+    <string name="jsil17b"> خراب </string>
+    <string name="jsil17c"> نہ خراب نہ اچھا </string>
+    <string name="jsil17d"> اچھا </string>
+
+
+    <string name="jsil18"> انتظار گاہ اور جسمانی چیک اپ کمرے میں جگہ کی مقدار؟ </string>
+    <string name="jsil18a"> بہت خراب </string>
+    <string name="jsil18b"> خراب </string>
+    <string name="jsil18c"> نہ خراب نہ اچھا </string>
+    <string name="jsil18d"> اچھا </string>
+
+
+    <string name="jsil19"> جنس </string>
+    <string name="jsil19a"> ہاں </string>
+    <string name="jsil19b"> نہیں </string>
+
+
+    <string name="jsil20"> عمر </string>
+    <string name="jsil20a"> ہاں </string>
+    <string name="jsil20b"> نہیں </string>
+
+
+    <string name="jsil21"> پئسے کی کمی </string>
+    <string name="jsil21a"> ہاں </string>
+    <string name="jsil21b"> نہیں </string>
+
+
+    <string name="jsil22"> سماجی فرق، ذات یا برادری </string>
+    <string name="jsil22a"> ہاں </string>
+    <string name="jsil22b"> نہیں </string>
+
+
+    <string name="jsil23"> نسل یا ذات </string>
+    <string name="jsil23a"> ہاں </string>
+    <string name="jsil23b"> نہیں </string>
+
+
+    <string name="jsil24"> بیماری کا قسم </string>
+    <string name="jsil24a"> ہاں </string>
+    <string name="jsil24b"> نہیں </string>
+
+
+    <string name="jsil25"> مذہبی فرق </string>
+    <string name="jsil25a"> ہاں </string>
+    <string name="jsil25b"> نہیں </string>
+
+
+    <string name="sectionM"> Section M: Community Interactions </string>
+
+
+    <string name="jsim01"> اپنے گاؤں / شہر میں ایک دوسرے کے قریب رہتے ہیں؟ </string>
+    <string name="jsim01a"> امکان نہیں </string>
+    <string name="jsim01b"> کچھ امکان ہے </string>
+    <string name="jsim01c"> ممنوع امکان </string>
+
+
+    <string name="jsim02"> ایک دوسرے کی موت / پیدائش / یا دیگر تقریبات میں شرکت </string>
+    <string name="jsim02a"> امکان نہیں </string>
+    <string name="jsim02b"> کچھ امکان ہے </string>
+    <string name="jsim02c"> ممنوع امکان </string>
+
+
+    <string name="jsim03"> ایک ساتھ کھانا کھانا، برتن کا اشتراک کرنا؟ </string>
+    <string name="jsim03a"> امکان نہیں </string>
+    <string name="jsim03b"> کچھ امکان ہے </string>
+    <string name="jsim03c"> ممنوع امکان </string>
+
+
+    <string name="jsim04"> پانی اور آباش کا ذریعہ استعمال کرتے ہیں </string>
+    <string name="jsim04a"> امکان نہیں </string>
+    <string name="jsim04b"> کچھ امکان ہے </string>
+    <string name="jsim04c"> ممنوع امکان </string>
+
+
+    <string name="jsim05"> کمیونٹی کی فلاح و بہبود کے لئے مل کر کام کرتے ہیں۔ </string>
+    <string name="jsim05a"> امکان نہیں </string>
+    <string name="jsim05b"> کچھ امکان ہے </string>
+    <string name="jsim05c"> ممنوع امکان </string>
+
+
+    <string name="jsim06"> مختلف ذات میں شادی وغیرہ کا رواج </string>
+    <string name="jsim06a"> امکان نہیں </string>
+    <string name="jsim06b"> کچھ امکان ہے </string>
+    <string name="jsim06c"> ممنوع امکان </string>
+
+
+    <string name="sectionN"> Section N. Social Processing </string>
+
+
+    <string name="jsin01"> آپ مطمئن زندگی گذارتے ہیں؟ </string>
+    <string name="jsin01a"> بلکل غیر متفق </string>
+    <string name="jsin01b"> کچھ غیر متفق </string>
+    <string name="jsin01c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin01d"> کچھ متفق </string>
+
+
+    <string name="jsin02"> آگے کی زندگی کے لیئے اچھے منصوبے بہتر ہے۔ </string>
+    <string name="jsin02a"> بلکل غیر متفق </string>
+    <string name="jsin02b"> کچھ غیر متفق </string>
+    <string name="jsin02c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin02d"> کچھ متفق </string>
+
+
+    <string name="jsin03"> لوگ جیسی زندگی گزارنا چاہتے ہیں ویسی گزارتے ہیں۔ </string>
+    <string name="jsin03a"> بلکل غیر متفق </string>
+    <string name="jsin03b"> کچھ غیر متفق </string>
+    <string name="jsin03c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin03d"> کچھ متفق </string>
+
+
+    <string name="jsin04"> حکومت کیا کرتی ہے اس بارے میں لوگ کچھ کہتے ہیں؟ </string>
+    <string name="jsin04a"> بلکل غیر متفق </string>
+    <string name="jsin04b"> کچھ غیر متفق </string>
+    <string name="jsin04c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin04d"> کچھ متفق </string>
+
+
+    <string name="jsin05"> لوگوں کو معلومات ہوتی ہے کہ اگر کوئی سرکاری کارکن غیر حاضر ہو؟ </string>
+    <string name="jsin05a"> بلکل غیر متفق </string>
+    <string name="jsin05b"> کچھ غیر متفق </string>
+    <string name="jsin05c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin05d"> کچھ متفق </string>
+
+
+    <string name="jsin06"> لوگوں کو معلوم ہے کہ صحت کی سہولیات نہ ہونے پر شکایت کیسے کرنی ہے؟ </string>
+    <string name="jsin06a"> بلکل غیر متفق </string>
+    <string name="jsin06b"> کچھ غیر متفق </string>
+    <string name="jsin06c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin06d"> کچھ متفق </string>
+
+
+    <string name="jsin07"> لوگوں کو معلومات ہوتی ہے کہ اگر کوئی صحت کارکن غیر حاضر ہو تو شکایت کہاں کرنی ہے؟ </string>
+    <string name="jsin07a"> بلکل غیر متفق </string>
+    <string name="jsin07b"> کچھ غیر متفق </string>
+    <string name="jsin07c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin07d"> کچھ متفق </string>
+
+
+    <string name="jsin08"> بہت سالوں سے صحت کے افسران توجہ دے رہے ہیں پلان بناتے ہوئے لوگوں کی صحت ضروریات کے بارے میں۔ </string>
+    <string name="jsin08a"> بلکل غیر متفق </string>
+    <string name="jsin08b"> کچھ غیر متفق </string>
+    <string name="jsin08c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin08d"> کچھ متفق </string>
+
+
+    <string name="jsin09"> پارلیمنٹ کے لوگ جب قانون بناتے ہیں لوگوں کی ضروریات کا دھیان دیتے ہیں۔ </string>
+    <string name="jsin09a"> بلکل غیر متفق </string>
+    <string name="jsin09b"> کچھ غیر متفق </string>
+    <string name="jsin09c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin09d"> کچھ متفق </string>
+
+
+    <string name="jsin10"> پبلک آفیشل خیال نہیں کرتے کہ لوگ انکے بارے میں کیا سوچھتے ہیں۔ </string>
+    <string name="jsin10a"> بلکل غیر متفق </string>
+    <string name="jsin10b"> کچھ غیر متفق </string>
+    <string name="jsin10c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin10d"> کچھ متفق </string>
+
+
+    <string name="jsin11"> لوگوں کو اپنی ڈیوٹی پر تعلیم دی جائے اپنے فرائض اور انسانی حقوق کے بارے میں۔ </string>
+    <string name="jsin11a"> بلکل غیر متفق </string>
+    <string name="jsin11b"> کچھ غیر متفق </string>
+    <string name="jsin11c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin11d"> کچھ متفق </string>
+
+
+    <string name="jsin12"> سیاسی ادارے مختلف مرحلوں پر لوگوں کے عمر کے بارے میں قانون بنا کر خطاب کرتے ہیں۔ </string>
+    <string name="jsin12a"> بلکل غیر متفق </string>
+    <string name="jsin12b"> کچھ غیر متفق </string>
+    <string name="jsin12c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin12d"> کچھ متفق </string>
+
+
+    <string name="jsin13"> قانون کی نظر میں سب برابر ہیں۔ </string>
+    <string name="jsin13a"> بلکل غیر متفق </string>
+    <string name="jsin13b"> کچھ غیر متفق </string>
+    <string name="jsin13c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin13d"> کچھ متفق </string>
+
+
+    <string name="jsin14"> ہیلتھ سروس (صحت خدمات) </string>
+    <string name="jsin14a"> بلکل غیر متفق </string>
+    <string name="jsin14b"> کچھ غیر متفق </string>
+    <string name="jsin14c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin14d"> کچھ متفق </string>
+
+
+    <string name="jsin15"> تعلیم کی سہولت </string>
+    <string name="jsin15a"> بلکل غیر متفق </string>
+    <string name="jsin15b"> کچھ غیر متفق </string>
+    <string name="jsin15c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin15d"> کچھ متفق </string>
+
+
+    <string name="jsin16"> پانی کی سہولیات </string>
+    <string name="jsin16a"> بلکل غیر متفق </string>
+    <string name="jsin16b"> کچھ غیر متفق </string>
+    <string name="jsin16c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin16d"> کچھ متفق </string>
+
+
+    <string name="jsin17"> صحت و صفائی اور کوڑانمٹائی </string>
+    <string name="jsin17a"> بلکل غیر متفق </string>
+    <string name="jsin17b"> کچھ غیر متفق </string>
+    <string name="jsin17c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin17d"> کچھ متفق </string>
+
+
+    <string name="jsin18"> بجلی </string>
+    <string name="jsin18a"> بلکل غیر متفق </string>
+    <string name="jsin18b"> کچھ غیر متفق </string>
+    <string name="jsin18c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin18d"> کچھ متفق </string>
+
+
+    <string name="jsin19"> عمارتیں / گلیاں/ سڑکیں </string>
+    <string name="jsin19a"> بلکل غیر متفق </string>
+    <string name="jsin19b"> کچھ غیر متفق </string>
+    <string name="jsin19c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin19d"> کچھ متفق </string>
+
+
+    <string name="jsin20"> انکم سپورٹ سروس غریبوں کے لیئے </string>
+    <string name="jsin20a"> بلکل غیر متفق </string>
+    <string name="jsin20b"> کچھ غیر متفق </string>
+    <string name="jsin20c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin20d"> کچھ متفق </string>
+
+
+    <string name="jsin21"> روزگار کے مواقع فراہم کرنے کے لئیے </string>
+    <string name="jsin21a"> بلکل غیر متفق </string>
+    <string name="jsin21b"> کچھ غیر متفق </string>
+    <string name="jsin21c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin21d"> کچھ متفق </string>
+
+
+    <string name="jsin22"> جرائم ختم کرنے کے لیے خدمات </string>
+    <string name="jsin22a"> بلکل غیر متفق </string>
+    <string name="jsin22b"> کچھ غیر متفق </string>
+    <string name="jsin22c"> نہ متفق نہ غیر متفق </string>
+    <string name="jsin22d"> کچھ متفق </string>
+
+
+    <string name="sectionO"> SECTION O: SOCIO ECONOMIC STATUS OF HOUSEHOLD </string>
+
+
+    <string name="jsio01"> کیا کھانا عموماً گھر پر پکایا جاتاہے، کسی الگ عمارت میں یا پھر گھر سے باہر؟ </string>
+    <string name="jsio01a"> گھر پر </string>
+    <string name="jsio01b"> الگ عمارت میں </string>
+    <string name="jsio01c"> گھر سے باہر </string>
+
+
+    <string name="jsio02"> کیا آپ کے گھر میں باورچی خانے کے لیے الگ کمرہ استعمال کیا جاتا ہے؟ </string>
+    <string name="jsio02a"> ہاں </string>
+    <string name="jsio02b"> نہیں </string>
+
+
+    <string name="jsio03"> فرش کے لیے استعمال ہونے والا مواد (مشاہدے سے نوٹ کریں) </string>
+    <string name="jsio03a"> مٹی </string>
+    <string name="jsio03b"> گوبر سے بنایا گیا </string>
+    <string name="jsio03c"> نامکمل حالت میں </string>
+    <string name="jsio03d"> لکڑی کے تختوں کا </string>
+    <string name="jsio03e"> بانس کا </string>
+    <string name="jsio03f"> لکڑی </string>
+    <string name="jsio03g"> ونائل کی یا اسفالٹ کی پٹیاں </string>
+    <string name="jsio03h"> چینی مٹی کی ٹائل / سرامک ٹائلز </string>
+    <string name="jsio03i"> سیمنٹ </string>
+    <string name="jsio03j"> قالین </string>
+    <string name="jsio03k"> چپس </string>
+    <string name="jsio03l"> اینٹیں </string>
+    <string name="jsio03m"> میٹس </string>
+    <string name="jsio03n"> ماربل </string>
+
+
+    <string name="jsio04"> چھت کا مواد (مشاہدہ سے نوٹ کریں </string>
+    <string name="jsio04a"> کوئی چھت نہیں </string>
+    <string name="jsio04b"> کھجور کے پتوں کی </string>
+    <string name="jsio04c"> گھانس پھونس کی </string>
+    <string name="jsio04d"> دیہاتی میٹ </string>
+    <string name="jsio04e"> بانس </string>
+    <string name="jsio04f"> لکڑی کے پٹرے </string>
+    <string name="jsio04g"> گتے کا </string>
+    <string name="jsio04h"> لوہے کی شیٹیں/ Asbestos </string>
+    <string name="jsio04i"> اینٹیں اور سیمنٹ سے مضبوط/ RCC </string>
+    <string name="jsio04j"> دھات / میٹل </string>
+    <string name="jsio04k"> لکڑی/لوہا/مٹی </string>
+    <string name="jsio04l"> کیلا مائن / سیمنٹ فائبر </string>
+    <string name="jsio04m"> سیمنٹ </string>
+    <string name="jsio04n"> چینی مٹی کے ٹائلز </string>
+    <string name="jsio04o"> چھت کی تختیاں </string>
+
+
+    <string name="jsio05"> دیواروں کا مواد (مشاہدے سے نوٹ کریں) </string>
+    <string name="jsio05a"> کوئی دیواریں نہیں ہیں </string>
+    <string name="jsio05b"> کین / کھجور/ تنے </string>
+    <string name="jsio05c"> گندگی </string>
+    <string name="jsio05d"> مٹی/پتھر </string>
+    <string name="jsio05e"> بانس / چھٹروں کی / مٹی </string>
+    <string name="jsio05f"> کچی اینٹیں/ مٹی </string>
+    <string name="jsio05g"> کارٹن/پلاسٹک </string>
+    <string name="jsio05h"> بانس اور مٹی </string>
+    <string name="jsio05i"> پتھر اور مٹی </string>
+    <string name="jsio05j"> ادھوری کچی اینٹوں کا گھر </string>
+    <string name="jsio05k"> پلے وڈ </string>
+    <string name="jsio05l"> گتہ </string>
+    <string name="jsio05m"> استعمال شدہ لکڑی </string>
+    <string name="jsio05n"> پکی اینٹیں </string>
+    <string name="jsio05o"> خیمے </string>
+    <string name="jsio05p"> سیمنٹ </string>
+    <string name="jsio05q"> سیمنٹ اور پتھر </string>
+    <string name="jsio05r"> اینٹیں </string>
+    <string name="jsio05s"> سیمنٹ </string>
+    <string name="jsio05t"> پردے والا گھر </string>
+    <string name="jsio05u"> لکڑی کے تختے </string>
+
+
+    <string name="jsio06"> اس مکان میں کتنے کمرے آرام کرنے کے لیے استعمال کیے جاتے ہیں؟ </string>
+    <string name="jsio06x"> کمروں کی تعداد </string>
+
+
+    <string name="jsio07"> کیا اس مکان کے کسی فردکی ملکیت میں ذیل اشیا ہیں؟ </string>
+    <string name="jsio0701"> گھڑی </string>
+    <string name="jsio0701a"> ہاں </string>
+    <string name="jsio0701b"> نہیں </string>
+    <string name="jsio0702"> موبائل فون </string>
+    <string name="jsio0702a"> ہاں </string>
+    <string name="jsio0702b"> نہیں </string>
+    <string name="jsio0703"> سائیکل </string>
+    <string name="jsio07a"> ہاں </string>
+    <string name="jsio07b"> نہیں </string>
+    <string name="jsio0704"> موٹر سائیکل </string>
+    <string name="jsio0704a"> ہاں </string>
+    <string name="jsio0704b"> نہیں </string>
+    <string name="jsio0705"> گدھا گاڑی/ بیل گاڑی </string>
+    <string name="jsio0705a"> ہاں </string>
+    <string name="jsio0705b"> نہیں </string>
+    <string name="jsio0706"> کار/ ٹرک / بس </string>
+    <string name="jsio0706a"> ہاں </string>
+    <string name="jsio0706b"> نہیں </string>
+    <string name="jsio0707"> ٹریکٹر </string>
+    <string name="jsio0707a"> ہاں </string>
+    <string name="jsio0707b"> نہیں </string>
+    <string name="jsio0708"> موٹر والی کشتی </string>
+    <string name="jsio0708a"> ہاں </string>
+    <string name="jsio0708b"> نہیں </string>
+    <string name="jsio0709"> موٹر کے بغیر کشتی </string>
+    <string name="jsio0709a"> ہاں </string>
+    <string name="jsio0709b"> نہیں </string>
+
+
+    <string name="jsio08"> کیا جواب دینے والی خاتون کے پاس موبائل فون ہے۔؟ </string>
+    <string name="jsio08a"> ہاں </string>
+    <string name="jsio08b"> نہیں </string>
+
+
+    <string name="jsio09"> کیا اس گھر کے کسی فرد کے پاس زرعی زمین ہے؟ </string>
+    <string name="jsio09a"> ہاں </string>
+    <string name="jsio09b"> نہیں </string>
+
+
+    <string name="jsio10"> اس گھر کے افراد کل کتنی ایکٹر یا کنال زرعی زمین کے مالک ہیں؟ </string>
+    <string name="jsio10a"> ایکٹر </string>
+    <string name="jsio10b"> کنال </string>
+    <string name="jsio10c"> معلوم نہیں </string>
+
+
+    <string name="jsio11"> کیا اس گھر میں کوئی لائیو اسٹاک، ریوڑ یا فارمی جانور ہے؟ </string>
+    <string name="jsio11a"> ہاں </string>
+    <string name="jsio11b"> نہیں </string>
+
+
+    <string name="jsio12"> کتنے جانور درج ذیل فہرست میں سے گھر والوں کی ملکیت میں ہیں؟ </string>
+    <string name="jsio12a"> گائے/بیل </string>
+    <string name="jsio12b"> گھوڑے/گدھے/خچر </string>
+    <string name="jsio12c"> بکریاں </string>
+    <string name="jsio12d"> بھیڑیں </string>
+    <string name="jsio12e"> مرغیاں </string>
+    <string name="jsio12f"> بھینس </string>
+    <string name="jsio12g"> اُونٹ </string>
+
+
+    <string name="jsio13"> کیا اس گھر کے کسی فرد کا بینک اکاؤنٹ ہے؟ </string>
+    <string name="jsio13a"> ہاں </string>
+    <string name="jsio13b"> نہیں </string>
+
+
+    <string name="jsio14"> کیا آپ کے گھر میں مندرجہ ذیل چیزیں ہیں؟ </string>
+    <string name="jsio14a"> بجلی </string>
+    <string name="jsio14a01"> ہاں </string>
+    <string name="jsio14a02"> نہیں </string>
+    <string name="jsio14b"> ریڈیو </string>
+    <string name="jsio14b01"> ہاں </string>
+    <string name="jsio14b02"> نہیں </string>
+    <string name="jsio14c"> ٹیلی ویژن </string>
+    <string name="jsio14c01"> ہاں </string>
+    <string name="jsio14c02"> نہیں </string>
+    <string name="jsio14d"> گھر کا ٹیلی فون </string>
+    <string name="jsio14d01"> ہاں </string>
+    <string name="jsio14d02"> نہیں </string>
+    <string name="jsio14e"> ریفریجریٹر </string>
+    <string name="jsio14e01"> ہاں </string>
+    <string name="jsio14e02"> نہیں </string>
+    <string name="jsio14f"> الماری </string>
+    <string name="jsio14f01"> ہاں </string>
+    <string name="jsio14f02"> نہیں </string>
+    <string name="jsio14g"> کرسی </string>
+    <string name="jsio14g01"> ہاں </string>
+    <string name="jsio14g02"> نہیں </string>
+    <string name="jsio14h"> روم کولر </string>
+    <string name="jsio14h01"> ہاں </string>
+    <string name="jsio14h02"> نہیں </string>
+    <string name="jsio14i"> ائیرکنڈیشنر </string>
+    <string name="jsio14i01"> ہاں </string>
+    <string name="jsio14i02"> نہیں </string>
+    <string name="jsio14j"> واشنگ مشین </string>
+    <string name="jsio14j01"> ہاں </string>
+    <string name="jsio14j02"> نہیں </string>
+    <string name="jsio14k"> واٹر پمپ </string>
+    <string name="jsio14k01"> ہاں </string>
+    <string name="jsio14k02"> نہیں </string>
+    <string name="jsio14l"> بیڈ </string>
+    <string name="jsio14l01"> ہاں </string>
+    <string name="jsio14l02"> نہیں </string>
+    <string name="jsio14m"> گھڑی </string>
+    <string name="jsio14m01"> ہاں </string>
+    <string name="jsio14m02"> نہیں </string>
+    <string name="jsio14n"> صوفہ </string>
+    <string name="jsio14n01"> ہاں </string>
+    <string name="jsio14n02"> نہیں </string>
+    <string name="jsio14o"> کیمرہ </string>
+    <string name="jsio14o01"> ہاں </string>
+    <string name="jsio14o02"> نہیں </string>
+    <string name="jsio14p"> سلائی مشین </string>
+    <string name="jsio14p01"> ہاں </string>
+    <string name="jsio14p02"> نہیں </string>
+    <string name="jsio14q"> کمپیوٹر </string>
+    <string name="jsio14q01"> ہاں </string>
+    <string name="jsio14q02"> نہیں </string>
+    <string name="jsio14r"> انٹرنیٹ کنکشن </string>
+    <string name="jsio14r01"> ہاں </string>
+    <string name="jsio14r02"> نہیں </string>
+
+
+    <string name="jsio15"> آپ کے گھر میں زیادہ تر کھانا پکانے کے لیے کونسا ایندھن استعمال ہوتا ہے ؟ </string>
+    <string name="jsio15a"> بجلی </string>
+    <string name="jsio15b"> ایل پی جی </string>
+    <string name="jsio15c"> گیس </string>
+    <string name="jsio15d"> بائیو گیس </string>
+    <string name="jsio15e"> کیروسین </string>
+    <string name="jsio15f"> کوئلہ </string>
+    <string name="jsio15g"> چارکول </string>
+    <string name="jsio15h"> لکڑی </string>
+    <string name="jsio15i"> گھانس پھونس </string>
+    <string name="jsio15j"> گوبر </string>
+    <string name="jsio15k"> گھر میں کھانا نہیں پکتا </string>
+
+
+    <string name="jsio16"> آپ عموماً گھر میں کونسی زبان بولتےہیں </string>
+    <string name="jsio16a"> اردو </string>
+    <string name="jsio16b"> پنجابی </string>
+    <string name="jsio16c"> سندھی </string>
+    <string name="jsio16d"> بلوچی </string>
+    <string name="jsio16e"> سرائیکی </string>
+    <string name="jsio16f"> بروہی </string>
+    <string name="jsio16g"> بروشسکی </string>
+    <string name="jsio16h"> پشتو </string>
+
+
+    <string name="sectionP"> SECTION P: WATER AND SANITATION </string>
+
+
+    <string name="jsip01"> آپ کے گھر کے افراد کا پانی پینے کا اہم ذریعہ کیا ہے؟ </string>
+    <string name="jsip01a"> مکان میں پانی کا پائپ </string>
+    <string name="jsip01b"> پلاٹ میں پانی کا پائپ </string>
+    <string name="jsip01c"> پڑوسی کے گھر میں پائپ </string>
+    <string name="jsip01d"> عوامی نل </string>
+    <string name="jsip01e"> فلٹریشن پلانٹ یونٹ </string>
+    <string name="jsip01f"> ٹیوب ویل </string>
+    <string name="jsip01g"> ہینڈ پمپ </string>
+    <string name="jsip01h"> محفوظ کنواں </string>
+    <string name="jsip01i"> غیر محفوظ کنواں </string>
+    <string name="jsip01j"> بارش کا پانی </string>
+    <string name="jsip01k"> پانی ٹینکر کا ٹرک </string>
+    <string name="jsip01l"> گدھاگاڑی کے ساتھ چھوٹا سا پانی کا ٹینک </string>
+    <string name="jsip01m"> تیرتا پانی(دریا، ندی، ڈیم، جھیل، تالاب، نہر، اریگیشن یا آب پاشی) </string>
+    <string name="jsip01n"> بوتل کا پانی </string>
+
+
+    <string name="jsip02"> آپ کے گھروالے باقی گھریلو کاموں کے لیے کونسا پانی استعمال کرتے ہیں یعنی ہاتھ دھونے کے لیے، کھانا پکانے کے لیے؟ </string>
+    <string name="jsip02a"> مکان میں پانی کا پائپ موجود ہے </string>
+    <string name="jsip02b"> پلاٹ میں پانی کا پائپ موجود ہے </string>
+    <string name="jsip02c"> پڑوسی کے گھر میں پائپ موجود ہے </string>
+    <string name="jsip02d"> عوامی نل </string>
+    <string name="jsip02e"> فلٹریشن یونٹ </string>
+    <string name="jsip02f"> ٹیوب ویل </string>
+    <string name="jsip02g"> ہینڈ پمپ </string>
+    <string name="jsip02h"> محفوظ کنواں </string>
+    <string name="jsip02i"> غیر محفوظ کنواں </string>
+    <string name="jsip02j"> بارش کا پانی </string>
+    <string name="jsip02k"> پانی ٹینکر کا ٹرک </string>
+    <string name="jsip02l"> گدھا گاڈی کے ساتھ چھوٹا سا پانی کا ٹینک </string>
+    <string name="jsip02m"> تیرتا پانی(دریا، ندی، ڈیم، جھیل، تالاب، نہر، اریگیشن یا آب پاشی) </string>
+    <string name="jsip02n"> بوتل کا پانی </string>
+
+
+    <string name="jsip03"> پانی کا ذریعہ کہاں موجود ہے؟ </string>
+    <string name="jsip03a"> اپنے مکان میں </string>
+    <string name="jsip03b"> اپنے پلاٹ میں </string>
+    <string name="jsip03c"> کہیں اور </string>
+
+
+    <string name="jsip04"> پانی تک جانے میں، پانی لینے میں اور واپس آنے میں کتنی دیر لگتی ہے؟ </string>
+    <string name="jsip04a"> منٹ </string>
+    <string name="jsip04b"> معلوم نہیں </string>
+
+
+    <string name="jsip05"> عموماً پانی لینے کے لیے کون جاتاہے؟ پروب کریں، جو پانی لینے جاتے ہیں، ان کی عمر پندرہ سال سے کم ہے کیا؟جنس کیا ہے ؟ </string>
+    <string name="jsip05a"> بالغ عورت (15+سال) </string>
+    <string name="jsip05b"> بالغ مرد (15+سال) </string>
+    <string name="jsip05c"> بچی (15سال سے کم) </string>
+    <string name="jsip05d"> بچہ(15سال سے کم) </string>
+    <string name="jsip05e"> جو بھی موجود ہو </string>
+    <string name="jsip05f"> معلوم نہیں </string>
+
+
+    <string name="jsip06"> گھر کے پانی کا ذائقہ کیسا ہے ؟ </string>
+    <string name="jsip06a"> میٹھا </string>
+    <string name="jsip06b"> کھارا </string>
+
+
+    <string name="jsip07"> پانی بھرتے وقت صاف ہوتاہے یا مٹی والا ہوتاہے؟ </string>
+    <string name="jsip07a"> صاف </string>
+    <string name="jsip07b"> مٹی والا </string>
+    <string name="jsip07c"> معلوم نہیں </string>
+
+
+    <string name="jsip08"> کیا آپ پانی کو پینے کے قابل بنانے کے کے لیے کوئی طریقہ استعمال کرتے ہیں؟ </string>
+    <string name="jsip08a"> ہاں </string>
+    <string name="jsip08b"> نہیں </string>
+    <string name="jsip08c"> معلوم نہیں </string>
+
+
+    <string name="jsip09"> پانی کو پینے کے قابل بنانے کے لیے آپ کیا طریقہ استعمال کرتے ہیں؟ پروب کریں، کچھ اور طریقہ؟ تمام چیزیں ریکارڈ کریں </string>
+    <string name="jsip09a"> ابالتے ہیں </string>
+    <string name="jsip09b"> کلورین کی گولی ڈالتے ہیں </string>
+    <string name="jsip09c"> کپڑے سے چھانتے ہیں </string>
+    <string name="jsip09d"> فلٹر کا استعمال کرتے ہیں( سرامک، ریت، وغیرہ( </string>
+    <string name="jsip09e"> سولر ڈس انفیکشن </string>
+    <string name="jsip09f"> اسے چھوڑ دیتے ہیں اور گندگی بیٹھ جاتی ہے </string>
+    <string name="jsip09g"> پھٹکاری </string>
+
+
+    <string name="jsip10"> آپ کے گھر کے افراد عموماً کس طرح کا بیت الخلاءاستعمال کرتے ہیں؟ اگر کہیں بھادیتے ہیں یا کہیں پر انڈیل دیتے ہیں تو پروب کریں کہاں پر کرتے ہیں؟ اگراندازا لگانے میں مشکل ہورہی ہے تو اس جگہ کو دیکھ دیکھنے کی اجازت مانگیں اور تعین کریں کیا معاملہ ہے۔ </string>
+    <string name="jsip10a"> گٹر کے پائپ میں بہہ جاتاہے </string>
+    <string name="jsip10b"> سیپٹک ٹینک میں بہہ جاتاہے </string>
+    <string name="jsip10c"> گڑھے میں بہہ جاتاہے </string>
+    <string name="jsip10d"> کہیں اور بہہ جاتاہے </string>
+    <string name="jsip10e"> معلوم نہیں کہاں بہہ جاتاہے </string>
+    <string name="jsip10f"> گڑھے والا بہتر قسم کا لیٹرین </string>
+    <string name="jsip10g"> گڑھے والا لیٹرین جس پر سِل ہو </string>
+    <string name="jsip10h"> گڑھے والا لیٹرین جس پر سِل نہ ہو/ کھولا ہوا </string>
+    <string name="jsip10i"> کمپوسٹنگ ٹوائلٹ </string>
+    <string name="jsip10j"> بالٹی </string>
+    <string name="jsip10k"> جھاڑی/ کھیتوں میں </string>
+
+
+    <string name="jsip11"> کیا آپ بیت الخلا کسی اور کے استعمال میں بھی ہے، جو آپ کے گھر کا فرد نہیں؟ </string>
+    <string name="jsip11a"> ہاں </string>
+    <string name="jsip11b"> نہیں </string>
+    <string name="jsip11c"> معلوم نہیں </string>
+
+
+    <string name="jsip12"> کیا اس جگہ کا استعمال بیت الخلا کے لیے صرف اُن دوسرے گھروں میں رہنے والوں کے لیے جن کو آپ جانتے ہیں یا پبلک کا کوئی بھی فرد استعمال کرسکتاہے؟ </string>
+    <string name="jsip12a"> دوسرے گھروں والے جن کو میں جانتا ہوں </string>
+    <string name="jsip12b"> پبلک کرسکتی ہے </string>
+
+
+    <string name="jsip13"> آپ کے گھر کے علاوہ اور کتنے گھرانے اس جگہ کو بیت الخلا کے طور پر استعمال کرتے ہیں؟ </string>
+    <string name="jsip13a"> گھروں کی تعداد (اگر دس سے کم ہے) </string>
+    <string name="jsip13b"> دس یا دس سے زیادہ </string>
+    <string name="jsip13c"> معلوم نہیں </string>
+
+
+    <string name="sectionQ"> SECTION Q: HANDWASHING </string>
+
+
+    <string name="jsiq01"> ہم جاننا چاہیں گے کہ گھر والے ہاتھ دھونے کے لیے کن جگہوں کا استعمال کرتے ہیں۔ کیا آپ مجھے وہ جگہ دیکھا سکتی ہیں جہاں آپ کے گھر والے عموماً ہاتھ دھوتے ہیں؟ </string>
+    <string name="jsiq01a"> مشاہدہ کیا </string>
+    <string name="jsiq01b"> وہ جگہ گھر / پلاٹ میں موجود نہیں </string>
+    <string name="jsiq01c"> دیکھنے کی اجازت نہیں </string>
+    <string name="jsiq01d"> دوسری وجوہات </string>
+
+
+    <string name="jsiq02"> مشاہدہ کیجیے کہ ہاتھ دھونے کی جگہ پر پانی موجود ہے؟ نل یا پمپ، بیسن، بالٹی، پانی کا کنٹینر یا کچھ اور موجود چیز کو مکمل تصدیق کریں کہ پانی ہے یا نہیں؟ </string>
+    <string name="jsiq02a"> پانی موجود ہے </string>
+    <string name="jsiq02b"> پانی موجود نہیں </string>
+
+
+    <string name="jsiq03"> ہاتھ دھونے کی جگہ پر کیا صابن، سرف ، مٹی/ریت /راکھ یا بیسن موجود ہے؟ </string>
+    <string name="jsiq03a"> ہاں، موجود ہے </string>
+    <string name="jsiq03b"> نہیں، موجود نہیں </string>
+
+
+    <string name="jsiq04"> ہاتھ دھونے کی جگہ پر اپنے مشاہدے کو ریکارڈ کریں، جو کچھ نظر آئے اسے نوٹ کریں۔ </string>
+    <string name="jsiq04a"> صابن کی ٹکیہ </string>
+    <string name="jsiq04b"> سرف(پوڈر/لیکیوڈ/پیسٹ) </string>
+    <string name="jsiq04c"> لیکیوئیڈ صابن </string>
+    <string name="jsiq04d"> مٹی/ریت/راکھ </string>
+
+
+    <string name="jsiq05"> کیا آپ کےگھر میں صابن/ راکھ، مٹی ، ریت یا سرف موجود ہے ہاتھ دھونے کےلیے؟ </string>
+    <string name="jsiq05a"> ہاں </string>
+    <string name="jsiq05b"> نہیں </string>
+
+
+    <string name="jsiq06"> کیاآپ دیکھاسکتی ہیں؟ </string>
+    <string name="jsiq06a"> ہاں، دکھایا </string>
+    <string name="jsiq06b"> نہیں، نہیں دکھایا </string>
+
+
+    <string name="jsiq07"> اپنا مشاہدہ نوٹ کریں۔ جوکچھ نظر آیا، لسٹ میں نوٹ کریں۔ </string>
+    <string name="jsiq07a"> صابن کی ٹکیہ </string>
+    <string name="jsiq07b"> سرف(پوڈر/لیکیوڈ/پیسٹ) </string>
+    <string name="jsiq07c"> لیکیوئیڈ صابن </string>
+    <string name="jsiq07d"> مٹی/ریت/راکھ </string>
+
 
 </resources>
