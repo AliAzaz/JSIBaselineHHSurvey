@@ -1,0 +1,2091 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.tool2.SectionD_tool_2Activity">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="com.example.hassannaqvi.fas.ui.tool2.SectionD_tool_2Activity" />
+    </data>
+
+    <ScrollView style="@style/i_scrollview">
+
+        <LinearLayout style="@style/linerlayout_view">
+
+            <LinearLayout style="@style/linerlayout_view_wt_bound"> <!-- jsif01_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif01"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif01" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif01"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif01a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif01a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif01b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif01b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif02_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif02"
+                    style="@style/cardView"
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif02" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif02"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif02a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02e" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02f" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02g"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02g" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02h"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02h" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02i" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02j"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02j" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02k"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02k" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02l"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02l" />
+
+                            <CheckBox
+                                android:id="@+id/jsif02m"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif02m" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif03_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif03"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif03" />
+
+                        <EditText
+                            android:id="@+id/jsif03x"
+                            style="@style/textInput"
+                            android:hint="@string/jsif03"
+                            android:inputType="number"
+                            android:maxLength="4" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif04_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif04"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif04" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif04"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif04a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif04a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif04b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif04b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif05_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif05"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif05" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif05"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif05a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif05a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif05b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif05b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif06_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif06"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif06" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif06"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif06a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif06a" />
+
+                            <EditText
+                                android:id="@+id/jsif06ax"
+                                style="@style/textInput"
+                                android:hint="@string/jsif06"
+                                android:maxLength="4" />
+
+                            <CheckBox
+                                android:id="@+id/jsif06b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif06b" />
+
+                            <EditText
+                                android:id="@+id/jsif06bx"
+                                style="@style/textInput"
+                                android:hint="@string/jsif06"
+                                android:maxLength="4" />
+
+                            <CheckBox
+                                android:id="@+id/jsif06c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif06c" />
+
+                            <EditText
+                                android:id="@+id/jsif06cx"
+                                style="@style/textInput"
+                                android:hint="@string/jsif06"
+                                android:maxLength="4" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif07_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif07"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif07" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif07"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif07a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif07a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif07b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif07b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif07c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif07c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif07d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif07d" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif08_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif08"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif08" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif08"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif08a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08e" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08f" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08g" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08h" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08i" />
+
+                            <RadioButton
+                                android:id="@+id/jsif08j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif08j" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif09_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif09"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif09" />
+
+                        <EditText
+                            android:id="@+id/jsif09a"
+                            style="@style/textInput"
+                            android:hint="@string/jsif09"
+                            android:maxLength="4" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif09"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif09b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif09b" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif10_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif10"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif10" />
+
+                        <EditText
+                            android:id="@+id/jsif10a"
+                            style="@style/textInput"
+                            android:hint="@string/jsif10"
+                            android:maxLength="4" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif10"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif10b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif10b" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif11_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif11"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif11" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif11"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif11a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif11a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif11b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif11b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif11c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif11c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif11d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif11d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif11e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif11e" />
+
+                            <RadioButton
+                                android:id="@+id/jsif11f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif11f" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif12_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif12"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif12" />
+
+                        <EditText
+                            android:id="@+id/jsif12a"
+                            style="@style/textInput"
+                            android:hint="@string/jsif12"
+                            android:maxLength="4" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif12"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif12b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif12b" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif13_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif13"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif13" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif13"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif13a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif13a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif13b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif13b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif13c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif13c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif13d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif13d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif13e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif13e" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif14_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif14"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif14" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif14"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif14a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif14a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif14b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif14b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif14c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif14c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif15_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif15"
+                    style="@style/cardView"
+                    android:visibility="@{jsif14.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif15" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif15"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif15a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15e" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15f" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15g"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15g" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15h"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15h" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15i" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15j"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15j" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15k"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15k" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15l"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15l" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15m"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15m" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15n"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15n" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15o"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15o" />
+
+                            <CheckBox
+                                android:id="@+id/jsif15p"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif15p" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif16_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif16"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif16" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif16"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif16a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif16a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif16b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif16b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif16c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif16c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif17_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif17"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif17" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif17"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif17a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17e" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17f" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17g" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17h" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17i" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17j" />
+
+                            <RadioButton
+                                android:id="@+id/jsif17k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif17k" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif18_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif18"
+                    style="@style/cardView"
+                    android:visibility="@{jsif16.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif18" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif18"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif18a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif18a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif18b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif18b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif19_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif19"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif19" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif19"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif19a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif19a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif19b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif19b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif19c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif19c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif20_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif20"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif20" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif20"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif20a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif20a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif20b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif20b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif20c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif20c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif21_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif21"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif21" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif21"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif21a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21f" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21g"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21g" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21h"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21h" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21i" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21j"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21j" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21k"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21k" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21l"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21l" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21m"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21m" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21n"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21n" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21o"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21o" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21p"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21p" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21q"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21q" />
+
+                            <CheckBox
+                                android:id="@+id/jsif21r"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif21r" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif22_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif22"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif22" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif22"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif22a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif22a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif22b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif22b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif22c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif22c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif23_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif23"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif23" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif23"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif23a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23e" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23f" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23g"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23g" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23h"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23h" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23i" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23j"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23j" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23k"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23k" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23l"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23l" />
+
+                            <CheckBox
+                                android:id="@+id/jsif23m"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif23m" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif24_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif24"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif24" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif24"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif24a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif24a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif24b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif24b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif24c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif24c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif25_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif25"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif25" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif25"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif25a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25e" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25f" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25g" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25h" />
+
+                            <RadioButton
+                                android:id="@+id/jsif25i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif25i" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif26_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif26"
+                    style="@style/cardView"
+                    android:visibility="@{jsif23.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif26" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif26"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif26a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif26a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif26b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif26b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif26c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif26c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif27_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif27"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif27" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif27"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif27a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27e" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27f" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27g"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27g" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27h"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27h" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27i"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27i" />
+
+                            <CheckBox
+                                android:id="@+id/jsif27j"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif27j" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif28_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif28"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif28" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif28"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif28a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif28a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif28b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif28b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif28c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif28c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif29_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif29"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif29" />
+
+                        <EditText
+                            android:id="@+id/jsif29a"
+                            style="@style/textInput"
+                            android:hint="@string/jsif29"
+                            android:inputType="number"
+                            android:maxLength="4" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif29"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif29b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif29b" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif30_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif30"
+                    style="@style/cardView"
+                    android:visibility="@{jsif28.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif30" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif30"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif30a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif30a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif30b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif30b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif30c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif30c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif31_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif31"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif31" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif31"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif31a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif31a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif31b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif31b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif31c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif31c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif31d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif31d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif31e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif31e" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif32_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif32"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif32" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif32"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif32d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif32d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif32m"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif32m" />
+
+                            <RadioButton
+                                android:id="@+id/jsif32y"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif32y" />
+
+                            <RadioButton
+                                android:id="@+id/jsif32a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif32a" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif33_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif33"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif33" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif33"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif33a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33e" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33f" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33g" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33h" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33i" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33j" />
+
+                            <RadioButton
+                                android:id="@+id/jsif33k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif33k" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif34_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif34"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif34" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif34"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif34a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif34a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif34b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif34b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif34c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif34c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif35_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif35"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif35" />
+
+                        <EditText
+                            android:id="@+id/jsif35a"
+                            style="@style/textInput"
+                            android:hint="@string/jsif35"
+                            android:inputType="number"
+                            android:maxLength="4" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif36_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif36"
+                    style="@style/cardView"
+                    android:visibility="@{jsif30.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif36" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif36"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif36a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif36a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif36b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif36b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif36c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif36c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif37_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif37"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif37" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif37"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif37a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif37a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif37b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif37b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif38_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif38"
+                    style="@style/cardView"
+                    android:visibility="@{jsif36.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif38" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif38"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif38a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif38a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif38b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif38b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif38c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif38c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif39_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif39"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif39" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif39"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif39a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif39a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif39b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif39b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif40_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif40"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif40" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif40"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif40a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif40a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif40b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif40b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif41_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif41"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif41" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif41"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif41a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif41a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif41b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif41b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif41c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif41c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif41d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif41d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif41e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif41e" />
+
+                            <CheckBox
+                                android:id="@+id/jsif41f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif41f" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif42_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif42"
+                    style="@style/cardView"
+                    android:visibility="@{jsif40.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif42" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif42"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif42a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif42a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif42b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif42b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif43_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif43"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif43" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif43"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif43a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif43a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif43b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif43b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif43c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif43c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif43d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif43d" />
+
+                            <RadioButton
+                                android:id="@+id/jsif43e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif43e" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif44_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif44"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif44" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif44"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif44a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif44a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif44b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif44b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif44c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif44c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif45_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif45"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif45" />
+
+                        <RadioGroup
+                            android:id="@+id/jsif45"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsif45a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif45a" />
+
+                            <RadioButton
+                                android:id="@+id/jsif45b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif45b" />
+
+                            <RadioButton
+                                android:id="@+id/jsif45c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif45c" />
+
+                            <RadioButton
+                                android:id="@+id/jsif45d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif45d" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView> <!-- jsif46_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsif46"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsif46" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsif46"
+                            style="@style/linerlayout_view">
+
+                            <CheckBox
+                                android:id="@+id/jsif46a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46a" />
+
+                            <CheckBox
+                                android:id="@+id/jsif46b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46b" />
+
+                            <CheckBox
+                                android:id="@+id/jsif46c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46c" />
+
+                            <CheckBox
+                                android:id="@+id/jsif46d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46d" />
+
+                            <CheckBox
+                                android:id="@+id/jsif46e"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46e" />
+
+                            <CheckBox
+                                android:id="@+id/jsif46f"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46f" />
+
+                            <CheckBox
+                                android:id="@+id/jsif46g"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="1dp"
+                                android:text="@string/jsif46g" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>
