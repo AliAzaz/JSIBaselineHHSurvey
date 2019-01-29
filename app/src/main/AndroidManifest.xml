@@ -43,6 +43,12 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <!--<activity
+            android:name=".ui"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />-->
+
     </application>
 
 </manifest>
