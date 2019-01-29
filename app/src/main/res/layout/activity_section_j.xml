@@ -1,6 +1,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.tool2.SectionD_tool_2Activity">
+    tools:context=".ui.SectionJ_Activity">
 
     <data>
 
@@ -8,14 +8,16 @@
 
         <variable
             name="callback"
-            type="com.example.hassannaqvi.fas.ui.tool2.SectionD_tool_2Activity" />
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionJActivity" />
     </data>
 
     <ScrollView style="@style/i_scrollview">
 
         <LinearLayout style="@style/linerlayout_view">
 
-            <LinearLayout style="@style/linerlayout_view_wt_bound">
+            <LinearLayout
+                android:id="@+id/fldGrpSecJ01"
+                style="@style/linerlayout_view_wt_bound">
 
                 <!-- jsij00_TextView-->
                 <android.support.v7.widget.CardView
@@ -43,9 +45,9 @@
                                 android:text="@string/jsij00b" />
 
                             <RadioButton
-                                android:id="@+id/jsij00c"
+                                android:id="@+id/jsij0098"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij00c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -562,9 +564,9 @@
                                 android:text="@string/jsij08b" />
 
                             <RadioButton
-                                android:id="@+id/jsij08c"
+                                android:id="@+id/jsij0898"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij08c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -595,9 +597,9 @@
                                 android:text="@string/jsij09b" />
 
                             <RadioButton
-                                android:id="@+id/jsij09c"
+                                android:id="@+id/jsij0998"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij09c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -626,9 +628,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsij10b"
+                                android:id="@+id/jsij1098"
                                 style="@style/checkbox"
-                                android:text="@string/jsij10b" />
+                                android:text="@string/dkn" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -659,9 +661,9 @@
                                 android:text="@string/jsij11b" />
 
                             <RadioButton
-                                android:id="@+id/jsij11c"
+                                android:id="@+id/jsij1198"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij11c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -690,9 +692,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsij12b"
+                                android:id="@+id/jsij1298"
                                 style="@style/checkbox"
-                                android:text="@string/jsij12b" />
+                                android:text="@string/dkn" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -723,9 +725,9 @@
                                 android:text="@string/jsij13b" />
 
                             <RadioButton
-                                android:id="@+id/jsij13c"
+                                android:id="@+id/jsij1398"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij13c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -754,9 +756,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsij14b"
+                                android:id="@+id/jsij1498"
                                 style="@style/checkbox"
-                                android:text="@string/jsij14b" />
+                                android:text="@string/dkn" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -787,9 +789,9 @@
                                 android:text="@string/jsij15b" />
 
                             <RadioButton
-                                android:id="@+id/jsij15c"
+                                android:id="@+id/jsij1598"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij15c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -820,9 +822,9 @@
                                 android:text="@string/jsij16b" />
 
                             <RadioButton
-                                android:id="@+id/jsij16c"
+                                android:id="@+id/jsij1698"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij16c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -851,9 +853,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsij17b"
+                                android:id="@+id/jsij1798"
                                 style="@style/checkbox"
-                                android:text="@string/jsij17b" />
+                                android:text="@string/dkn" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -884,9 +886,9 @@
                                 android:text="@string/jsij18b" />
 
                             <RadioButton
-                                android:id="@+id/jsij18c"
+                                android:id="@+id/jsij1898"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsij18c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -915,9 +917,10 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsij19b"
+                                android:id="@+id/jsij1998"
                                 style="@style/checkbox"
-                                android:text="@string/jsij19b" />
+                                android:text="@string/dkn" />
+
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>

@@ -12,7 +12,8 @@ public final class CONSTANTS {
     public static String URL_DEVICES = "devices.php";
     public static String URL_FORMS = "forms.php";
 
-    public static String URI_END_FLAG = "complete";
+    public static String _URI_END_FLAG = "complete";
     public static String URI_END_OBJECT = "fc_data";
+    public static String _URI_FC_OBJ = "fc_data";
 
 }

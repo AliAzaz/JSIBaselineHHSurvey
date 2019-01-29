@@ -73,61 +73,84 @@
 
     </style>
 
-    <!-- EditText Acept Characters Starts. -->
-    <style name="EditText">
-        <item name="android:layout_marginTop">10dp</item>
+    <style name="textInput" parent="android:Widget.Material.Light.EditText">
+        <item name="android:textSize">20sp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/et_style</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:padding">10dp</item>
+
+    </style>
+
+    <!-- EditText Acept Characters Starts. -->
+    <style name="EditText">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:digits">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/et_style</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:padding">10dp</item>
     </style>
     <!-- EditText Acept Number  Ends. -->
 
     <!-- EditText Acept Number  Starts. -->
-    <style name="EditText_number">
-        <item name="android:layout_marginTop">10dp</item>
+    <style name="EditText_number" parent="android:Widget.Material.Light.EditText">
+        <item name="android:layout_margin">10dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:inputType">number</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/et_style</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:padding">10dp</item>
     </style>
     <!-- EditText Acept Number  Ends. -->
 
     <!-- EditText Acept Number Decimal  Starts. -->
-    <style name="EditText_number_de">
-        <item name="android:layout_marginTop">10dp</item>
+    <style name="EditText_number_de" parent="android:Widget.Material.Light.EditText">
+        <item name="android:layout_margin">10dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:inputType">numberDecimal</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/et_style</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:padding">10dp</item>
     </style>
 
     <!-- EditText Acept Date Black Box.-->
-    <style name="EditText_number_b_box">
-        <item name="android:layout_marginTop">10dp</item>
+    <style name="EditText_number_b_box" parent="android:Widget.Material.Light.EditText">
+        <item name="android:layout_margin">10dp</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:imeOptions">actionDone</item>
         <item name="android:singleLine">true</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:focusableInTouchMode">true</item>
+        <item name="android:background">@drawable/et_style</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:padding">10dp</item>
     </style>
     <!-- EditText Acept Number  Ends. -->
 
@@ -144,18 +167,6 @@
         <item name="cardElevation">3dp</item>
     </style>
     <!--Card View End-->
-
-
-    <style name="textInput" parent="android:Widget.Material.Light.EditText">
-        <item name="android:textSize">20sp</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_margin">10dp</item>
-        <item name="android:background">@drawable/et_style</item>
-        <item name="android:textColorHint">@color/gray</item>
-        <item name="android:padding">10dp</item>
-
-    </style>
 
     <style name="radiobutton" parent="Widget.AppCompat.CompoundButton.RadioButton">
         <item name="android:layout_width">match_parent</item>
@@ -225,9 +236,13 @@
         <item name="android:elevation">1dp</item>
     </style>
 
-    <style name="spinner" parent="Widget.AppCompat.Spinner">
+    <style name="spinner" parent="android:Widget.Material.Light.Spinner.Underlined">
         <item name="android:background">@drawable/spinner_style</item>
         <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
     </style>
 
     <style name="SpinnerTextViewItem" parent="@android:style/Widget.TextView">

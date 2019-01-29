@@ -283,4 +283,12 @@ public class MainApp extends Application {
         }
     }
 
+
+    public static void stActivity(final Context currentContext, final Activity currentActivity, final Class nextActivity, final Object currentFormInstance) {
+        currentActivity.finish();
+        Intent end_intent = new Intent(currentContext, nextActivity);
+        end_intent.putExtra(CONSTANTS._URI_FC_OBJ, (Serializable) currentFormInstance);
+        currentContext.startActivity(end_intent);
+    }
+
 }

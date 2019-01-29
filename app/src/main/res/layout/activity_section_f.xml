@@ -1,6 +1,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.tool2.SectionD_tool_2Activity">
+    tools:context=".ui.SectionF_Activity">
 
     <data>
 
@@ -8,14 +8,16 @@
 
         <variable
             name="callback"
-            type="com.example.hassannaqvi.fas.ui.tool2.SectionD_tool_2Activity" />
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionFActivity" />
     </data>
 
     <ScrollView style="@style/i_scrollview">
 
         <LinearLayout style="@style/linerlayout_view">
 
-            <LinearLayout style="@style/linerlayout_view_wt_bound">
+            <LinearLayout
+                android:id="@+id/fldGrpSecF01"
+                style="@style/linerlayout_view_wt_bound">
 
                 <!-- jsif01_TextView-->
                 <android.support.v7.widget.CardView

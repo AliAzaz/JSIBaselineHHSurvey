@@ -1,6 +1,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.tool2.SectionD_tool_2Activity">
+    tools:context=".ui.SectionIB_Activity">
 
     <data>
 
@@ -8,14 +8,16 @@
 
         <variable
             name="callback"
-            type="com.example.hassannaqvi.fas.ui.tool2.SectionD_tool_2Activity" />
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionIBActivity" />
     </data>
 
     <ScrollView style="@style/i_scrollview">
 
         <LinearLayout style="@style/linerlayout_view">
 
-            <LinearLayout style="@style/linerlayout_view_wt_bound">
+            <LinearLayout
+                android:id="@+id/fldGrpSecIB01"
+                style="@style/linerlayout_view_wt_bound">
 
                 <!-- jsiib01_TextView-->
                 <android.support.v7.widget.CardView
@@ -43,9 +45,9 @@
                                 android:text="@string/jsiib01b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib01c"
+                                android:id="@+id/jsiib0198"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib01c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -64,7 +66,7 @@
                         <EditText
                             android:id="@+id/jsiib02a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsiib02"
+                            android:hint="@string/jsiib02a"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -96,9 +98,9 @@
                                 android:text="@string/jsiib03b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib03c"
+                                android:id="@+id/jsiib0398"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib03c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -182,9 +184,9 @@
                                 android:text="@string/jsiib06b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib06c"
+                                android:id="@+id/jsiib0698"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib06c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -203,7 +205,7 @@
                         <EditText
                             android:id="@+id/jsiib07a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsiib07"
+                            android:hint="@string/jsiib07a"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -235,9 +237,9 @@
                                 android:text="@string/jsiib08b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib08c"
+                                android:id="@+id/jsiib0898"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib08c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -415,7 +417,7 @@
                         <EditText
                             android:id="@+id/jsiib12a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsiib12"
+                            android:hint="@string/jsiib12a"
                             android:inputType="number"
                             android:maxLength="4" />
 
@@ -424,9 +426,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsiib12b"
+                                android:id="@+id/jsiib1298"
                                 style="@style/checkbox"
-                                android:text="@string/jsiib12b" />
+                                android:text="@string/dkn" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -445,7 +447,7 @@
                         <EditText
                             android:id="@+id/jsiib13a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsiib13"
+                            android:hint="@string/jsiib13a"
                             android:inputType="number"
                             android:maxLength="4" />
 
@@ -454,9 +456,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsiib13b"
+                                android:id="@+id/jsiib1398"
                                 style="@style/checkbox"
-                                android:text="@string/jsiib13b" />
+                                android:text="@string/dkn" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -596,7 +598,7 @@
                         <EditText
                             android:id="@+id/jsiib17a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsiib17"
+                            android:hint="@string/jsiib17a"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -629,9 +631,9 @@
                                 android:text="@string/jsiib18b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib18c"
+                                android:id="@+id/jsiib1898"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib18c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -741,9 +743,9 @@
                                 android:text="@string/jsiib20b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib20c"
+                                android:id="@+id/jsiib2098"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib20c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -774,9 +776,9 @@
                                 android:text="@string/jsiib21b" />
 
                             <RadioButton
-                                android:id="@+id/jsiib21c"
+                                android:id="@+id/jsiib2198"
                                 style="@style/i_radiobutton"
-                                android:text="@string/jsiib21c" />
+                                android:text="@string/dkn" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -795,7 +797,7 @@
                         <EditText
                             android:id="@+id/jsiib22a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsiib22"
+                            android:hint="@string/jsiib22a"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -875,10 +877,36 @@
                                 android:id="@+id/jsiib23l"
                                 style="@style/checkbox"
                                 android:text="@string/jsiib23l" />
+
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_Continue"
+                    style="@style/buttons"
+                    android:onClick="@{() -> callback.BtnContinue()}"
+                    android:text="@string/nextSection" />
+
+                <Button
+                    android:id="@+id/btn_End"
+                    style="@style/buttons"
+                    android:layout_marginRight="10dp"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="@string/end_interview" />
+
+                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </layout>

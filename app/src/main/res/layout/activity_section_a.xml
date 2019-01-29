@@ -1,6 +1,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.tool2.SectionD_tool_2Activity">
+    tools:context=".ui.SectionAActivity">
 
     <data>
 
@@ -8,14 +8,17 @@
 
         <variable
             name="callback"
-            type="com.example.hassannaqvi.fas.ui.tool2.SectionD_tool_2Activity" />
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionAActivity" />
     </data>
 
     <ScrollView style="@style/i_scrollview">
 
         <LinearLayout style="@style/linerlayout_view">
 
-            <LinearLayout style="@style/linerlayout_view_wt_bound">
+            <LinearLayout
+                android:id="@+id/fldGrpSecA01"
+                style="@style/linerlayout_view_wt_bound">
+
                 <!-- jsia01-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsia01"
@@ -29,7 +32,7 @@
 
                         <EditText
                             android:id="@+id/jsia01"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsia01"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -47,7 +50,7 @@
 
                         <EditText
                             android:id="@+id/jsia02"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsia02"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -65,7 +68,7 @@
 
                         <EditText
                             android:id="@+id/jsia03"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsia03"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -81,16 +84,11 @@
                             style="@style/i_textview"
                             android:text="@string/jsia04" />
 
-                        <RadioGroup
+                        <EditText
                             android:id="@+id/jsia04"
-                            style="@style/i_radiogroup">
+                            style="@style/EditText_number"
+                            android:hint="@string/jsia04" />
 
-                            <RadioButton
-                                android:id="@+id/jsia04a"
-                                style="@style/i_radiobutton"
-                                android:checked="true"
-                                android:text="Sindh" />
-                        </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia05-->
@@ -141,11 +139,10 @@
                             style="@style/i_textview"
                             android:text="@string/jsia06" />
 
-                        <dropdown
+                        <Spinner
                             android:id="@+id/jsia06"
-                            style="@style/textInput"
-                            android:hint="@string/jsia06"
-                            android:maxLength="4" />
+                            style="@style/spinner"
+                            android:hint="@string/jsia06" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia07-->
@@ -159,11 +156,10 @@
                             style="@style/i_textview"
                             android:text="@string/jsia07" />
 
-                        <dropdown
+                        <Spinner
                             android:id="@+id/jsia07"
-                            style="@style/textInput"
-                            android:hint="@string/jsia07"
-                            android:maxLength="4" />
+                            style="@style/spinner"
+                            android:hint="@string/jsia07" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia08-->
@@ -206,9 +202,8 @@
 
                         <EditText
                             android:id="@+id/jsia09"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsia09"
-                            android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -225,9 +220,9 @@
 
                         <EditText
                             android:id="@+id/jsia10"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsia10"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia11-->
@@ -243,9 +238,9 @@
 
                         <EditText
                             android:id="@+id/jsia11"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsia11"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia12-->
@@ -261,9 +256,9 @@
 
                         <EditText
                             android:id="@+id/jsia12"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsia12"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia13-->
@@ -279,9 +274,9 @@
 
                         <EditText
                             android:id="@+id/jsia13"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsia13"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia14-->
@@ -297,9 +292,9 @@
 
                         <EditText
                             android:id="@+id/jsia14"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsia14"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
                 <!-- jsia15-->
@@ -315,12 +310,38 @@
 
                         <EditText
                             android:id="@+id/jsia15"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsia15"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
+
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_Continue"
+                    style="@style/buttons"
+                    android:onClick="@{() -> callback.BtnContinue()}"
+                    android:text="@string/nextSection" />
+
+                <Button
+                    android:id="@+id/btn_End"
+                    style="@style/buttons"
+                    android:layout_marginRight="10dp"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="@string/end_interview" />
+
+                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </layout>

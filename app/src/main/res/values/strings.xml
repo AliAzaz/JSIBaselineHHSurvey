@@ -9,9 +9,291 @@
 
     <string name="nextSection">اگلا سیکشن</string>
     <string name="end_interview">اختتام</string>
+    <string name="dkn"> معلوم نہیں </string>
 
     <string name="sectionA"> SECTION A: IDENTIFICATION </string>
+    <string name="sectionG"> SECTION G: Delivery PREPAREDNESS AND EXPERIENCE </string>
+    <string name="sectionH"> SECTION H: NEWBORN HEALTH </string>
+    <string name="sectionIA"> SECTION IA. CHILD HEALTH </string>
+    <string name="sectionIB"> SECTION IB. ACUTE RESPIRATORY INFECTION (ARI) </string>
+    <string name="sectionJ"> SECTION IB. IMMUNIZATION </string>
 
+
+    <string name="jsia01"> کلسٹر نمبر </string>
+
+
+    <string name="jsia02"> کلسٹر کی قسم </string>
+
+
+    <string name="jsia03"> فارم سیریل نمبر </string>
+
+
+    <string name="jsia04"> صوبے کا نام </string>
+
+
+    <string name="jsia05"> ضلعہ کا نام </string>
+    <string name="jsia0501"> گھوٹکی </string>
+    <string name="jsia0502"> شکارپور </string>
+    <string name="jsia0503"> جیکب آباد </string>
+    <string name="jsia0504"> کشمور </string>
+
+
+    <string name="jsia06"> تحصیل /تعلقہ کا نام </string>
+
+
+    <string name="jsia07"> یونین کائونسل کا نام </string>
+
+
+    <string name="jsia08"> یونین کائونسل کا نام </string>
+    <string name="jsia0801"> شہری </string>
+    <string name="jsia0802"> دیہی </string>
+
+
+    <string name="jsia09"> گھر کا نمبر </string>
+
+
+    <string name="jsia10"> گلی کا نام </string>
+
+
+    <string name="jsia11"> محلہ / بلاک کا نام </string>
+
+
+    <string name="jsia12"> علاقے/ گاؤں کا نام </string>
+
+
+    <string name="jsia13"> شہر کا نام </string>
+
+
+    <string name="jsia14"> گھر کی ساخت کی نوعیت </string>
+
+
+    <string name="jsia15"> جوابد ہندہ کا نام </string>
+
+
+    <string name="sectionB"> Section B: Global Positioning </string>
+
+    <string name="jsib01"> Latitude </string>
+
+
+    <string name="jsib02"> Latitude </string>
+
+
+    <string name="sectionC"> Section C: introduction and consent </string>
+
+    <string name="jsic01"> کیا آپ سروے کے متعلق اس وقت کوئی سوال کرنا چاہتی ہیں؟ </string>
+    <string name="jsic01a"> ہاں </string>
+    <string name="jsic01b"> نہیں </string>
+
+
+    <string name="jsic02"> کیاآپ راضی ہیں؟ کیا میں انٹرویو شروع کرسکتا /کرسکتی ہوں؟ </string>
+    <string name="jsic02a"> ہاں </string>
+    <string name="jsic02b"> نہیں </string>
+
+
+    <string name="sectionD"> SECTION D: HOUSEHOLD MEMBERS’ INFORMATION </string>
+
+
+    <string name="jsid01"> سیریل نمبر </string>
+
+
+    <string name="jsid02"> گھرکے افراد کے نام </string>
+
+
+    <string name="jsid03"> گھر کے سربراہ سے رشتہ </string>
+    <string name="jsid03a"> Head of HH </string>
+    <string name="jsid03b"> Wife/Husband </string>
+    <string name="jsid03c"> Son/Daughter </string>
+    <string name="jsid03d"> Son in law/Daughter in law </string>
+    <string name="jsid03e"> Grand child </string>
+    <string name="jsid03f"> Parents </string>
+    <string name="jsid03g"> Parents in law </string>
+    <string name="jsid03h"> Brother/Sister </string>
+    <string name="jsid03i"> Brother in law/Sister in law </string>
+    <string name="jsid03j"> Niece/Nephew </string>
+    <string name="jsid03k"> Grand Parents </string>
+    <string name="jsid03l"> Aunts/Uncle </string>
+    <string name="jsid03m"> Adopted/Step child </string>
+    <string name="jsid03n"> Domestic Servant </string>
+
+    <string name="jsid04"> جنس </string>
+    <string name="jsid04a"> Male </string>
+    <string name="jsid04b"> Female </string>
+
+
+    <string name="jsid05"> والد کا سیریل نمبر </string>
+
+
+    <string name="jsid06"> والدہ کا سیریل نمبر </string>
+
+
+    <string name="jsid07"> تاریخ پیدائش </string>
+
+
+    <string name="jsid08"> عمر </string>
+
+
+    <string name="jsid09"> کیا(نام) کبھی اسکول میں زیرِ تعلیم رہا ہے؟ </string>
+
+
+    <string name="jsid10"> تعلیم </string>
+    <string name="jsid10a"> Housewife </string>
+    <string name="jsid10b"> Professional /Managerial </string>
+    <string name="jsid10c"> Clerical/technical </string>
+    <string name="jsid10d"> Sales and Services </string>
+    <string name="jsid10e"> Skilled manual </string>
+    <string name="jsid10f"> Unskilled manual </string>
+    <string name="jsid10g"> Agriculture </string>
+    <string name="jsid10h"> Business </string>
+    <string name="jsid10i"> Student </string>
+    <string name="jsid10j"> Unemployed </string>
+    <string name="jsid10k"> Not Applicable </string>
+    <string name="jsid10l">  </string>
+    <string name="jsid10m">  </string>
+    #REF!
+    <string name="jsid10o"> Married </string>
+    <string name="jsid10p"> Unmarried </string>
+    <string name="jsid10q"> Widowed </string>
+    <string name="jsid10r"> Divorced/Separated </string>
+    <string name="jsid10s"> ازدواجی حیثیت </string>
+    <string name="jsid10t">  </string>
+    <string name="jsid10u">  </string>
+    <string name="jsid10v"> گھر کے ٹوٹوٹل افراد </string>
+    <string name="jsid10w">  </string>
+
+
+    <string name="jsid11"> پیشہ </string>
+    <string name="jsid11a"> Housewife </string>
+    <string name="jsid11b"> Professional /Managerial </string>
+    <string name="jsid11c"> Clerical/technical </string>
+    <string name="jsid11d"> Sales and Services </string>
+    <string name="jsid11e"> Skilled manual </string>
+    <string name="jsid11f"> Unskilled manual </string>
+    <string name="jsid11g"> Agriculture </string>
+    <string name="jsid11h"> Business </string>
+    <string name="jsid11i"> Student </string>
+    <string name="jsid11j"> Unemployed </string>
+    <string name="jsid11k"> Not Applicable </string>
+
+
+    <string name="jsid12"> ازدواجی حیثیت </string>
+    <string name="jsid12a"> Married </string>
+    <string name="jsid12b"> Unmarried </string>
+    <string name="jsid12c"> Widowed </string>
+    <string name="jsid12d"> Divorced/Separated </string>
+
+
+    <string name="jsid13"> گھر کے ٹوٹوٹل افراد </string>
+
+
+    <string name="jsid14"> کل گھر کی اہل خواتین </string>
+
+
+    <string name="jsid15"> کل گھر کے 5سال سے کم عمر کے بچے </string>
+
+
+    <string name="sectionE"> Section E: Reproductive health </string>
+
+    <string name="jsie01"> کیا{Name of First WRA in the Family} شادی کے بعد حاملہ ہوئی ہیں؟ </string>
+    <string name="jsie01a"> ہاں </string>
+    <string name="jsie01b"> نہیں </string>
+
+
+    <string name="jsie02"> شادی کے بعد (نام) کا حمل کتنی بار ٹھہرا ہے؟ </string>
+
+
+    <string name="jsie04"> اپنے حمل کو یاد کرکے بتائیے کہ آپ کے حمل میں ایک بچہ تھا یا جڑوا؟ (ہرحمل کے لیے یہی سوالات نمودار ہوں گے۔ باقی حمل کو بچوں کے نام سے مخاطب کریں مثلاً ـ (سب سے بڑے بچے کا نام {کے بعد والے حمل کو یاد کرکے بتائیں۔۔۔‘‘( </string>
+    <string name="jsie04a"> ایک بچہ </string>
+    <string name="jsie04b"> ایک سے زیادہ بچے/جڑوا بچے </string>
+
+
+    <string name="jsie05"> بچہ زندہ پیدا ہوا، مردہ پیدا ہوا یا حمل ضائع ہوا؟ </string>
+    <string name="jsie05a"> زندہ پیدائش </string>
+    <string name="jsie05b"> مردہ پیدائش (E13پر جائیں) </string>
+    <string name="jsie05c"> حمل کا اسقاط ہوگیا(E13پر جائیں) </string>
+
+
+    <string name="jsie06"> بچے کو کیا نام دیا گیا؟}بچہ نمبر1، بچہ نمبر 2درج کریں اگر بچے کو کوئی نام نہیں دیا گیا </string>
+
+
+    <string name="jsie07"> کیا( نام)لڑکا تھایا لڑکی تھی؟ </string>
+
+
+    <string name="jsie08"> کس مہینےاور سال میں (نام) کی پیدائش ہوئی؟مزید تفتیش:بچے کی پیدائش کی تاریخ کیا ہے؟ </string>
+
+
+    <string name="jsie09"> کیا(نام)ابھی زندہ ہے؟ </string>
+
+
+    <string name="jsie10"> کتنی عمر کا تھا/ تھی جب اس کی موت واقع ہوئی؟ </string>
+
+
+    <string name="jsie11"> موت کس وجہ سے واقع ہوئی؟ </string>
+    <string name="jsie11a"> وقت سے قبل پیدائش 37ہفتے سے پہلے) </string>
+    <string name="jsie11b"> سانس کی تکلیف(Birth Asphyxia) </string>
+    <string name="jsie11c"> انفیکشن (Sepsis) </string>
+    <string name="jsie11d"> نمونیہ </string>
+    <string name="jsie11e"> پیدائشی چھٹکے لگنا(تشنج) </string>
+    <string name="jsie11f"> دست </string>
+    <string name="jsie11g"> بخار </string>
+    <string name="jsie11h"> دیگر(وضاحت کریں) </string>
+
+
+    <string name="jsie12"> Name} کی موت کہاں واقع ہوئی؟ </string>
+    <string name="jsie12a"> گھر پر </string>
+    <string name="jsie12b"> سرکاری مرکز صحت </string>
+    <string name="jsie12c"> پرائیویٹ مرکز صحت </string>
+    <string name="jsie12d"> این جی او مرکز صحت </string>
+    <string name="jsie12e"> مرکز صحت جاتے ہوئے راستے میں </string>
+
+
+    <string name="jsie13"> مردہ پیدائش یا اسقاطِ حمل کی صورت میں کس مہینے اور سال میں حمل ختم ہوا؟ </string>
+
+
+    <string name="jsie14"> کتنے مہینوں تک حمل جاری رہا؟ </string>
+
+
+    <string name="jsie15"> کیا آپ نے یا کسی دوسرے نے کوئی ایسا کام کیا جس سے حمل ختم ہوجائے؟ </string>
+    <string name="jsie15a"> ہاں </string>
+    <string name="jsie15b"> نہیں </string>
+
+
+    <string name="jsie16"> خدا نا خواستہ، کیا آپ کے گھر میں پچھلے پانچ سال میں کسی خاتون کو حمل کے دوران پیش آنے والے مسائل، ڈلیوری یا ڈلیوری کے42دن کے اندر موت واقع ہوئی ؟ </string>
+    <string name="jsie16a"> ہاں </string>
+    <string name="jsie16b"> نہیں </string>
+
+
+    <string name="jsie17"> کتنی خواتین کی موت واقع ہوئی ؟ </string>
+
+
+    <string name="jsie18"> خاتون کا نام </string>
+
+
+    <string name="jsie19"> وفات کی تاریخ </string>
+
+
+    <string name="jsie20"> موت کے وقت عمر </string>
+
+
+    <string name="jsie21"> موت کی وجہ </string>
+    <string name="jsie21a"> شدید خون کا بہیجانابچے کی پیدائش کے بعد خون کا نہ رکنا </string>
+    <string name="jsie21b"> بچے کی پیدائش کے بعد عموماً انفیکشن/ بخار </string>
+    <string name="jsie21c"> حامل کے دوران ہائی بلڈ پریشر (pre eclampsia and eclampsia) </string>
+    <string name="jsie21d"> ڈیلیوری کے دوران پیچیدگیاں </string>
+    <string name="jsie21e"> غیر محفوظ طریقے سے حمل کا ضایع کرنا </string>
+    <string name="jsie21f"> جھٹکے </string>
+    <string name="jsie21g"> بخار </string>
+    <string name="jsie21h"> دیگر (وضاحت) </string>
+
+
+    <string name="jsie22"> موت کہاں واقع ہوئی </string>
+    <string name="jsie22a"> گھر پر </string>
+    <string name="jsie22b"> سرکاری مرکز صحت </string>
+    <string name="jsie22c"> پرائیویٹ مرکز صحت </string>
+    <string name="jsie22d"> این جی او مرکز صحت </string>
+    <string name="jsie22e"> مرکز صحت جاتے ہوئے راستے می </string>
+
+
+    <string name="sectionF"> SECTION F: ANTENATAL CARE </string>
     <string name="jsif01"> کیا (نام) کی دفع حمل کے دوران آپ نے قبل از پیدائش معائنہ(ANC) کروایا تھا؟ </string>
     <string name="jsif01a"> ہاں </string>
     <string name="jsif01b"> نہیں </string>
@@ -39,7 +321,6 @@
     <string name="jsif04"> کیا (نام) کی دفع دوران حمل قبل از پیدائش معائنہ (ANC) کرواتے وقت آپکے شوہر آپ کے ہمراہ گئے ؟ </string>
     <string name="jsif04a"> ہاں </string>
     <string name="jsif04b"> نہیں </string>
-
 
 
     <string name="jsif05"> کیا (نام) کی دفع حمل کے دوران قبل از پیدائش معائنہ (ANC)کرواتے وقت کوئی آپ کے ہمراہ گیا؟ </string>
@@ -189,7 +470,6 @@
     <string name="jsif21p"> پورےجسم میں سوجن </string>
     <string name="jsif21q"> نظر کا دھندلانا </string>
     <string name="jsif21r"> تیز بخار </string>
-
 
 
     <string name="jsif22"> کیا آپ نے ابھی بتائے گئے خطرناک علامات/ مسائل کے حل کے لیئے رجوع کیا ؟ </string>
@@ -2223,5 +2503,10 @@
     <string name="jsiq07c"> لیکیوئیڈ صابن </string>
     <string name="jsiq07d"> مٹی/ریت/راکھ </string>
 
+    <string name="istatus">انٹروہو کا نتیجہ</string>
+    <string name="istatusa">مکمل</string>
+    <string name="istatusb">نا مکمل</string>
+    <string name="istatusc">انکار کردیا</string>
+    <string name="istatusd">گھر بند ہے</string>
 
 </resources>

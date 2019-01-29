@@ -44,10 +44,40 @@
             </intent-filter>
         </activity>
 
-        <!--<activity
-            android:name=".ui"
+        <activity
+            android:name=".ui.SectionAActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme1" />-->
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".ui.SectionFActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".ui.SectionGActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".ui.SectionHActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".ui.SectionIAActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".ui.SectionIBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name=".ui.SectionJActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
 
     </application>
 
