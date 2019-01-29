@@ -16,6 +16,7 @@
         <LinearLayout style="@style/linerlayout_view">
 
             <LinearLayout style="@style/linerlayout_view_wt_bound">
+
                 <!-- jsih01_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih01"
@@ -28,13 +29,14 @@
                             android:text="@string/jsih01" />
 
                         <EditText
-                            android:id="@+id/jsih01a"
-                            style="@style/textInput"
+                            android:id="@+id/jsih01"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih01"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih02_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih02"
@@ -67,6 +69,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih03_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih03"
@@ -99,6 +102,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih04_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih04"
@@ -136,6 +140,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih05_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih05"
@@ -168,6 +173,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih06_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih06"
@@ -195,6 +201,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih07_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih07"
@@ -237,6 +244,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih08_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih08"
@@ -275,6 +283,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih09_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih09"
@@ -307,6 +316,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih10_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih10"
@@ -364,6 +374,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih11_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih11"
@@ -397,6 +408,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih12_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih12"
@@ -410,24 +422,23 @@
 
                         <EditText
                             android:id="@+id/jsih12a"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih12"
                             android:inputType="number"
                             android:maxLength="4" />
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih12"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih12b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih12b" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih13_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih13"
@@ -442,24 +453,23 @@
 
                         <EditText
                             android:id="@+id/jsih13a"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih13"
                             android:inputType="number"
                             android:maxLength="4" />
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih13"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih13b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih13b" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih14_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih14"
@@ -487,6 +497,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih15_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih15"
@@ -544,6 +555,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih16_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih16"
@@ -572,6 +584,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih17_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih17"
@@ -624,6 +637,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih18_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih18"
@@ -680,14 +694,14 @@
                                 android:text="@string/jsih18h" />
 
                             <EditText
-                                android:tag="jsih18h"
                                 android:id="@+id/jsih18x"
-                                style="@style/textInput"
+                                style="@style/EditText"
                                 android:hint="@string/jsih18"
-                                android:maxLength="4" />
+                                android:maxLength="30" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih19_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih19"
@@ -715,6 +729,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih20_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih20"
@@ -742,6 +757,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih21_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih21"
@@ -755,24 +771,23 @@
 
                         <EditText
                             android:id="@+id/jsih21a"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih21"
                             android:inputType="number"
                             android:maxLength="4" />
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih21"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih21b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih21b" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih22_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih22"
@@ -800,6 +815,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih23_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih23"
@@ -812,13 +828,14 @@
                             android:text="@string/jsih23" />
 
                         <EditText
-                            android:id="@+id/jsih23a"
-                            style="@style/textInput"
+                            android:id="@+id/jsih23"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih23"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih24_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih24"
@@ -867,6 +884,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih25_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih25"
@@ -899,6 +917,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih26_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih26"
@@ -912,24 +931,23 @@
 
                         <EditText
                             android:id="@+id/jsih26a"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih26"
                             android:inputType="number"
                             android:maxLength="4" />
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih26"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih26b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih26b" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih27_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih27"
@@ -957,6 +975,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih28_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih28"
@@ -1005,6 +1024,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih29_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih29"
@@ -1018,26 +1038,27 @@
 
                         <EditText
                             android:id="@+id/jsih29a"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih29"
                             android:inputType="number"
                             android:maxLength="4" />
 
                         <EditText
                             android:id="@+id/jsih29b"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih29"
                             android:inputType="number"
                             android:maxLength="4" />
 
                         <EditText
                             android:id="@+id/jsih29c"
-                            style="@style/textInput"
+                            style="@style/EditText_number"
                             android:hint="@string/jsih29"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih30_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih30"
@@ -1069,27 +1090,28 @@
 
                             <EditText
                                 android:id="@+id/jsih31a"
-                                style="@style/textInput"
+                                style="@style/EditText_number"
                                 android:hint="@string/jsih31"
                                 android:inputType="number"
                                 android:maxLength="4" />
 
                             <EditText
                                 android:id="@+id/jsih31b"
-                                style="@style/textInput"
+                                style="@style/EditText_number"
                                 android:hint="@string/jsih31"
                                 android:inputType="number"
                                 android:maxLength="4" />
 
                             <EditText
                                 android:id="@+id/jsih31c"
-                                style="@style/textInput"
+                                style="@style/EditText_number"
                                 android:hint="@string/jsih31"
                                 android:inputType="number"
                                 android:maxLength="4" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih32_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih32"
@@ -1127,6 +1149,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih33_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih33"
@@ -1184,6 +1207,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih34_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih34"
@@ -1211,6 +1235,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih35_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih35"
@@ -1239,6 +1264,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih36_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih36"
@@ -1271,6 +1297,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih37_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih37"
@@ -1284,101 +1311,76 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih37"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih37a"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37a" />
 
                             <CheckBox
                                 android:id="@+id/jsih37b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37b" />
 
                             <CheckBox
                                 android:id="@+id/jsih37c"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37c" />
 
                             <CheckBox
                                 android:id="@+id/jsih37d"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37d" />
 
                             <CheckBox
                                 android:id="@+id/jsih37e"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37e" />
 
                             <CheckBox
                                 android:id="@+id/jsih37f"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37f" />
 
                             <CheckBox
                                 android:id="@+id/jsih37g"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37g" />
 
                             <CheckBox
                                 android:id="@+id/jsih37h"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37h" />
 
                             <CheckBox
                                 android:id="@+id/jsih37i"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37i" />
 
                             <CheckBox
                                 android:id="@+id/jsih37j"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37j" />
 
                             <CheckBox
                                 android:id="@+id/jsih37k"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37k" />
 
                             <CheckBox
                                 android:id="@+id/jsih37l"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37l" />
 
                             <CheckBox
                                 android:id="@+id/jsih37m"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih37m" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih38_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih38"
@@ -1411,6 +1413,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih39_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih39"
@@ -1424,73 +1427,56 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih39"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih39a"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39a" />
 
                             <CheckBox
                                 android:id="@+id/jsih39b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39b" />
 
                             <CheckBox
                                 android:id="@+id/jsih39c"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39c" />
 
                             <CheckBox
                                 android:id="@+id/jsih39d"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39d" />
 
                             <CheckBox
                                 android:id="@+id/jsih39e"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39e" />
 
                             <CheckBox
                                 android:id="@+id/jsih39f"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39f" />
 
                             <CheckBox
                                 android:id="@+id/jsih39g"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39g" />
 
                             <CheckBox
                                 android:id="@+id/jsih39h"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39h" />
 
                             <CheckBox
                                 android:id="@+id/jsih39i"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih39i" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih40_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih40"
@@ -1523,6 +1509,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih41_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih41"
@@ -1562,10 +1549,24 @@
                                 android:id="@+id/jsih41e"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsih41e" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
 
-                            <TextView
-                                style="@style/i_textview"
-                                android:text="@string/jsih42" />
+                <!-- jsih42_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsih42"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsih42" />
+
+                        <RadioGroup
+                            android:id="@+id/jsih42"
+                            style="@style/i_radiogroup">
 
                             <RadioButton
                                 android:id="@+id/jsih42a"
@@ -1589,6 +1590,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih43_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih43"
@@ -1646,6 +1648,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih44_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih44"
@@ -1758,6 +1761,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih45_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih45"
@@ -1785,6 +1789,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih46_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih46"
@@ -1822,6 +1827,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih47_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih47"
@@ -1874,6 +1880,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih48_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih48"
@@ -1887,23 +1894,22 @@
 
                         <EditText
                             android:id="@+id/jsih48a"
-                            style="@style/textInput"
+                            style="@style/EditText"
                             android:hint="@string/jsih48"
-                            android:maxLength="4" />
+                            android:maxLength="30" />
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsih48"
-                            style="@style/linerlayout_view">
+                            style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsih48b"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginBottom="1dp"
+                                style="@style/checkbox"
                                 android:text="@string/jsih48b" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih49_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih49"
@@ -1931,6 +1937,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih50_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih50"
@@ -1958,6 +1965,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih51_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih51"
@@ -1985,6 +1993,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih52_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih52"
@@ -2013,6 +2022,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih53_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih53"
@@ -2040,6 +2050,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih54_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih54"
@@ -2067,6 +2078,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih55_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih55"
@@ -2109,6 +2121,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih56_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih56"
@@ -2137,6 +2150,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih57_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih57"
@@ -2164,16 +2178,13 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih58_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih58"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linerlayout_view">
-
-                        <TextView
-                            style="@style/i_textview"
-                            android:text="@string/jsih58" />
 
                         <TextView
                             style="@style/i_textview"
@@ -2314,6 +2325,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih59_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih59"
@@ -2365,14 +2377,17 @@
                                 android:text="@string/jsih59g" />
 
                             <EditText
-                                android:tag="jsih59g"
                                 android:id="@+id/jsih59x"
-                                style="@style/textInput"
+                                style="@style/EditText"
                                 android:hint="@string/jsih59"
-                                android:maxLength="4" />
+                                android:maxLength="30"
+                                android:tag="jsih59g"
+                                android:text='@{jsih59g.checked ? jsih59x.getText.toString : ""}'
+                                android:visibility="@{jsih59g.checked ? View.VISIBLE : View.GONE}" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih60_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih60"
@@ -2400,6 +2415,7 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih61_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih61"
@@ -2451,14 +2467,17 @@
                                 android:text="@string/jsih61g" />
 
                             <EditText
-                                android:tag="jsih61g"
                                 android:id="@+id/jsih61x"
-                                style="@style/textInput"
+                                style="@style/EditText"
                                 android:hint="@string/jsih61"
-                                android:maxLength="4" />
+                                android:maxLength="30"
+                                android:tag="jsih61g"
+                                android:text='@{jsih61g.checked ? jsih61x.getText.toString : ""}'
+                                android:visibility="@{jsih61g.checked ? View.VISIBLE : View.GONE}" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih62_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih62"
@@ -2510,14 +2529,17 @@
                                 android:text="@string/jsih62g" />
 
                             <EditText
-                                android:tag="jsih62g"
                                 android:id="@+id/jsih62x"
-                                style="@style/textInput"
+                                style="@style/EditText"
                                 android:hint="@string/jsih62"
-                                android:maxLength="4" />
+                                android:maxLength="30"
+                                android:tag="jsih62g"
+                                android:text='@{jsih62g.checked ? jsih62x.getText.toString : ""}'
+                                android:visibility="@{jsih62g.checked ? View.VISIBLE : View.GONE}" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih63_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih63"
@@ -2547,10 +2569,24 @@
                                 android:id="@+id/jsih63c"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsih63c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
 
-                            <TextView
-                                style="@style/i_textview"
-                                android:text="@string/jsih64" />
+                <!-- jsih64_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsih64"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsih64" />
+
+                        <RadioGroup
+                            android:id="@+id/jsih64"
+                            style="@style/i_radiogroup">
 
                             <RadioButton
                                 android:id="@+id/jsih64a"
@@ -2578,14 +2614,17 @@
                                 android:text="@string/jsih64e" />
 
                             <EditText
-                                android:tag="jsih64e"
                                 android:id="@+id/jsih64x"
-                                style="@style/textInput"
+                                style="@style/EditText"
                                 android:hint="@string/jsih64"
-                                android:maxLength="4" />
+                                android:maxLength="30"
+                                android:tag="jsih64e"
+                                android:text='@{jsih64e.checked ? jsih64x.getText.toString : ""}'
+                                android:visibility="@{jsih64e.checked ? View.VISIBLE : View.GONE}" />
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <!-- jsih65_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsih65"
@@ -2628,12 +2667,15 @@
 
                             <EditText
                                 android:id="@+id/jsih65x"
-                                style="@style/textInput"
-                                android:tag="jsih65e"
+                                style="@style/EditText"
                                 android:hint="@string/jsih65"
-                                android:maxLength="4" />
+                                android:maxLength="30"
+                                android:tag="jsih65e"
+                                android:text='@{jsih65e.checked ? jsih65x.getText.toString : ""}'
+                                android:visibility="@{jsih65e.checked ? View.VISIBLE : View.GONE}" />
                         </RadioGroup>
                     </LinearLayout>
+
                 </android.support.v7.widget.CardView>
             </LinearLayout>
         </LinearLayout>

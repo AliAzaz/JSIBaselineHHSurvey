@@ -1197,15 +1197,18 @@
     <string name="jsiia21"> {Name} کے دستوں کے علاج کے حصول کے لیے آپ کا ٹرانسپورٹ پر کتنا خرچ ہوا؟ </string>
     <string name="jsiia21a"> روپے </string>
 
-
     <string name="jsiib01"> کیا آپ کے گھر میں پانچ سال سے کم کسی بچے کو پچھلے دو ہفتوں میں بخار ہوا؟ </string>
     <string name="jsiib01a"> ہاں </string>
     <string name="jsiib01b"> نہیں </string>
     <string name="jsiib01c"> معلوم نہیں </string>
 
-
     <string name="jsiib02"> آپ کے گھر پچھلے دو ہفتوں میں کتنے بچوں کو بخار ہوا؟ </string>
     <string name="jsiib02a"> تعداد </string>
+
+    <string name="jsiib03"> کیا کسی بچے کو بخار کے ساتھ کھانسی کا مسئلہ پیش آیا۔ جیسے کہ تیزی سے سانس لینا/ یا سانس لینے میں دشواری؟ </string>
+    <string name="jsiib03a"> ہاں </string>
+    <string name="jsiib03b"> نہیں </string>
+    <string name="jsiib03c"> معلوم نہیں </string>
 
     <string name="jsiib04"> پچھلے دو ہفتوں میں کتنے بچوں کو بخار کے ساتھ کھانسی کا مسئلہ پیش آیا۔ جیسے کہ تیزی سے سانس لینا/ یا سانس لیتے میں دشواری؟ </string>
     <string name="jsiib04x"> تعداد </string>
@@ -1435,7 +1438,7 @@
 
 
     <string name="jsij07"> 15 ماہ کے فورا بعد </string>
-
+    <string name="jsij07a"> Measles-II </string>
     <string name="jsij07a01"> دن </string>
     <string name="jsij07a02"> مہینہ </string>
     <string name="jsij07a03"> سال </string>
