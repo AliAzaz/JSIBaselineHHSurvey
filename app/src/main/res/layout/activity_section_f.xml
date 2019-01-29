@@ -228,7 +228,7 @@
                             <EditText
                                 android:id="@+id/jsif06ax"
                                 style="@style/EditText"
-                                android:hint="@string/jsif06"
+                                android:hint="@string/jsif06a"
                                 android:maxLength="30" />
 
                             <CheckBox
@@ -239,7 +239,7 @@
                             <EditText
                                 android:id="@+id/jsif06bx"
                                 style="@style/EditText"
-                                android:hint="@string/jsif06"
+                                android:hint="@string/jsif06b"
                                 android:maxLength="30" />
 
                             <CheckBox
@@ -250,7 +250,7 @@
                             <EditText
                                 android:id="@+id/jsif06cx"
                                 style="@style/EditText"
-                                android:hint="@string/jsif06"
+                                android:hint="@string/jsif06c"
                                 android:maxLength="30" />
                         </LinearLayout>
                     </LinearLayout>
@@ -362,7 +362,7 @@
                             <EditText
                                 android:id="@+id/jsif08jx"
                                 style="@style/EditText"
-                                android:hint="@string/jsif08"
+                                android:hint="@string/jsif08jx"
                                 android:maxLength="30"
                                 android:tag="jsif08j"
                                 android:text='@{jsif08j.checked ? jsif08jx.getText.toString : ""}'
@@ -385,7 +385,7 @@
                         <EditText
                             android:id="@+id/jsif09a"
                             style="@style/EditText"
-                            android:hint="@string/jsif09"
+                            android:hint="@string/jsif09a"
                             android:maxLength="30" />
 
                         <LinearLayout
@@ -414,7 +414,7 @@
                         <EditText
                             android:id="@+id/jsif10a"
                             style="@style/EditText"
-                            android:hint="@string/jsif10"
+                            android:hint="@string/jsif10a"
                             android:maxLength="30" />
 
                         <LinearLayout
@@ -477,7 +477,7 @@
                             <EditText
                                 android:id="@+id/jsif11fx"
                                 style="@style/EditText"
-                                android:hint="@string/jsif11"
+                                android:hint="@string/jsif11fx"
                                 android:maxLength="30"
                                 android:tag="jsif11f"
                                 android:text='@{jsif11f.checked ? jsif11fx.getText.toString : ""}'
@@ -500,7 +500,7 @@
                         <EditText
                             android:id="@+id/jsif12a"
                             style="@style/EditText"
-                            android:hint="@string/jsif12"
+                            android:hint="@string/jsif12a"
                             android:maxLength="30" />
 
                         <LinearLayout
@@ -1355,7 +1355,7 @@
                         <EditText
                             android:id="@+id/jsif29a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsif29"
+                            android:hint="@string/jsif29a"
                             android:inputType="number"
                             android:maxLength="4" />
 
@@ -1471,7 +1471,7 @@
                             <EditText
                                 android:id="@+id/jsif32d"
                                 style="@style/EditText_number"
-                                android:hint="@string/jsif32"
+                                android:hint="@string/jsif32d"
                                 android:inputType="number"
                                 android:maxLength="4"
                                 android:tag="jsif32a"
@@ -1486,7 +1486,7 @@
                             <EditText
                                 android:id="@+id/jsif32m"
                                 style="@style/EditText_number"
-                                android:hint="@string/jsif32"
+                                android:hint="@string/jsif32m"
                                 android:inputType="number"
                                 android:maxLength="4"
                                 android:tag="jsif32b"
@@ -1501,7 +1501,7 @@
                             <EditText
                                 android:id="@+id/jsif32y"
                                 style="@style/EditText_number"
-                                android:hint="@string/jsif32"
+                                android:hint="@string/jsif32y"
                                 android:inputType="number"
                                 android:maxLength="4"
                                 android:tag="jsif32c"
@@ -1636,7 +1636,7 @@
                         <EditText
                             android:id="@+id/jsif35a"
                             style="@style/EditText_number"
-                            android:hint="@string/jsif35"
+                            android:hint="@string/jsif35a"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -2039,12 +2039,35 @@
                                 android:id="@+id/jsif46g"
                                 style="@style/checkbox"
                                 android:text="@string/jsif46g" />
-
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
-
             </LinearLayout>
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_Continue"
+                    style="@style/buttons"
+                    android:onClick="@{() -> callback.BtnContinue()}"
+                    android:text="@string/nextSection" />
+
+                <Button
+                    android:id="@+id/btn_End"
+                    style="@style/buttons"
+                    android:layout_marginRight="10dp"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="@string/end_interview" />
+
+                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </layout>
