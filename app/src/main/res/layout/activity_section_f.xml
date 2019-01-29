@@ -143,7 +143,7 @@
                         <EditText
                             android:id="@+id/jsif03x"
                             style="@style/EditText_number"
-                            android:hint="@string/jsif03"
+                            android:hint="@string/jsif03x"
                             android:inputType="number"
                             android:maxLength="4" />
                     </LinearLayout>
@@ -228,7 +228,7 @@
                             <EditText
                                 android:id="@+id/jsif06ax"
                                 style="@style/EditText"
-                                android:hint="@string/jsif06a"
+                                android:hint="@string/jsif06ax"
                                 android:maxLength="30" />
 
                             <CheckBox
@@ -239,7 +239,7 @@
                             <EditText
                                 android:id="@+id/jsif06bx"
                                 style="@style/EditText"
-                                android:hint="@string/jsif06b"
+                                android:hint="@string/jsif06bx"
                                 android:maxLength="30" />
 
                             <CheckBox
@@ -250,7 +250,7 @@
                             <EditText
                                 android:id="@+id/jsif06cx"
                                 style="@style/EditText"
-                                android:hint="@string/jsif06c"
+                                android:hint="@string/jsif06cx"
                                 android:maxLength="30" />
                         </LinearLayout>
                     </LinearLayout>
@@ -393,9 +393,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsif09b"
+                                android:id="@+id/jsif0998"
                                 style="@style/checkbox"
-                                android:text="@string/jsif09b" />
+                                android:text="@string/jsif0998" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -422,9 +422,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsif10b"
+                                android:id="@+id/jsif1098"
                                 style="@style/checkbox"
-                                android:text="@string/jsif10b" />
+                                android:text="@string/jsif1098" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -508,9 +508,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsif12b"
+                                android:id="@+id/jsif1298"
                                 style="@style/checkbox"
-                                android:text="@string/jsif12b" />
+                                android:text="@string/jsif1298" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -1364,9 +1364,9 @@
                             style="@style/linerlayout_view_wt_bound">
 
                             <CheckBox
-                                android:id="@+id/jsif29b"
+                                android:id="@+id/jsif2998"
                                 style="@style/checkbox"
-                                android:text="@string/jsif29b" />
+                                android:text="@string/jsif2998" />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -2039,9 +2039,11 @@
                                 android:id="@+id/jsif46g"
                                 style="@style/checkbox"
                                 android:text="@string/jsif46g" />
+
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
             </LinearLayout>
 
             <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
