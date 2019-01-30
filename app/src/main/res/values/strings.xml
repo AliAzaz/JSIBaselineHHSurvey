@@ -86,14 +86,14 @@
 
     <string name="sectionC"> Section C: introduction and consent </string>
 
-    <string name="jsic01"> کیا آپ سروے کے متعلق اس وقت کوئی سوال کرنا چاہتی ہیں؟ </string>
-    <string name="jsic01a"> ہاں </string>
-    <string name="jsic01b"> نہیں </string>
+    <string name="jsia16"> کیا آپ سروے کے متعلق اس وقت کوئی سوال کرنا چاہتی ہیں؟ </string>
+    <string name="jsia16a"> ہاں </string>
+    <string name="jsia16b"> نہیں </string>
 
 
-    <string name="jsic02"> کیاآپ راضی ہیں؟ کیا میں انٹرویو شروع کرسکتا /کرسکتی ہوں؟ </string>
-    <string name="jsic02a"> ہاں </string>
-    <string name="jsic02b"> نہیں </string>
+    <string name="jsia17"> کیاآپ راضی ہیں؟ کیا میں انٹرویو شروع کرسکتا /کرسکتی ہوں؟ </string>
+    <string name="jsia17a"> ہاں </string>
+    <string name="jsia17b"> نہیں </string>
 
 
     <string name="sectionD"> SECTION D: HOUSEHOLD MEMBERS’ INFORMATION </string>

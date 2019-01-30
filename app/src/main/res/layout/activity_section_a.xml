@@ -316,6 +316,62 @@
                             android:maxLength="30" />
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
+                <!-- jsia16-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsia16"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linearlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsia16" />
+
+                        <RadioGroup
+                            android:id="@+id/jsia16"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsia16a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsia16a" />
+
+                            <RadioButton
+                                android:id="@+id/jsia16b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsia16b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsia17-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsia17"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linearlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsia17" />
+
+                        <RadioGroup
+                            android:id="@+id/jsia17"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsia17a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsia17a" />
+
+                            <RadioButton
+                                android:id="@+id/jsia17b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsia17b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
             </LinearLayout>
 
             <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
@@ -332,7 +388,8 @@
                     android:background="@color/colorPrimary"
                     android:onClick="@{() -> callback.BtnContinue()}"
                     android:text="@string/nextSection"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:visibility="@{jsia17a.checked ? View.VISIBLE : View.GONE}" />
 
                 <Button
                     android:id="@+id/btn_End"
@@ -341,7 +398,8 @@
                     android:background="@color/colorAccent"
                     android:onClick="@{() -> callback.BtnEnd()}"
                     android:text="@string/end_interview"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:visibility="@{jsia17b.checked ? View.VISIBLE : View.GONE}" />
 
                 <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
             </LinearLayout>
