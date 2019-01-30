@@ -68,8 +68,8 @@ public class SectionJActivity extends AppCompatActivity {
     }
 
     private void SaveDraft() {
-        JSONObject Json = GeneratorClass.getContainerJSON(bi.fldGrpSecJ01, true);
-        fc.setSa6(String.valueOf(Json));
+        JSONObject secJ = GeneratorClass.getContainerJSON(bi.fldGrpSecJ01, true);
+        fc.setSecJ(String.valueOf(secJ));
     }
 
     private boolean formValidation() {

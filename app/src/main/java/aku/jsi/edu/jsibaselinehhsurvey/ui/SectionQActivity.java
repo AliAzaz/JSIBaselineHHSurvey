@@ -46,7 +46,7 @@ public class SectionQActivity extends AppCompatActivity {
 
         SaveDraft();
         if (UpdateDB()) {
-//            MainApp.endActivity(this, this, EndingActivity.class, true, fc);
+            MainApp.endActivity(this, this, EndingActivity.class, true, fc);
         } else {
             Toast.makeText(this, "Error in updating db!!", Toast.LENGTH_SHORT).show();
         }
@@ -68,8 +68,8 @@ public class SectionQActivity extends AppCompatActivity {
     }
 
     private void SaveDraft() {
-        JSONObject Json = GeneratorClass.getContainerJSON(bi.fldGrpSecQ01, true);
-        fc.setSa6(String.valueOf(Json));
+        JSONObject secQ = GeneratorClass.getContainerJSON(bi.fldGrpSecQ01, true);
+        fc.setSecQ(String.valueOf(secQ));
     }
 
     private boolean formValidation() {

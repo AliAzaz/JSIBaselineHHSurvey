@@ -14,6 +14,7 @@ import aku.jsi.edu.jsibaselinehhsurvey.R;
 import aku.jsi.edu.jsibaselinehhsurvey.RMOperations.CrudOperations;
 import aku.jsi.edu.jsibaselinehhsurvey.core.CONSTANTS;
 import aku.jsi.edu.jsibaselinehhsurvey.data.DAO.FormsDAO;
+import aku.jsi.edu.jsibaselinehhsurvey.data.entities.ChildHealthForms;
 import aku.jsi.edu.jsibaselinehhsurvey.data.entities.Forms;
 import aku.jsi.edu.jsibaselinehhsurvey.databinding.ActivityEndingBinding;
 import aku.jsi.edu.jsibaselinehhsurvey.validation.ValidatorClass;
@@ -26,6 +27,7 @@ public class EndingActivity extends AppCompatActivity {
 
     ActivityEndingBinding bi;
     Forms fc;
+    ChildHealthForms chF;
     boolean flag;
 
     @Override
@@ -51,7 +53,13 @@ public class EndingActivity extends AppCompatActivity {
             bi.istatusd.setEnabled(true);
         }
 
-        fc = (Forms) getIntent().getSerializableExtra(CONSTANTS._URI_FC_OBJ);
+        if (getIntent().getSerializableExtra(CONSTANTS._URI_FC_OBJ).getClass().getName().equals(Forms.class.getName())) {
+            fc = (Forms) getIntent().getSerializableExtra(CONSTANTS._URI_FC_OBJ);
+            flag = true;
+        } else {
+            chF = (ChildHealthForms) getIntent().getSerializableExtra(CONSTANTS._URI_FC_OBJ);
+            flag = false;
+        }
 
     }
 
@@ -59,7 +67,7 @@ public class EndingActivity extends AppCompatActivity {
         if (formValidation()) {
             SaveDraft();
             if (UpdateDB()) {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                startActivity(new Intent(getApplicationContext(), flag ? MainActivity.class : SectionIAActivity.class));
             } else {
                 Toast.makeText(this, "Error in updating db!!", Toast.LENGTH_SHORT).show();
             }
@@ -67,13 +75,22 @@ public class EndingActivity extends AppCompatActivity {
     }
 
     private void SaveDraft() {
-        fc.setIstatus(bi.istatusa.isChecked() ? "1" : bi.istatusb.isChecked() ? "2" : bi.istatusc.isChecked() ? "3" : bi.istatusd.isChecked() ? "4" : "0");
-        fc.setEndtime(dtToday);
+
+        String status = bi.istatusa.isChecked() ? "1" : bi.istatusb.isChecked() ? "2" : bi.istatusc.isChecked() ? "3" : bi.istatusd.isChecked() ? "4" : "0";
+        String endTime = dtToday;
+
+        if (flag) {
+            fc.setIstatus(status);
+            fc.setEndtime(endTime);
+        } else {
+            chF.setIstatus(status);
+            chF.setEndtime(endTime);
+        }
     }
 
     public boolean UpdateDB() {
         try {
-            Long longID = new CrudOperations(this, FormsDAO.class.getName(), "formsDao", "updateForm", fc).execute().get();
+            Long longID = new CrudOperations(this, FormsDAO.class.getName(), "formsDao", flag ? "updateForm" : "updateFamilyMembers", flag ? fc : chF).execute().get();
             return longID == 1;
 
         } catch (InterruptedException e) {

@@ -1,13 +1,9 @@
 package aku.jsi.edu.jsibaselinehhsurvey.ui;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
-import android.text.format.DateFormat;
-import android.util.Log;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -17,11 +13,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
+import aku.jsi.edu.jsibaselinehhsurvey.JSON.GeneratorClass;
 import aku.jsi.edu.jsibaselinehhsurvey.R;
 import aku.jsi.edu.jsibaselinehhsurvey.RMOperations.CrudOperations;
 import aku.jsi.edu.jsibaselinehhsurvey.core.MainApp;
 import aku.jsi.edu.jsibaselinehhsurvey.data.DAO.FormsDAO;
-import aku.jsi.edu.jsibaselinehhsurvey.data.entities.Forms;
+import aku.jsi.edu.jsibaselinehhsurvey.data.entities.ChildHealthForms;
 import aku.jsi.edu.jsibaselinehhsurvey.databinding.ActivitySectionIABinding;
 import aku.jsi.edu.jsibaselinehhsurvey.validation.ValidatorClass;
 
@@ -30,7 +27,7 @@ public class SectionIAActivity extends AppCompatActivity {
     private static final String TAG = SectionIAActivity.class.getName();
     ActivitySectionIABinding bi;
     String deviceID;
-    private Forms fc;
+    private ChildHealthForms chF;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,8 +50,7 @@ public class SectionIAActivity extends AppCompatActivity {
         try {
             SaveDraft();
             if (UpdateDB()) {
-
-//                MainApp.stActivity(this, this, SectionBActivity.class, fc);
+                MainApp.stActivity(this, this, SectionIBActivity.class, chF);
             } else {
                 Toast.makeText(this, "Error in updating db!!", Toast.LENGTH_SHORT).show();
             }
@@ -67,14 +63,14 @@ public class SectionIAActivity extends AppCompatActivity {
 
         try {
 
-            Long longID = new CrudOperations(SectionIAActivity.this, FormsDAO.class.getName(), "formsDao", "insertForm", fc).execute().get();
+            Long longID = new CrudOperations(SectionIAActivity.this, FormsDAO.class.getName(), "formsDao", "insertChildHealth", chF).execute().get();
 
             if (longID != 0) {
-                fc.setId(longID.intValue());
+                chF.setId(longID.intValue());
 
-                fc.setUid(deviceID + fc.getId());
+                chF.setUid(deviceID + chF.getId());
 
-                longID = new CrudOperations(SectionIAActivity.this, FormsDAO.class.getName(), "formsDao", "updateForm", fc).execute().get();
+                longID = new CrudOperations(SectionIAActivity.this, FormsDAO.class.getName(), "formsDao", "updateFamilyMembers", chF).execute().get();
                 return longID == 1;
 
             } else {
@@ -91,20 +87,16 @@ public class SectionIAActivity extends AppCompatActivity {
 
     }
 
-    private void SaveDraft() throws JSONException {
-        fc = new Forms();
-        fc.setDevicetagID(MainApp.getTagName(this));
-        fc.setAppversion(MainApp.versionName + "." + MainApp.versionCode);
-        fc.setUsername(MainApp.userName);
-        fc.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
-        fc.setDeviceID(deviceID);
-        setGPS(fc);
+    private void SaveDraft() {
+        chF = new ChildHealthForms();
+        chF.setDevicetagID(MainApp.getTagName(this));
+        chF.setAppversion(MainApp.versionName + "." + MainApp.versionCode);
+        chF.setUsername(MainApp.userName);
+        chF.setFormDate(new SimpleDateFormat("dd-MM-yy HH:mm").format(new Date().getTime()));
+        chF.setDeviceID(deviceID);
 
-
-        JSONObject s01 = new JSONObject();
-
-
-        fc.setSa1(String.valueOf(s01));
+        JSONObject s01 = GeneratorClass.getContainerJSON(bi.fldGrpSecIA01, true);
+        chF.setSa1(String.valueOf(s01));
 
     }
 
@@ -122,39 +114,9 @@ public class SectionIAActivity extends AppCompatActivity {
             return;*/
 
         if (UpdateDB()) {
-//            MainApp.endActivity(this, this, EndingActivity.class, false, fc);
+            MainApp.endActivity(this, this, EndingActivity.class, false, chF);
         } else {
             Toast.makeText(this, "Error in updating db!!", Toast.LENGTH_SHORT).show();
-        }
-
-    }
-
-    public void setGPS(Forms fc) {
-        SharedPreferences GPSPref = getSharedPreferences("GPSCoordinates", Context.MODE_PRIVATE);
-        try {
-            String lat = GPSPref.getString("Latitude", "0");
-            String lang = GPSPref.getString("Longitude", "0");
-            String acc = GPSPref.getString("Accuracy", "0");
-            String elevation = GPSPref.getString("Elevation", "0");
-
-            if (lat == "0" && lang == "0") {
-                Toast.makeText(this, "Could not obtained GPS points", Toast.LENGTH_SHORT).show();
-            } else {
-                Toast.makeText(this, "GPS set", Toast.LENGTH_SHORT).show();
-            }
-
-            String date = DateFormat.format("dd-MM-yyyy HH:mm", Long.parseLong(GPSPref.getString("Time", "0"))).toString();
-
-            fc.setGpsLat(lat);
-            fc.setGpsLng(lang);
-            fc.setGpsAcc(acc);
-            fc.setGpsDT(date); // Timestamp is converted to date above
-            fc.setGpsElev(elevation);
-
-            Toast.makeText(this, "GPS set", Toast.LENGTH_SHORT).show();
-
-        } catch (Exception e) {
-            Log.e(TAG, "setGPS: " + e.getMessage());
         }
 
     }

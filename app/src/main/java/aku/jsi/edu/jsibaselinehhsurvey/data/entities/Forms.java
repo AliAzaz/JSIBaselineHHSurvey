@@ -30,12 +30,17 @@ public class Forms implements Serializable {
     private String participantID = ""; // Child ID
     private String participantName = ""; // Child Name
     private String sInfo = "";   // Section Info
-    private String sa1 = "";     // Section 1
-    private String sa2 = "";     // Section 2
-    private String sa3 = "";     // Section 3
-    private String sa4 = "";     // Section 4
-    private String sa5 = "";     // Section 5
-    private String sa6 = "";     // Section 6
+    private String secF = "";     // Section F
+    private String secG = "";     // Section G
+    private String secH = "";     // Section H
+    private String secJ = "";     // Section J
+    private String secK = "";     // Section K
+    private String secL = "";     // Section L
+    private String secM = "";     // Section M
+    private String secN = "";     // Section N
+    private String secO = "";     // Section O
+    private String secP = "";     // Section P
+    private String secQ = "";     // Section Q
     private String istatus = "";
     private String endtime = "";
     private String clustercode = "";
@@ -66,12 +71,17 @@ public class Forms implements Serializable {
         this.participantName = forms.participantName;
         this.studyID = forms.studyID;
         this.sInfo = forms.sInfo;
-        this.sa1 = forms.sa1;
-        this.sa2 = forms.sa2;
-        this.sa3 = forms.sa3;
-        this.sa4 = forms.sa4;
-        this.sa5 = forms.sa5;
-        this.sa6 = forms.sa6;
+        this.secF = forms.secF;
+        this.secG = forms.secG;
+        this.secH = forms.secH;
+        this.secJ = forms.secJ;
+        this.secK = forms.secK;
+        this.secL = forms.secL;
+        this.secM = forms.secM;
+        this.secN = forms.secN;
+        this.secO = forms.secO;
+        this.secP = forms.secP;
+        this.secQ = forms.secQ;
         this.istatus = forms.istatus;
         this.endtime = forms.endtime;
         this.clustercode = forms.clustercode;
@@ -131,25 +141,39 @@ public class Forms implements Serializable {
         if (!this.sInfo.equals("")) {
             json.put("sInfo", this.sInfo.equals("") ? JSONObject.NULL : new JSONObject(this.sInfo));
         }
-        if (!this.sa1.equals("")) {
-            json.put("sa1", this.sa1.equals("") ? JSONObject.NULL : new JSONObject(this.sa1));
+        if (!this.secF.equals("")) {
+            json.put("secF", this.secF.equals("") ? JSONObject.NULL : new JSONObject(this.secF));
         }
-        if (!this.sa2.equals("")) {
-            json.put("sa2", this.sa2.equals("") ? JSONObject.NULL : new JSONObject(this.sa2));
+        if (!this.secG.equals("")) {
+            json.put("secG", this.secG.equals("") ? JSONObject.NULL : new JSONObject(this.secG));
         }
-        if (!this.sa3.equals("")) {
-            json.put("sa3", this.sa3.equals("") ? JSONObject.NULL : new JSONObject(this.sa3));
+        if (!this.secH.equals("")) {
+            json.put("secH", this.secH.equals("") ? JSONObject.NULL : new JSONObject(this.secH));
         }
-        if (!this.sa4.equals("")) {
-            json.put("sa4", this.sa4.equals("") ? JSONObject.NULL : new JSONObject(this.sa4));
+        if (!this.secJ.equals("")) {
+            json.put("secJ", this.secJ.equals("") ? JSONObject.NULL : new JSONObject(this.secJ));
         }
-        if (!this.sa5.equals("")) {
-            json.put("sa5", this.sa5.equals("") ? JSONObject.NULL : new JSONObject(this.sa5));
+        if (!this.secK.equals("")) {
+            json.put("secK", this.secK.equals("") ? JSONObject.NULL : new JSONObject(this.secK));
         }
-        if (!this.sa6.equals("")) {
-            json.put("sa6", this.sa6.equals("") ? JSONObject.NULL : new JSONObject(this.sa6));
+        if (!this.secL.equals("")) {
+            json.put("secL", this.secL.equals("") ? JSONObject.NULL : new JSONObject(this.secL));
         }
-
+        if (!this.secM.equals("")) {
+            json.put("secM", this.secM.equals("") ? JSONObject.NULL : new JSONObject(this.secM));
+        }
+        if (!this.secN.equals("")) {
+            json.put("secN", this.secN.equals("") ? JSONObject.NULL : new JSONObject(this.secN));
+        }
+        if (!this.secO.equals("")) {
+            json.put("secO", this.secO.equals("") ? JSONObject.NULL : new JSONObject(this.secO));
+        }
+        if (!this.secP.equals("")) {
+            json.put("secP", this.secP.equals("") ? JSONObject.NULL : new JSONObject(this.secP));
+        }
+        if (!this.secQ.equals("")) {
+            json.put("secQ", this.secQ.equals("") ? JSONObject.NULL : new JSONObject(this.secQ));
+        }
 
         return json;
     }
@@ -242,52 +266,92 @@ public class Forms implements Serializable {
         this.sInfo = sInfo;
     }
 
-    public String getSa1() {
-        return sa1;
+    public String getSecF() {
+        return secF;
     }
 
-    public void setSa1(String sa1) {
-        this.sa1 = sa1;
+    public void setSecF(String secF) {
+        this.secF = secF;
     }
 
-    public String getSa2() {
-        return sa2;
+    public String getSecG() {
+        return secG;
     }
 
-    public void setSa2(String sa2) {
-        this.sa2 = sa2;
+    public void setSecG(String secG) {
+        this.secG = secG;
     }
 
-    public String getSa3() {
-        return sa3;
+    public String getSecH() {
+        return secH;
     }
 
-    public void setSa3(String sa3) {
-        this.sa3 = sa3;
+    public void setSecH(String secH) {
+        this.secH = secH;
     }
 
-    public String getSa4() {
-        return sa4;
+    public String getSecJ() {
+        return secJ;
     }
 
-    public void setSa4(String sa4) {
-        this.sa4 = sa4;
+    public void setSecJ(String secJ) {
+        this.secJ = secJ;
     }
 
-    public String getSa5() {
-        return sa5;
+    public String getSecK() {
+        return secK;
     }
 
-    public void setSa5(String sa5) {
-        this.sa5 = sa5;
+    public void setSecK(String secK) {
+        this.secK = secK;
     }
 
-    public String getSa6() {
-        return sa6;
+    public String getSecL() {
+        return secL;
     }
 
-    public void setSa6(String sa6) {
-        this.sa6 = sa6;
+    public void setSecL(String secL) {
+        this.secL = secL;
+    }
+
+    public String getSecM() {
+        return secM;
+    }
+
+    public void setSecM(String secM) {
+        this.secM = secM;
+    }
+
+    public String getSecN() {
+        return secN;
+    }
+
+    public void setSecN(String secN) {
+        this.secN = secN;
+    }
+
+    public String getSecO() {
+        return secO;
+    }
+
+    public void setSecO(String secO) {
+        this.secO = secO;
+    }
+
+    public String getSecP() {
+        return secP;
+    }
+
+    public void setSecP(String secP) {
+        this.secP = secP;
+    }
+
+    public String getSecQ() {
+        return secQ;
+    }
+
+    public void setSecQ(String secQ) {
+        this.secQ = secQ;
     }
 
     public String getEndtime() {
@@ -410,45 +474,5 @@ public class Forms implements Serializable {
         this.pdeviation = pdeviation;
     }
 
-    public class Simple_Forms_04_05 {
-
-        String ls01a05, ls01a06, ls01a07, ls01a09, ls01f03, ls01f04, ls01f05d, ls01f05m, ls01f05y;
-
-        public String getLs01a05() {
-            return ls01a05;
-        }
-
-        public String getLs01a06() {
-            return ls01a06;
-        }
-
-        public String getLs01a07() {
-            return ls01a07;
-        }
-
-        public String getLs01a09() {
-            return ls01a09;
-        }
-
-        public String getLs01f03() {
-            return ls01f03;
-        }
-
-        public String getLs01f04() {
-            return ls01f04;
-        }
-
-        public String getLs01f05d() {
-            return ls01f05d;
-        }
-
-        public String getLs01f05m() {
-            return ls01f05m;
-        }
-
-        public String getLs01f05y() {
-            return ls01f05y;
-        }
-    }
 
 }

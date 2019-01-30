@@ -14,10 +14,16 @@
     <string name="sectionA"> SECTION A: IDENTIFICATION </string>
     <string name="sectionG"> SECTION G: Delivery PREPAREDNESS AND EXPERIENCE </string>
     <string name="sectionH"> SECTION H: NEWBORN HEALTH </string>
-    <string name="sectionIA"> SECTION IA. CHILD HEALTH </string>
-    <string name="sectionIB"> SECTION IB. ACUTE RESPIRATORY INFECTION (ARI) </string>
-    <string name="sectionJ"> SECTION IB. IMMUNIZATION </string>
-
+    <string name="sectionIA"> SECTION IA: CHILD HEALTH </string>
+    <string name="sectionIB"> SECTION IB: ACUTE RESPIRATORY INFECTION (ARI) </string>
+    <string name="sectionJ"> SECTION J: IMMUNIZATION </string>
+    <string name="sectionK"> SECTION K: FAMILY PLANNING </string>
+    <string name="sectionL"> Section L: Experience of visiting health facility </string>
+    <string name="sectionM"> Section M: Community Interactions </string>
+    <string name="sectionN"> Section N. Social Processing </string>
+    <string name="sectionO"> SECTION O: SOCIO ECONOMIC STATUS OF HOUSEHOLD </string>
+    <string name="sectionP"> SECTION P: WATER AND SANITATION </string>
+    <string name="sectionQ"> SECTION Q: HANDWASHING </string>
 
     <string name="jsia01"> کلسٹر نمبر </string>
 

@@ -15,14 +15,14 @@ import aku.jsi.edu.jsibaselinehhsurvey.RMOperations.CrudOperations;
 import aku.jsi.edu.jsibaselinehhsurvey.core.CONSTANTS;
 import aku.jsi.edu.jsibaselinehhsurvey.core.MainApp;
 import aku.jsi.edu.jsibaselinehhsurvey.data.DAO.FormsDAO;
-import aku.jsi.edu.jsibaselinehhsurvey.data.entities.Forms;
+import aku.jsi.edu.jsibaselinehhsurvey.data.entities.ChildHealthForms;
 import aku.jsi.edu.jsibaselinehhsurvey.databinding.ActivitySectionIBBinding;
 import aku.jsi.edu.jsibaselinehhsurvey.validation.ValidatorClass;
 
 public class SectionIBActivity extends AppCompatActivity {
 
     private ActivitySectionIBBinding bi;
-    private Forms fc;
+    private ChildHealthForms chF;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class SectionIBActivity extends AppCompatActivity {
 
     private void setContentUI() {
         this.setTitle(R.string.sectionIB);
-        fc = (Forms) getIntent().getSerializableExtra(CONSTANTS._URI_FC_OBJ);
+        chF = (ChildHealthForms) getIntent().getSerializableExtra(CONSTANTS._URI_FC_OBJ);
 
     }
 
@@ -46,7 +46,7 @@ public class SectionIBActivity extends AppCompatActivity {
 
         SaveDraft();
         if (UpdateDB()) {
-//            MainApp.endActivity(this, this, EndingActivity.class, true, fc);
+            MainApp.endActivity(this, this, EndingActivity.class, true, chF);
         } else {
             Toast.makeText(this, "Error in updating db!!", Toast.LENGTH_SHORT).show();
         }
@@ -55,7 +55,7 @@ public class SectionIBActivity extends AppCompatActivity {
     private boolean UpdateDB() {
         try {
 
-            Long longID = new CrudOperations(this, FormsDAO.class.getName(), "formsDao", "updateForm", fc).execute().get();
+            Long longID = new CrudOperations(this, FormsDAO.class.getName(), "formsDao", "updateFamilyMembers", chF).execute().get();
             return longID == 1;
 
         } catch (InterruptedException e) {
@@ -69,7 +69,7 @@ public class SectionIBActivity extends AppCompatActivity {
 
     private void SaveDraft() {
         JSONObject Json = GeneratorClass.getContainerJSON(bi.fldGrpSecIB01, true);
-        fc.setSa6(String.valueOf(Json));
+        chF.setSa2(String.valueOf(Json));
     }
 
     private boolean formValidation() {
@@ -77,6 +77,6 @@ public class SectionIBActivity extends AppCompatActivity {
     }
 
     public void BtnEnd() {
-        MainApp.endActivity(this, this, EndingActivity.class, false, fc);
+        MainApp.endActivity(this, this, EndingActivity.class, false, chF);
     }
 }
