@@ -13,18 +13,18 @@
 
     <ScrollView style="@style/i_scrollview">
 
-        <LinearLayout style="@style/linerlayout_view">
+        <LinearLayout style="@style/linearlayout_view">
 
             <LinearLayout
                 android:id="@+id/fldGrpSecJ01"
-                style="@style/linerlayout_view_wt_bound">
+                style="@style/linearlayout_view_wt_bound">
 
                 <!-- jsij00_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsij00"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -57,7 +57,7 @@
                     android:id="@+id/fldGrpCVjsij01"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -90,7 +90,7 @@
                     android:id="@+id/fldGrpCVjsij02"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -153,7 +153,7 @@
                     android:id="@+id/fldGrpCVjsij03"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -266,7 +266,7 @@
                     android:id="@+id/fldGrpCVjsij04"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -379,7 +379,7 @@
                     android:id="@+id/fldGrpCVjsij05"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -467,7 +467,7 @@
                     android:id="@+id/fldGrpCVjsij06"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -505,7 +505,7 @@
                     android:id="@+id/fldGrpCVjsij07"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -543,7 +543,7 @@
                     android:id="@+id/fldGrpCVjsij08"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -576,7 +576,7 @@
                     android:id="@+id/fldGrpCVjsij09"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -610,7 +610,7 @@
                     style="@style/cardView"
                     android:visibility="@{jsij09a.checked ? View.VISIBLE : View.GONE}">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -625,7 +625,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsij10"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsij1098"
@@ -640,7 +640,7 @@
                     android:id="@+id/fldGrpCVjsij11"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -674,7 +674,7 @@
                     style="@style/cardView"
                     android:visibility="@{jsij11a.checked ? View.VISIBLE : View.GONE}">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -689,7 +689,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsij12"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsij1298"
@@ -704,7 +704,7 @@
                     android:id="@+id/fldGrpCVjsij13"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -738,7 +738,7 @@
                     style="@style/cardView"
                     android:visibility="@{jsij13a.checked ? View.VISIBLE : View.GONE}">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -753,7 +753,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsij14"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsij1498"
@@ -768,7 +768,7 @@
                     android:id="@+id/fldGrpCVjsij15"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -801,7 +801,7 @@
                     android:id="@+id/fldGrpCVjsij16"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -835,7 +835,7 @@
                     style="@style/cardView"
                     android:visibility="@{jsij16a.checked ? View.VISIBLE : View.GONE}">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -850,7 +850,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsij17"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsij1798"
@@ -865,7 +865,7 @@
                     android:id="@+id/fldGrpCVjsij18"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -899,7 +899,7 @@
                     style="@style/cardView"
                     android:visibility="@{jsij18a.checked ? View.VISIBLE : View.GONE}">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -914,7 +914,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsij19"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsij1998"
@@ -925,6 +925,35 @@
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                style="@style/linearlayout_view"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/btn_Continue"
+                    style="@style/buttons2"
+                    android:background="@color/colorPrimary"
+                    android:onClick="@{() -> callback.BtnContinue()}"
+                    android:text="@string/nextSection"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_End"
+                    style="@style/buttons2"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="@string/end_interview"
+                    android:textColor="@color/white" />
+
+                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </layout>
