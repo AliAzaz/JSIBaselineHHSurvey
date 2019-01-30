@@ -17,6 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.ExecutionException;
 
+import aku.jsi.edu.jsibaselinehhsurvey.JSON.GeneratorClass;
 import aku.jsi.edu.jsibaselinehhsurvey.R;
 import aku.jsi.edu.jsibaselinehhsurvey.RMOperations.CrudOperations;
 import aku.jsi.edu.jsibaselinehhsurvey.core.MainApp;
@@ -100,12 +101,8 @@ public class SectionAActivity extends AppCompatActivity {
         fc.setDeviceID(deviceID);
         setGPS(fc);
 
-
-        JSONObject s01 = new JSONObject();
-
-
-        fc.setSa1(String.valueOf(s01));
-
+        JSONObject sInfo = GeneratorClass.getContainerJSON(bi.fldGrpSecA01, true);
+        fc.setSInfo(String.valueOf(sInfo));
     }
 
     private boolean formValidation() {

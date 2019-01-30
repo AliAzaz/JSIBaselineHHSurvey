@@ -5,9 +5,9 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
-import aku.jsi.edu.jsibaselinehhsurvey.data.AppDatabase;
+import aku.jsi.edu.jsibaselinehhsurvey.core.CONSTANTS;
 
-@Entity(tableName = AppDatabase.Sub_DBConnection.TABLE_USERS)
+@Entity(tableName = CONSTANTS.TABLE_USERS)
 public class Users {
 
     @PrimaryKey(autoGenerate = true)

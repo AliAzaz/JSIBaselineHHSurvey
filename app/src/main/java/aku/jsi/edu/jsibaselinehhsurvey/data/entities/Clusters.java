@@ -7,9 +7,9 @@ import android.arch.persistence.room.PrimaryKey;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import aku.jsi.edu.jsibaselinehhsurvey.data.AppDatabase;
+import aku.jsi.edu.jsibaselinehhsurvey.core.CONSTANTS;
 
-@Entity(tableName = AppDatabase.Sub_DBConnection.TABLE_CLUSTERS)
+@Entity(tableName = CONSTANTS.TABLE_CLUSTERS)
 public class Clusters {
 
     @PrimaryKey(autoGenerate = true)

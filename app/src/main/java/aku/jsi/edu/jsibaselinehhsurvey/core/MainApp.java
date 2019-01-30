@@ -112,8 +112,8 @@ public class MainApp extends Application {
                                                 int id) {
                                 activity.finish();
                                 Intent end_intent = new Intent(context, EndActivityClass);
-                                end_intent.putExtra(CONSTANTS.URI_END_FLAG, complete);
-                                end_intent.putExtra(CONSTANTS.URI_END_OBJECT, (Serializable) objectData);
+                                end_intent.putExtra(CONSTANTS._URI_END_FLAG, complete);
+                                end_intent.putExtra(CONSTANTS._URI_END_OBJECT, (Serializable) objectData);
                                 context.startActivity(end_intent);
                             }
                         });
