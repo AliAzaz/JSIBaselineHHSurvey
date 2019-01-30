@@ -8,14 +8,17 @@
 
         <variable
             name="callback"
-            type="com.example.hassannaqvi.fas.ui.tool2.SectionD_tool_2Activity" />
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionLActivity" />
     </data>
 
     <ScrollView style="@style/i_scrollview">
 
         <LinearLayout style="@style/linerlayout_view">
 
-            <LinearLayout style="@style/linerlayout_view_wt_bound">
+            <LinearLayout
+
+                android:id="@+id/fldGrpSecL01"
+                style="@style/linerlayout_view_wt_bound">
 
                 <!-- jsil01_TextView-->
                 <android.support.v7.widget.CardView
