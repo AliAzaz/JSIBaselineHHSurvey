@@ -13,19 +13,19 @@
 
     <ScrollView style="@style/i_scrollview">
 
-        <LinearLayout style="@style/linerlayout_view">
+        <LinearLayout style="@style/linearlayout_view">
 
             <LinearLayout
 
                 android:id="@+id/fldGrpSecK01"
-                style="@style/linerlayout_view_wt_bound">
+                style="@style/linearlayout_view_wt_bound">
 
                 <!-- jsik01_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsik01"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -53,7 +53,7 @@
                     android:id="@+id/fldGrpCVjsik02"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -81,7 +81,7 @@
                     android:id="@+id/fldGrpCVjsik03"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -109,7 +109,7 @@
                     android:id="@+id/fldGrpCVjsik04"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -117,7 +117,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsik04"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsik04a"
@@ -192,7 +192,7 @@
                     android:id="@+id/fldGrpCVjsik05"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -265,6 +265,35 @@
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
             </LinearLayout>
+
+            <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
+            <LinearLayout
+                style="@style/linearlayout_view"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/btn_Continue"
+                    style="@style/buttons2"
+                    android:background="@color/colorPrimary"
+                    android:onClick="@{() -> callback.BtnContinue()}"
+                    android:text="@string/nextSection"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_End"
+                    style="@style/buttons2"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent"
+                    android:onClick="@{() -> callback.BtnEnd()}"
+                    android:text="@string/end_interview"
+                    android:textColor="@color/white" />
+
+                <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </layout>

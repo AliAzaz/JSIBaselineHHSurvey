@@ -218,6 +218,18 @@
         <item name="android:elevation">5dp</item>
     </style>
 
+    <style name="buttons2" parent="android:Widget.Material.Light.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">50</item>
+        <item name="android:radius">2dp</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="BackgroundStyle" parent="android:Widget.Material.Light.ScrollView">
         <item name="android:background">#e4e4e4</item>
         <item name="android:padding">10dp</item>
@@ -253,7 +265,7 @@
         <item name="android:background">@color/colorPrimary</item>
     </style>
 
-    <style name="linerlayout_view">
+    <style name="linearlayout_view">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">8dp</item>
@@ -261,7 +273,7 @@
         <item name="android:padding">2dp</item>
     </style>
 
-    <style name="linerlayout_view_wt_bound">
+    <style name="linearlayout_view_wt_bound">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>

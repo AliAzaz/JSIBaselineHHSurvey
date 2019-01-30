@@ -13,18 +13,18 @@
 
     <ScrollView style="@style/i_scrollview">
 
-        <LinearLayout style="@style/linerlayout_view">
+        <LinearLayout style="@style/linearlayout_view">
 
             <LinearLayout
                 android:id="@+id/fldGrpSecIA01"
-                style="@style/linerlayout_view_wt_bound">
+                style="@style/linearlayout_view_wt_bound">
 
                 <!-- jsiia01_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiia01"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -57,7 +57,7 @@
                     android:id="@+id/fldGrpCVjsiia02"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -76,7 +76,7 @@
                     android:id="@+id/fldGrpCVjsiia03"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -95,7 +95,7 @@
                     android:id="@+id/fldGrpCVjsiia04"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -128,7 +128,7 @@
                     android:id="@+id/fldGrpCVjsiia05"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -161,7 +161,7 @@
                     android:id="@+id/fldGrpCVjsiia06"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -219,7 +219,7 @@
                     android:id="@+id/fldGrpCVjsiia07"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -257,7 +257,7 @@
                     android:id="@+id/fldGrpCVjsiia08"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -320,7 +320,7 @@
                     android:id="@+id/fldGrpCVjsiia09"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -335,7 +335,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsiia09"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsiia0998"
@@ -350,7 +350,7 @@
                     android:id="@+id/fldGrpCVjsiia10"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -365,7 +365,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsiia10"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsiia1098"
@@ -380,7 +380,7 @@
                     android:id="@+id/fldGrpCVjsiia11"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -438,7 +438,7 @@
                     android:id="@+id/fldGrpCVjsiia12"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -501,7 +501,7 @@
                     android:id="@+id/fldGrpCVjsiia13"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -529,7 +529,7 @@
                     android:id="@+id/fldGrpCVjsiia14"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -562,7 +562,7 @@
                     android:id="@+id/fldGrpCVjsiia15"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -577,7 +577,7 @@
 
                         <LinearLayout
                             android:id="@+id/fldGrpLLjsiia15"
-                            style="@style/linerlayout_view_wt_bound">
+                            style="@style/linearlayout_view_wt_bound">
 
                             <CheckBox
                                 android:id="@+id/jsiia15b"
@@ -592,7 +592,7 @@
                     android:id="@+id/fldGrpCVjsiia16"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -645,7 +645,7 @@
                     android:id="@+id/fldGrpCVjsiia17"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -673,7 +673,7 @@
                     android:id="@+id/fldGrpCVjsiia18"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -706,7 +706,7 @@
                     android:id="@+id/fldGrpCVjsiia19"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -759,7 +759,7 @@
                     android:id="@+id/fldGrpCVjsiia20"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -779,7 +779,7 @@
                     android:id="@+id/fldGrpCVjsiia21"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
@@ -797,27 +797,30 @@
                 </android.support.v7.widget.CardView>
             </LinearLayout>
 
-
             <!--  = = = = =  END OF FORM FIELDS  = = = = = -->
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
+                style="@style/linearlayout_view"
                 android:layout_marginTop="20dp"
-                android:orientation="horizontal">
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <Button
                     android:id="@+id/btn_Continue"
-                    style="@style/buttons"
+                    style="@style/buttons2"
+                    android:background="@color/colorPrimary"
                     android:onClick="@{() -> callback.BtnContinue()}"
-                    android:text="@string/nextSection" />
+                    android:text="@string/nextSection"
+                    android:textColor="@color/white" />
 
                 <Button
                     android:id="@+id/btn_End"
-                    style="@style/buttons"
+                    style="@style/buttons2"
                     android:layout_marginRight="10dp"
+                    android:background="@color/colorAccent"
                     android:onClick="@{() -> callback.BtnEnd()}"
-                    android:text="@string/end_interview" />
+                    android:text="@string/end_interview"
+                    android:textColor="@color/white" />
 
                 <!--'onClick' for btn_End will NOT change and always call 'endInterview'-->
             </LinearLayout>
