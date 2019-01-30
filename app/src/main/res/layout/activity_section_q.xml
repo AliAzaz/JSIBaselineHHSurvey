@@ -24,7 +24,9 @@
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq01"
                     style="@style/cardView"
-                    android:visibility="@{jsip11.checked ? View.VISIBLE : View.GONE}">
+
+
+                    >
 
                     <LinearLayout style="@style/linearlayout_view">
 
@@ -62,6 +64,8 @@
                 <!-- jsiq02_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq02"
+
+                    android:visibility="@{jsiq01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -90,6 +94,7 @@
                 <!-- jsiq03_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq03"
+                    android:visibility="@{jsiq01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -119,7 +124,9 @@
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq04"
                     style="@style/cardView"
-                    android:visibility="@{jsiq01.checked ? View.VISIBLE : View.GONE}">
+                    android:visibility="@{jsiq03.checked ? View.VISIBLE : View.GONE}"
+
+                    >
 
                     <LinearLayout style="@style/linearlayout_view">
 
@@ -158,7 +165,7 @@
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq05"
                     style="@style/cardView"
-                    android:visibility="@{jsiq03b.checked ? View.VISIBLE : View.GONE}">
+                   >
 
                     <LinearLayout style="@style/linearlayout_view">
 
@@ -186,7 +193,10 @@
                 <!-- jsiq06_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq06"
-                    style="@style/cardView">
+                    style="@style/cardView"
+
+                    android:visibility="@{jsiq05a.checked ? View.VISIBLE : View.GONE}"
+                    >
 
                     <LinearLayout style="@style/linearlayout_view">
 
@@ -214,7 +224,9 @@
                 <!-- jsiq07_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsiq07"
-                    style="@style/cardView">
+                    style="@style/cardView"
+                    android:visibility="@{jsiq05a.checked ? View.VISIBLE : View.GONE}"
+                    >
 
                     <LinearLayout style="@style/linearlayout_view">
 

@@ -3,6 +3,7 @@ package aku.jsi.edu.jsibaselinehhsurvey.ui;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import org.json.JSONObject;
@@ -17,6 +18,7 @@ import aku.jsi.edu.jsibaselinehhsurvey.core.MainApp;
 import aku.jsi.edu.jsibaselinehhsurvey.data.DAO.FormsDAO;
 import aku.jsi.edu.jsibaselinehhsurvey.data.entities.Forms;
 import aku.jsi.edu.jsibaselinehhsurvey.databinding.ActivitySectionOBinding;
+import aku.jsi.edu.jsibaselinehhsurvey.validation.ClearClass;
 import aku.jsi.edu.jsibaselinehhsurvey.validation.ValidatorClass;
 
 public class SectionOActivity extends AppCompatActivity {
@@ -78,5 +80,29 @@ public class SectionOActivity extends AppCompatActivity {
 
     public void BtnEnd() {
         MainApp.endActivity(this, this, EndingActivity.class, false, fc);
+    }
+
+    private void setListeners() {
+
+
+        bi.jsio09.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if (i != bi.jsio09a.getId())
+                    ClearClass.ClearAllFields(bi.fldGrpCVjsio10, null);
+
+            }
+        });
+
+        bi.jsio11.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if (i != bi.jsio11a.getId())
+                    ClearClass.ClearAllFields(bi.fldGrpCVjsio12, null);
+
+            }
+        });
+
+
     }
 }
