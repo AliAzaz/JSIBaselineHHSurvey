@@ -1,0 +1,270 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.tool2.SectionD_tool_2Activity">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionKActivity" />
+    </data>
+
+    <ScrollView style="@style/i_scrollview">
+
+        <LinearLayout style="@style/linerlayout_view">
+
+            <LinearLayout
+
+                android:id="@+id/fldGrpSecK01"
+                style="@style/linerlayout_view_wt_bound">
+
+                <!-- jsik01_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsik01"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsik01" />
+
+                        <RadioGroup
+                            android:id="@+id/jsik01"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsik01a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik01a" />
+
+                            <RadioButton
+                                android:id="@+id/jsik01b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik01b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsik02_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsik02"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsik02" />
+
+                        <RadioGroup
+                            android:id="@+id/jsik02"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsik02a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik02a" />
+
+                            <RadioButton
+                                android:id="@+id/jsik02b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik02b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsik03_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsik03"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsik03" />
+
+                        <RadioGroup
+                            android:id="@+id/jsik03"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsik03a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik03a" />
+
+                            <RadioButton
+                                android:id="@+id/jsik03b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik03b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsik04_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsik04"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsik04" />
+
+                        <LinearLayout
+                            android:id="@+id/fldGrpLLjsik04"
+                            style="@style/linerlayout_view_wt_bound">
+
+                            <CheckBox
+                                android:id="@+id/jsik04a"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04a" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04b"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04b" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04c"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04c" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04d"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04d" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04e"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04e" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04f"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04f" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04g"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04g" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04h"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04h" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04i"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04i" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04j"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04j" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04k"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04k" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04l"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04l" />
+
+                            <CheckBox
+                                android:id="@+id/jsik04m"
+                                style="@style/checkbox"
+                                android:text="@string/jsik04m" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsik05_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsik05"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsik05" />
+
+                        <RadioGroup
+                            android:id="@+id/jsik05"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsik05a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05a" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05b" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05c" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05d" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05e" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05f" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05g" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05h" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05i" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05j" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05k" />
+
+                            <RadioButton
+                                android:id="@+id/jsik05l"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsik05l" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,1145 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.tool2.SectionD_tool_2Activity">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="callback"
+            type="aku.jsi.edu.jsibaselinehhsurvey.ui.SectionOActivity" />
+    </data>
+
+    <ScrollView style="@style/i_scrollview">
+
+        <LinearLayout style="@style/linerlayout_view">
+
+            <LinearLayout
+
+                android:id="@+id/fldGrpSecO01"
+                style="@style/linerlayout_view_wt_bound">
+
+                <!-- jsio01_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio01"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio01" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio01"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio01a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio01a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio01b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio01b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio01c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio01c" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio02_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio02"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio02" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio02"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio02a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio02a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio02b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio02b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio03_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio03"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio03" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio03"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio03a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03g" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03h" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03i" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03j" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03k" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03l"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03l" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03m"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03m" />
+
+                            <RadioButton
+                                android:id="@+id/jsio03n"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio03n" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio04_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio04"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio04" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio04"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio04a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04g" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04h" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04i" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04j" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04k" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04l"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04l" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04m"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04m" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04n"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04n" />
+
+                            <RadioButton
+                                android:id="@+id/jsio04o"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio04o" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio05_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio05"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio05" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio05"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio05a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05g" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05h" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05i" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05j" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05k" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05l"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05l" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05m"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05m" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05n"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05n" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05o"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05o" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05p"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05p" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05q"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05q" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05r"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05r" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05s"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05s" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05t"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05t" />
+
+                            <RadioButton
+                                android:id="@+id/jsio05u"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio05u" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio06_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio06"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio06" />
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio06a" />
+
+                        <EditText
+                            android:id="@+id/jsio06x"
+                            style="@style/EditText_number"
+                            android:hint="@string/jsio06x"
+                            android:inputType="number"
+                            android:maxLength="4" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio07_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio07"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio07" />
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio0701" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio07"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio0701a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0701a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0701b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0701b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0702" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0702a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0702a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0702b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0702b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0703" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0703a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0703a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0703b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0703b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0704" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0704a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0704a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0704b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0704b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0705" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0705a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0705a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0705b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0705b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0706" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0706a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0706a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0706b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0706b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0707" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0707a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0707a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0707b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0707b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0708" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0708a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0708a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0708b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0708b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio0709" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0709a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0709a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio0709b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio0709b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio08_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio08"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio08" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio08"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio08a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio08a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio08b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio08b" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio09" />
+
+                            <RadioButton
+                                android:id="@+id/jsio09a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio09a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio09b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio09b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio10_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio10"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio10" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio10"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio10a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio10a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio10b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio10b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio1098"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsif3298" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio11_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio11"
+                    style="@style/cardView"
+                    android:visibility="@{jsio09.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio11" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio11"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio11a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio11a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio11b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio11b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio12_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio12"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio12" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio12"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio12a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio12b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio12c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio12d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio12e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio12f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio12g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio12g" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio13_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio13"
+                    style="@style/cardView"
+                    android:visibility="@{jsio11.checked ? View.VISIBLE : View.GONE}">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio13" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio13"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio13a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio13a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio13b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio13b" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio14_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio14"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio14" />
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio14a" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio14"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio14a01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14a01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14a02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14a02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14b01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14b01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14b02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14b02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14c01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14c01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14c02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14c02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14d01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14d01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14d02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14d02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14e01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14e01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14e02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14e02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14f01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14f01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14f02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14f02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14g" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14g01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14g01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14g02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14g02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14h" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14h01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14h01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14h02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14h02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14i" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14i01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14i01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14i02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14i02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14j" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14j01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14j01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14j02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14j02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14k" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14k01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14k01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14k02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14k02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14l" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14l01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14l01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14l02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14l02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14m" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14m01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14m01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14m02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14m02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14n" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14n01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14n01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14n02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14n02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14o" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14o01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14o01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14o02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14o02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14p" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14p01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14p01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14p02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14p02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14q" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14q01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14q01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14q02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14q02" />
+
+                            <TextView
+                                style="@style/i_textview"
+                                android:text="@string/jsio14r" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14r01"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14r01" />
+
+                            <RadioButton
+                                android:id="@+id/jsio14r02"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio14r02" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio15_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio15"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio15" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio15"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio15a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15g" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15h" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15i"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15i" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15j"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15j" />
+
+                            <RadioButton
+                                android:id="@+id/jsio15k"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio15k" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <!-- jsio16_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio16"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio16" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio16"
+                            style="@style/i_radiogroup">
+
+                            <RadioButton
+                                android:id="@+id/jsio16a"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16a" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16b"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16b" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16c"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16c" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16d"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16d" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16e"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16e" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16f"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16f" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16g"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16g" />
+
+                            <RadioButton
+                                android:id="@+id/jsio16h"
+                                style="@style/i_radiobutton"
+                                android:text="@string/jsio16h" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>
