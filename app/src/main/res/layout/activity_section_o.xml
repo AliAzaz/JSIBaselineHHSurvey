@@ -578,9 +578,31 @@
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsio08b" />
 
-                            <TextView
-                                style="@style/i_textview"
-                                android:text="@string/jsio09" />
+
+
+                        </RadioGroup>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <!-- jsio09_TextView-->
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fldGrpCVjsio09"
+                    style="@style/cardView">
+
+                    <LinearLayout style="@style/linerlayout_view">
+
+                        <TextView
+                            style="@style/i_textview"
+                            android:text="@string/jsio09" />
+
+                        <RadioGroup
+                            android:id="@+id/jsio09"
+                            style="@style/i_radiogroup">
+
+
+
+
 
                             <RadioButton
                                 android:id="@+id/jsio09a"
@@ -598,7 +620,10 @@
                 <!-- jsio10_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsio10"
-                    style="@style/cardView">
+                    style="@style/cardView"
+                    android:visibility="@{jsio09a.checked ? View.VISIBLE : View.GONE}"
+
+                    >
 
                     <LinearLayout style="@style/linerlayout_view">
 
@@ -660,7 +685,9 @@
                 <!-- jsio12_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsio12"
-                    style="@style/cardView">
+                    style="@style/cardView"
+                    android:visibility="@{jsio11a.checked ? View.VISIBLE : View.GONE}"
+                    >
 
                     <LinearLayout style="@style/linerlayout_view">
 

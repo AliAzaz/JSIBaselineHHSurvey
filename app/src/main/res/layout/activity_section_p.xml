@@ -232,6 +232,7 @@
                 <!-- jsip04_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsip04"
+                    android:visibility="@{jsip03c.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linerlayout_view">
@@ -411,7 +412,10 @@
                 <!-- jsip09_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsip09"
-                    style="@style/cardView">
+                    style="@style/cardView"
+
+                    android:visibility="@{jsip09a.checked ? View.VISIBLE : View.GONE}"
+                    >
 
                     <LinearLayout style="@style/linerlayout_view">
 
@@ -571,7 +575,10 @@
                 <!-- jsip12_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsip12"
-                    style="@style/cardView">
+                    style="@style/cardView"
+
+                    android:visibility="@{jsip11a.checked ? View.VISIBLE : View.GONE}"
+                    >
 
                     <LinearLayout style="@style/linerlayout_view">
 
@@ -599,6 +606,7 @@
                 <!-- jsip13_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsip13"
+                    android:visibility="@{jsip11a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linerlayout_view">

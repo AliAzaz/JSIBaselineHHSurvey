@@ -80,13 +80,13 @@ public class SectionKActivity extends AppCompatActivity {
 
     private void setListeners() {
 
-//        fas02b03
-        bi.jsik03.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+//        jsil01
+        bi.jsil01.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                if (i != bi.jsik03a.getId())
-                    ClearClass.ClearAllFields(bi.fldGrpCVjsik04, null);
-                ClearClass.ClearAllFields(bi.fldGrpCVjsik05, null);
+                if (i != bi.jsil01a.getId())
+                    ClearClass.ClearAllFields(bi.fldGrpSecL02, null);
+
             }
         });
 

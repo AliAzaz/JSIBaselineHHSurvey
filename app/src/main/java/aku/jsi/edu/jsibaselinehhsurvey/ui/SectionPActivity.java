@@ -3,6 +3,7 @@ package aku.jsi.edu.jsibaselinehhsurvey.ui;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import org.json.JSONObject;
@@ -17,6 +18,7 @@ import aku.jsi.edu.jsibaselinehhsurvey.core.MainApp;
 import aku.jsi.edu.jsibaselinehhsurvey.data.DAO.FormsDAO;
 import aku.jsi.edu.jsibaselinehhsurvey.data.entities.Forms;
 import aku.jsi.edu.jsibaselinehhsurvey.databinding.ActivitySectionPBinding;
+import aku.jsi.edu.jsibaselinehhsurvey.validation.ClearClass;
 import aku.jsi.edu.jsibaselinehhsurvey.validation.ValidatorClass;
 
 public class SectionPActivity extends AppCompatActivity {
@@ -74,6 +76,41 @@ public class SectionPActivity extends AppCompatActivity {
 
     private boolean formValidation() {
         return ValidatorClass.EmptyCheckingContainer(this, bi.fldGrpSecP01);
+    }
+
+
+    private void setListeners() {
+
+//        jsil01
+        bi.jsip03.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if (i != bi.jsip03c.getId())
+                    ClearClass.ClearAllFields(bi.fldGrpCVjsip04, null);
+
+            }
+        });
+
+        bi.jsip08.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if (i != bi.jsip08a.getId())
+                    ClearClass.ClearAllFields(bi.fldGrpCVjsio10, null);
+
+            }
+        });
+
+
+        bi.jsip11.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if (i != bi.jsip11a.getId())
+                    ClearClass.ClearAllFields(bi.fldGrpCVjsip12, null);
+                ClearClass.ClearAllFields(bi.fldGrpCVjsip13, null);
+
+            }
+        });
+
     }
 
     public void BtnEnd() {

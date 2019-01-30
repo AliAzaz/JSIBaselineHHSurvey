@@ -24,7 +24,7 @@
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsil01"
                     style="@style/cardView"
-                    android:visibility="@{jsik03.checked ? View.VISIBLE : View.GONE}">
+                   >
 
                     <LinearLayout style="@style/linerlayout_view">
 
@@ -48,6 +48,13 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
+
+
+                <LinearLayout
+
+                    android:id="@+id/fldGrpSecL02"
+                    style="@style/linerlayout_view_wt_bound">
 
                 <!-- jsil02_TextView-->
                 <android.support.v7.widget.CardView
@@ -866,6 +873,8 @@
                         </RadioGroup>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
