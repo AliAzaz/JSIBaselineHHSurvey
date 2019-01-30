@@ -107,6 +107,8 @@
                 <!-- jsik04_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsik04"
+
+                    android:visibility="@{jsik03a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -190,6 +192,7 @@
                 <!-- jsik05_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsik05"
+                    android:visibility="@{jsik03a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
