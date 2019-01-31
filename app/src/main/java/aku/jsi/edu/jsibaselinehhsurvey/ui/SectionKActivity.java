@@ -85,7 +85,9 @@ public class SectionKActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 if (i != bi.jsil01a.getId())
-                    ClearClass.ClearAllFields(bi.fldGrpSecL02, null);
+                    ClearClass.ClearAllFields(bi.fldGrpSecL02, false);
+                else
+                    ClearClass.ClearAllFields(bi.fldGrpSecL02, true);
 
             }
         });
