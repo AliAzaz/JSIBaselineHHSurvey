@@ -3,15 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="aku.jsi.edu.jsibaselinehhsurvey">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
     <uses-feature android:name="android.hardware.location.gps" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.hardware.location.gps" />
-
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.hardware.location.gps" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
@@ -43,37 +40,70 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ui.SectionAActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-
+        <activity
+            android:name=".ui.SectionBActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
         <activity
             android:name=".ui.SectionFActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-
         <activity
             android:name=".ui.SectionGActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-
         <activity
             android:name=".ui.SectionHActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-
         <activity
             android:name=".ui.SectionIAActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-
         <activity
             android:name=".ui.SectionIBActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-
+        <activity
+            android:name=".ui.SectionJActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionKActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionLActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionMActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionNActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionOActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.SectionQActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ui.recyclers.SectionFamilyMembersList"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
     </application>
 
 </manifest>

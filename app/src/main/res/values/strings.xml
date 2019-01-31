@@ -11,6 +11,12 @@
     <string name="end_interview">اختتام</string>
     <string name="dkn"> معلوم نہیں </string>
 
+    <string name="yes">ہاں</string>
+    <string name="no">نہیں</string>
+    <string name="month"> مہینہ </string>
+    <string name="year"> سال </string>
+
+
     <string name="sectionA"> SECTION A: IDENTIFICATION </string>
     <string name="sectionG"> SECTION G: Delivery PREPAREDNESS AND EXPERIENCE </string>
     <string name="sectionH"> SECTION H: NEWBORN HEALTH </string>
@@ -51,8 +57,8 @@
 
 
     <string name="jsia08"> یونین کائونسل کا نام </string>
-    <string name="jsia0801"> شہری </string>
-    <string name="jsia0802"> دیہی </string>
+    <string name="jsia08a"> شہری </string>
+    <string name="jsia08b"> دیہی </string>
 
 
     <string name="jsia09"> گھر کا نمبر </string>
@@ -75,126 +81,117 @@
 
     <string name="jsia15"> جوابد ہندہ کا نام </string>
 
-
-    <string name="sectionB"> Section B: Global Positioning </string>
-
-    <string name="jsib01"> Latitude </string>
-
-
-    <string name="jsib02"> Latitude </string>
-
-
-    <string name="sectionC"> Section C: introduction and consent </string>
-
     <string name="jsia16"> کیا آپ سروے کے متعلق اس وقت کوئی سوال کرنا چاہتی ہیں؟ </string>
     <string name="jsia16a"> ہاں </string>
     <string name="jsia16b"> نہیں </string>
-
 
     <string name="jsia17"> کیاآپ راضی ہیں؟ کیا میں انٹرویو شروع کرسکتا /کرسکتی ہوں؟ </string>
     <string name="jsia17a"> ہاں </string>
     <string name="jsia17b"> نہیں </string>
 
 
-    <string name="sectionD"> SECTION D: HOUSEHOLD MEMBERS’ INFORMATION </string>
+    <string name="sectionB"> SECTION B: HOUSEHOLD MEMBERS’ INFORMATION </string>
 
 
-    <string name="jsid01"> سیریل نمبر </string>
+    <string name="jsib01"> سیریل نمبر </string>
 
 
-    <string name="jsid02"> گھرکے افراد کے نام </string>
+    <string name="jsib02"> گھرکے افراد کے نام </string>
 
 
-    <string name="jsid03"> گھر کے سربراہ سے رشتہ </string>
-    <string name="jsid03a"> Head of HH </string>
-    <string name="jsid03b"> Wife/Husband </string>
-    <string name="jsid03c"> Son/Daughter </string>
-    <string name="jsid03d"> Son in law/Daughter in law </string>
-    <string name="jsid03e"> Grand child </string>
-    <string name="jsid03f"> Parents </string>
-    <string name="jsid03g"> Parents in law </string>
-    <string name="jsid03h"> Brother/Sister </string>
-    <string name="jsid03i"> Brother in law/Sister in law </string>
-    <string name="jsid03j"> Niece/Nephew </string>
-    <string name="jsid03k"> Grand Parents </string>
-    <string name="jsid03l"> Aunts/Uncle </string>
-    <string name="jsid03m"> Adopted/Step child </string>
-    <string name="jsid03n"> Domestic Servant </string>
+    <string name="jsib03"> گھر کے سربراہ سے رشتہ </string>
+    <string name="jsib03a"> Head of HH </string>
+    <string name="jsib03b"> Wife/Husband </string>
+    <string name="jsib03c"> Son/Daughter </string>
+    <string name="jsib03d"> Son in law/Daughter in law </string>
+    <string name="jsib03e"> Grand child </string>
+    <string name="jsib03f"> Parents </string>
+    <string name="jsib03g"> Parents in law </string>
+    <string name="jsib03h"> Brother/Sister </string>
+    <string name="jsib03i"> Brother in law/Sister in law </string>
+    <string name="jsib03j"> Niece/Nephew </string>
+    <string name="jsib03k"> Grand Parents </string>
+    <string name="jsib03l"> Aunts/Uncle </string>
+    <string name="jsib03m"> Adopted/Step child </string>
+    <string name="jsib03n"> Domestic Servant </string>
 
-    <string name="jsid04"> جنس </string>
-    <string name="jsid04a"> Male </string>
-    <string name="jsid04b"> Female </string>
-
-
-    <string name="jsid05"> والد کا سیریل نمبر </string>
+    <string name="jsib04"> جنس </string>
+    <string name="jsib04a"> Male </string>
+    <string name="jsib04b"> Female </string>
 
 
-    <string name="jsid06"> والدہ کا سیریل نمبر </string>
+    <string name="jsib05"> والد کا سیریل نمبر </string>
 
 
-    <string name="jsid07"> تاریخ پیدائش </string>
+    <string name="jsib06"> والدہ کا سیریل نمبر </string>
+
+    <string name="tbAge"> تاريخ پيدائش / عمر </string>
+    <string name="tbAge02"> عمر </string>
+    <string name="tbdob01"> تاريخ پيدائش </string>
+
+    <string name="jsib07"> تاریخ پیدائش </string>
 
 
-    <string name="jsid08"> عمر </string>
+    <string name="jsib08"> عمر </string>
 
 
-    <string name="jsid09"> کیا(نام) کبھی اسکول میں زیرِ تعلیم رہا ہے؟ </string>
+    <string name="jsib09"> کیا(نام) کبھی اسکول میں زیرِ تعلیم رہا ہے؟ </string>
 
 
-    <string name="jsid10"> تعلیم </string>
-    <string name="jsid10a"> Housewife </string>
-    <string name="jsid10b"> Professional /Managerial </string>
-    <string name="jsid10c"> Clerical/technical </string>
-    <string name="jsid10d"> Sales and Services </string>
-    <string name="jsid10e"> Skilled manual </string>
-    <string name="jsid10f"> Unskilled manual </string>
-    <string name="jsid10g"> Agriculture </string>
-    <string name="jsid10h"> Business </string>
-    <string name="jsid10i"> Student </string>
-    <string name="jsid10j"> Unemployed </string>
-    <string name="jsid10k"> Not Applicable </string>
-    <string name="jsid10l">  </string>
-    <string name="jsid10m">  </string>
-    #REF!
-    <string name="jsid10o"> Married </string>
-    <string name="jsid10p"> Unmarried </string>
-    <string name="jsid10q"> Widowed </string>
-    <string name="jsid10r"> Divorced/Separated </string>
-    <string name="jsid10s"> ازدواجی حیثیت </string>
-    <string name="jsid10t">  </string>
-    <string name="jsid10u">  </string>
-    <string name="jsid10v"> گھر کے ٹوٹوٹل افراد </string>
-    <string name="jsid10w">  </string>
+    <string name="jsib10"> تعلیم </string>
+    <string name="jsib10a"> 0 = less than 1 YEAR completed </string>
+    <string name="jsib10b"> 1 = class 1 </string>
+    <string name="jsib10c"> 2 = class 2 </string>
+    <string name="jsib10d"> 3 = class 3 </string>
+    <string name="jsib10e"> 4 = class 4 </string>
+    <string name="jsib10f"> 5 = class 5 </string>
+    <string name="jsib10g"> 6 = class 6 </string>
+    <string name="jsib10h"> 7 = class 7 </string>
+    <string name="jsib10i"> 8 = class 8 </string>
+    <string name="jsib10j"> 9 = class 9 </string>
+    <string name="jsib10k"> 10 = class 10 </string>
+    <string name="jsib10l"> 11 = class 11 </string>
+    <string name="jsib10m"> 12 = class 12 </string>
+    <string name="jsib10n"> 13 = class 13 </string>
+    <string name="jsib10o"> 14 = class 14 </string>
+    <string name="jsib10p"> 15 = class 15 </string>
+    <string name="jsib10q"> 16= class 16 </string>
+    <string name="jsib10r"> 17 = class 17 </string>
+    <string name="jsib10s"> 18 = class 18 </string>
+    <string name="jsib10t"> 19 = class 19 </string>
+    <string name="jsib10u"> 20= class 20 </string>
+    <string name="jsib1098"> 888 = Dont Know </string>
+    <string name="jsib1099"> 999= Not Applicable </string>
 
 
-    <string name="jsid11"> پیشہ </string>
-    <string name="jsid11a"> Housewife </string>
-    <string name="jsid11b"> Professional /Managerial </string>
-    <string name="jsid11c"> Clerical/technical </string>
-    <string name="jsid11d"> Sales and Services </string>
-    <string name="jsid11e"> Skilled manual </string>
-    <string name="jsid11f"> Unskilled manual </string>
-    <string name="jsid11g"> Agriculture </string>
-    <string name="jsid11h"> Business </string>
-    <string name="jsid11i"> Student </string>
-    <string name="jsid11j"> Unemployed </string>
-    <string name="jsid11k"> Not Applicable </string>
+    <string name="jsib11"> پیشہ </string>
+    <string name="jsib11a"> Housewife </string>
+    <string name="jsib11b"> Professional /Managerial </string>
+    <string name="jsib11c"> Clerical/technical </string>
+    <string name="jsib11d"> Sales and Services </string>
+    <string name="jsib11e"> Skilled manual </string>
+    <string name="jsib11f"> Unskilled manual </string>
+    <string name="jsib11g"> Agriculture </string>
+    <string name="jsib11h"> Business </string>
+    <string name="jsib11i"> Student </string>
+    <string name="jsib11j"> Unemployed </string>
+    <string name="jsib11k"> Not Applicable </string>
 
 
-    <string name="jsid12"> ازدواجی حیثیت </string>
-    <string name="jsid12a"> Married </string>
-    <string name="jsid12b"> Unmarried </string>
-    <string name="jsid12c"> Widowed </string>
-    <string name="jsid12d"> Divorced/Separated </string>
+    <string name="jsib12"> ازدواجی حیثیت </string>
+    <string name="jsib12a"> Married </string>
+    <string name="jsib12b"> Unmarried </string>
+    <string name="jsib12c"> Widowed </string>
+    <string name="jsib12d"> Divorced/Separated </string>
 
 
-    <string name="jsid13"> گھر کے ٹوٹوٹل افراد </string>
+    <string name="jsib13"> گھر کے ٹوٹوٹل افراد </string>
 
 
-    <string name="jsid14"> کل گھر کی اہل خواتین </string>
+    <string name="jsib14"> کل گھر کی اہل خواتین </string>
 
 
-    <string name="jsid15"> کل گھر کے 5سال سے کم عمر کے بچے </string>
+    <string name="jsib15"> کل گھر کے 5سال سے کم عمر کے بچے </string>
 
 
     <string name="sectionE"> Section E: Reproductive health </string>
@@ -747,7 +744,7 @@
 
     <string name="jsig11"> {Name} کے ولادت کی جگہ آپ کے گھر سے کتنی دور ہے؟ </string>
     <string name="jsig11km"> کلومیٹر </string>
-    <string name="jsidnk"> معلوم نہیں </string>
+    <string name="jsignk"> معلوم نہیں </string>
 
 
     <string name="jsig12"> {Name} کی ولادت کی جگہ پہنچنے میں آپ کو کتنا وقت لگا؟ </string>

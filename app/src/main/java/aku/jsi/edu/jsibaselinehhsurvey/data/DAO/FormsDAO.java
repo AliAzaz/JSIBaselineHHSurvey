@@ -36,7 +36,7 @@ public interface FormsDAO {
     Long insertChildHealth(ChildHealthForms ch_forms);
 
     @Update
-    int updateFamilyMembers(ChildHealthForms ch_forms);
+    int updateChildHealth(ChildHealthForms ch_forms);
 
     /*Married Women's*/
     @Insert
