@@ -107,6 +107,8 @@ public class ClearClass {
     public static void ClearAllFields(View container, Boolean flag) {
         for (int i = 0; i < ((ViewGroup) container).getChildCount(); i++) {
             View v = ((ViewGroup) container).getChildAt(i);
+            if (flag != null)
+                container.setVisibility(flag ? View.VISIBLE : View.GONE);
             if (v instanceof CheckBox) {
                 ((CheckBox) v).setChecked(false);
                 ((CheckBox) v).setError(null);

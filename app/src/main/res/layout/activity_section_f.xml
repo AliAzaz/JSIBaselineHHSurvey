@@ -51,7 +51,7 @@
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif02"
                     style="@style/cardView"
-                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}">
+                    android:visibility="@{jsif01b.checked ? View.VISIBLE : View.GONE}">
 
                     <LinearLayout style="@style/linearlayout_view">
 
@@ -134,7 +134,10 @@
                 <!-- jsif03_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif03"
-                    style="@style/cardView">
+                    style="@style/cardView"
+
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
+                    >
 
                     <LinearLayout style="@style/linearlayout_view">
 
@@ -143,6 +146,8 @@
                             android:text="@string/jsif03" />
 
                         <EditText
+                            android:text='@{jsif01a.checked ? jsih59x.getText.toString : ""}'
+                            android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
                             android:id="@+id/jsif03"
                             style="@style/EditText_number"
                             android:hint="@string/jsif03"
@@ -154,6 +159,7 @@
                 <!-- jsif04_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif04"
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -182,6 +188,7 @@
                 <!-- jsif05_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif05"
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -210,6 +217,7 @@
                 <!-- jsif06_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif06"
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -228,6 +236,9 @@
                                 android:text="@string/jsif06a" />
 
                             <EditText
+
+                                android:text='@{jsif06b.checked ? jsif06bx.getText.toString : ""}'
+                                android:visibility="@{jsif06b.checked ? View.VISIBLE : View.GONE}"
                                 android:id="@+id/jsif06ax"
                                 style="@style/EditText"
                                 android:hint="@string/jsif06a"
@@ -242,7 +253,11 @@
                                 android:id="@+id/jsif06bx"
                                 style="@style/EditText"
                                 android:hint="@string/jsif06b"
-                                android:maxLength="30" />
+                                android:maxLength="30"
+
+                                android:text='@{jsif06b.checked ? jsif06bx.getText.toString : ""}'
+                                android:visibility="@{jsif06b.checked ? View.VISIBLE : View.GONE}"
+                                />
 
                             <CheckBox
                                 android:id="@+id/jsif06c"
@@ -253,7 +268,10 @@
                                 android:id="@+id/jsif06cx"
                                 style="@style/EditText"
                                 android:hint="@string/jsif06c"
-                                android:maxLength="30" />
+                                android:maxLength="30"
+                                android:text='@{jsif06c.checked ? jsif06cx.getText.toString : ""}'
+                                android:visibility="@{jsif06c.checked ? View.VISIBLE : View.GONE}"
+                                />
                         </LinearLayout>
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
@@ -261,6 +279,7 @@
                 <!-- jsif07_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif07"
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -269,36 +288,34 @@
                             style="@style/i_textview"
                             android:text="@string/jsif07" />
 
-                        <RadioGroup
-                            android:id="@+id/jsif07"
-                            style="@style/i_radiogroup">
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif07a"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07a" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif07b"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07b" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif07c"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07c" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif07d"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07d" />
-                        </RadioGroup>
+
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
 
                 <!-- jsif08_TextView-->
                 <android.support.v7.widget.CardView
                     android:id="@+id/fldGrpCVjsif08"
+                    android:visibility="@{jsif01a.checked ? View.VISIBLE : View.GONE}"
                     style="@style/cardView">
 
                     <LinearLayout style="@style/linearlayout_view">
@@ -307,56 +324,54 @@
                             style="@style/i_textview"
                             android:text="@string/jsif08" />
 
-                        <RadioGroup
-                            android:id="@+id/jsif08"
-                            style="@style/i_radiogroup">
 
-                            <RadioButton
+
+                            <Checkbox
                                 android:id="@+id/jsif08a"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08a" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08b"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08b" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08c"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08c" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08d"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08d" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08e"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08e" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08f"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08f" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08g"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08g" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08h"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08h" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08i"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08i" />
 
-                            <RadioButton
+                            <Checkbox
                                 android:id="@+id/jsif08j"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08j" />
@@ -369,7 +384,7 @@
                                 android:tag="jsif08j"
                                 android:text='@{jsif08j.checked ? jsif08jx.getText.toString : ""}'
                                 android:visibility="@{jsif08j.checked ? View.VISIBLE : View.GONE}" />
-                        </RadioGroup>
+
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
 
