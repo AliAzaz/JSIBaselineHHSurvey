@@ -63,28 +63,88 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingStart="@dimen/article_keylines"
-            android:paddingLeft="@dimen/article_keylines"
-            android:paddingTop="@dimen/md_keylines"
-            android:paddingEnd="@dimen/md_keylines"
-            android:paddingRight="@dimen/md_keylines">
+            style="@style/linearlayout_view_wt_bound"
+            android:orientation="vertical">
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/recycler_noMembers"
+            <LinearLayout
+                style="@style/linearlayout_view_wt_bound"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    style="@style/linearlayout_view_wt_bound"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="04" />
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="kbc" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/linearlayout_view_wt_bound"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="04" />
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="kbc" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/linearlayout_view_wt_bound"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="04" />
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="kbc" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:scrollbars="vertical"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/appbar"
-                tools:listitem="@layout/participant_card" />
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/article_keylines"
+                android:paddingLeft="@dimen/article_keylines"
+                android:paddingTop="@dimen/md_keylines"
+                android:paddingEnd="@dimen/md_keylines"
+                android:paddingRight="@dimen/md_keylines">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_noMembers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:scrollbars="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/appbar"
+                    tools:listitem="@layout/participant_card" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
