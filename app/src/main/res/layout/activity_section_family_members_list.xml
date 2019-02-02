@@ -2,6 +2,7 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="aku.jsi.edu.jsibaselinehhsurvey.ui.recyclers.SectionFamilyMembersList">
@@ -42,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="45dp"
                     android:layout_alignParentBottom="true"
-                    android:background="@color/blackOverlay" />
+                    android:background="@color/dullWhileOverlay" />
 
             </RelativeLayout>
 
@@ -58,32 +59,58 @@
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
+            android:id="@+id/linearLayout2"
             style="@style/linearlayout_view_wt_bound"
             android:orientation="vertical">
 
             <LinearLayout
                 style="@style/linearlayout_view_wt_bound"
+                android:layout_height="@dimen/_50sdp"
                 android:orientation="horizontal">
 
                 <LinearLayout
-                    style="@style/linearlayout_view_wt_bound"
                     android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="50"
                     android:orientation="vertical">
 
-                    <TextView
-                        style="@style/textview"
-                        android:text="04" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    <TextView
-                        style="@style/textview"
-                        android:text="TOTAL" />
+                        <TextView
+                            android:id="@+id/txtView1"
+                            style="@style/textview_fm_lst_h"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="-9dp"
+                            android:text="04" />
 
+                        <TextView
+                            android:id="@+id/txtTotalCount"
+                            style="@style/textview"
+                            android:layout_below="@+id/txtView1"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="-34dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="9dp"
+                            android:text="TOTAL" />
+
+                    </RelativeLayout>
                 </LinearLayout>
 
                 <View
@@ -92,19 +119,42 @@
                     android:background="@color/gray" />
 
                 <LinearLayout
-                    android:layout_height="wrap_content"
                     android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="50"
                     android:orientation="vertical">
 
-                    <TextView
-                        style="@style/textview"
-                        android:text="04" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    <TextView
-                        style="@style/textview"
-                        android:text="MW" />
+                        <TextView
+                            android:id="@+id/txtView2"
+                            style="@style/textview_fm_lst_h"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="-9dp"
+                            android:text="02" />
 
+                        <TextView
+                            android:id="@+id/txtMWCount"
+                            style="@style/textview"
+                            android:layout_below="@+id/txtView2"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="-34dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="9dp"
+                            android:text="MW" />
+
+                    </RelativeLayout>
                 </LinearLayout>
 
                 <View
@@ -113,19 +163,42 @@
                     android:background="@color/gray" />
 
                 <LinearLayout
-                    style="@style/linearlayout_view_wt_bound"
                     android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="50"
                     android:orientation="vertical">
 
-                    <TextView
-                        style="@style/textview"
-                        android:text="04" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    <TextView
-                        style="@style/textview"
-                        android:text="CHILD > 5" />
+                        <TextView
+                            android:id="@+id/txtView3"
+                            style="@style/textview_fm_lst_h"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="-9dp"
+                            android:text="01" />
 
+                        <TextView
+                            android:id="@+id/txtChildCount"
+                            style="@style/textview"
+                            android:layout_below="@+id/txtView3"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="-34dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="9dp"
+                            android:text="CHILD > 5" />
+
+                    </RelativeLayout>
                 </LinearLayout>
 
             </LinearLayout>
@@ -151,7 +224,6 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/appbar"
                     tools:listitem="@layout/participant_card" />
 
             </LinearLayout>

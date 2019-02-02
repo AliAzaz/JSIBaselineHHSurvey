@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.recyclers.SectionFamilyMembersList"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -100,10 +100,10 @@
             android:name=".ui.SectionQActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme1" />
-        <activity
+        <!--<activity
             android:name=".ui.recyclers.SectionFamilyMembersList"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme1" />
+            android:theme="@style/AppTheme1" />-->
     </application>
 
 </manifest>

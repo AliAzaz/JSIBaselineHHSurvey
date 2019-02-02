@@ -289,22 +289,22 @@
                             android:text="@string/jsif07" />
 
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif07a"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07a" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif07b"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07b" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif07c"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07c" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif07d"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif07d" />
@@ -325,53 +325,52 @@
                             android:text="@string/jsif08" />
 
 
-
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08a"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08a" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08b"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08b" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08c"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08c" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08d"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08d" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08e"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08e" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08f"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08f" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08g"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08g" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08h"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08h" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08i"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08i" />
 
-                            <Checkbox
+                        <CheckBox
                                 android:id="@+id/jsif08j"
                                 style="@style/i_radiobutton"
                                 android:text="@string/jsif08j" />

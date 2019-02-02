@@ -590,7 +590,7 @@
                     android:id="@+id/fldGrpCVjsio09"
                     style="@style/cardView">
 
-                    <LinearLayout style="@style/linerlayout_view">
+                    <LinearLayout style="@style/linearlayout_view">
 
                         <TextView
                             style="@style/i_textview"
