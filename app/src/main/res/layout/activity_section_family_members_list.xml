@@ -77,14 +77,40 @@
                     android:orientation="vertical">
 
                     <TextView
-                        style="@style/i_textview"
+                        style="@style/textview"
                         android:text="04" />
 
                     <TextView
-                        style="@style/i_textview"
-                        android:text="kbc" />
+                        style="@style/textview"
+                        android:text="TOTAL" />
 
                 </LinearLayout>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="50"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textview"
+                        android:text="04" />
+
+                    <TextView
+                        style="@style/textview"
+                        android:text="MW" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
 
                 <LinearLayout
                     style="@style/linearlayout_view_wt_bound"
@@ -93,28 +119,12 @@
                     android:orientation="vertical">
 
                     <TextView
-                        style="@style/i_textview"
+                        style="@style/textview"
                         android:text="04" />
 
                     <TextView
-                        style="@style/i_textview"
-                        android:text="kbc" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    style="@style/linearlayout_view_wt_bound"
-                    android:layout_width="0dp"
-                    android:layout_weight="50"
-                    android:orientation="vertical">
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="04" />
-
-                    <TextView
-                        style="@style/i_textview"
-                        android:text="kbc" />
+                        style="@style/textview"
+                        android:text="CHILD > 5" />
 
                 </LinearLayout>
 

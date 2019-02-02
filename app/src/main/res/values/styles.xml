@@ -56,6 +56,18 @@
         <item name="android:textSize">20sp</item>
     </style>
 
+    <!-- Textview List  -->
+    <style name="textview">
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
 
     <!-- Irfan RadioGroup  -->
     <style name="i_radiogroup">
